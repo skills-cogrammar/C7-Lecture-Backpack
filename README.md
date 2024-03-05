@@ -1,22 +1,22 @@
 # 🎒 Lecture Backpack
 
-Welcome to the Lecture Backpack 🚀, a comprehensive resource repository designed for students and enthusiasts in software engineering, data science, web development, and anyone looking to sharpen their coding interview skills. Our goal is to provide an all-encompassing learning platform that caters to a wide range of educational needs, from basic programming concepts to specialized topics in various tech fields.
+Welcome to the Lecture Backpack 🚀, a comprehensive resource repository designed for students and enthusiasts in software engineering, data science, full stack web development, and anyone looking to sharpen their coding interview skills. Our goal is to provide an all-encompassing learning platform that caters to a wide range of educational needs, from basic programming concepts to specialized topics in various tech fields.
 
 ## Overview 📚
 
 This repository is structured into five main folders, each targeting a specific learning track:
 
-- **Python**: A foundational course 🐍 that introduces basic programming concepts, including the terminal, setting up development environments, data types, control structures, iteration, and GitHub. This serves as the starting point for all learners.
+- **Python**: A foundational phase for Software Engineering and Data Science 🐍 that introduces basic programming concepts, including the terminal, setting up development environments, data types, control structures, iteration, and GitHub. This serves as the starting point for all Software Engineering and Data Science learners.
 
-After completing the Python course, students diverge into their specialized tracks:
+After completing the Python phase, students diverge into their specialized tracks:
 
-- **Software Engineering (SE)**: Building on Python fundamentals, the SE track delves into advanced software development topics. It covers:
+- **Software Engineering (SE)**: Building on Python phase, the SE track delves into advanced software development topics. It covers:
 
   - Version control with GitHub
   - Debugging techniques and tools
   - Software design patterns and principles
-  - Agile methodologies and TDD (Test-Driven Development)
-  - Continuous integration/continuous deployment (CI/CD) processes
+  - Agile methodologies and unit testing
+  - Application development with Django and SQL
 
 - **Data Science (DS)**: Following the Python introduction, the DS track focuses on data manipulation and analysis. Key topics include:
 
@@ -26,16 +26,16 @@ After completing the Python course, students diverge into their specialized trac
   - Statistical analysis and hypothesis testing
   - Introduction to machine learning with scikit-learn
 
-- **Web Development (WD)**: Starting with web basics, this track progresses to comprehensive web development skills, encompassing:
+- ** Full Stack Web Development (WD)**: Starting with web basics, the terminal and GitHub, this track progresses to comprehensive web development skills, encompassing:
 
   - HTML, CSS, and JavaScript fundamentals
   - Responsive design and CSS frameworks like Bootstrap
-  - Front-end development with React or Angular
-  - Back-end development with Node.js and Express
-  - Database integration with MongoDB or SQL
+  - Front-end development with React
+  - RESTful API development with Node.js and Express
+  - Database integration with MongoDB
 
 - **Coding Interview Workshops**: A series of workshops 🧩 focusing on fundamental computer science concepts, common interview questions, and problem-solving strategies. Topics include:
-  - Data structures (arrays, lists, stacks, queues, trees, graphs)
+  - Data structures (arrays, lists, stacks, queues, hashtables trees, graphs)
   - Algorithms (sorting, searching, recursion)
   - Complexity analysis and space-time trade-offs
   - Coding exercises targeting specific interview scenarios
@@ -45,7 +45,7 @@ After completing the Python course, students diverge into their specialized trac
 To get started with the Lecture Backpack, follow these steps:
 
 1. **Clone the repository**: Use `git clone https://github.com/skills-cogrammar/C7-Lecture-Backpack.git` to clone this repository to your local machine.
-2. **Choose your track**: Begin with the Python course 🐍 if you're new to programming or jump directly to your field of interest if you're looking to advance your skills.
+2. **Choose your track**: Begin with the Python folder 🐍 if you're in weeks 1 - 4 of Software Engineering or Data Science and move directly to your either Data Science or Software Engineering for weeks 5 - 16. If you're Full Stack Web Development, you can simply jump straight to the Full Stack Web Development folder. For coding interview preparation, please jump to the Coding Interview Workshop folder.
 
 ## License 📄
 
