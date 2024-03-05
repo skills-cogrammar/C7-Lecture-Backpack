@@ -26,10 +26,10 @@ This repository is structured into five main folders, each targeting a specific 
 
 - **Full Stack Web Development (WD)**: Starting with web basics, the terminal and GitHub, this track progresses to comprehensive web development skills, encompassing:
 
-  - HTML, CSS, and JavaScript fundamentals
+  - HTML, CSS, and introductory programming in JavaScript.
   - Responsive design and CSS frameworks like Bootstrap
-  - Front-end development with React
-  - RESTful API development with Node.js and Express
+  - Front-end development with React.js
+  - RESTful API development with Node.js and Express.js
   - Database integration with MongoDB
 
 - **Coding Interview Workshops**: A series of workshops 🧩 focusing on fundamental computer science concepts, common interview questions, and problem-solving strategies. Topics include:
