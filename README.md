@@ -18,9 +18,8 @@ Each track is designed to be self-contained, with its own set of resources, assi
 
 To get started with the Lecture Backpack, follow these steps:
 
-1. **Clone the repository**: Use `git clone https://github.com/yourrepository/lecture-backpack.git` to clone this repository to your local machine.
+1. **Clone the repository**: Use `git clone https://github.com/skills-cogrammar/C7-Lecture-Backpack.git` to clone this repository to your local machine.
 2. **Choose your track**: Begin with the Python course 🐍 if you're new to programming or jump directly to your field of interest if you're looking to advance your skills.
-3. **Follow the instructions**: Each folder contains a `README.md` file with detailed instructions on how to proceed with the courses, assignments, and projects.
 
 ## License 📄
 
