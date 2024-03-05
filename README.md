@@ -24,7 +24,7 @@ This repository is structured into five main folders, each targeting a specific 
   - Statistical analysis and hypothesis testing
   - Introduction to machine learning with scikit-learn
 
-- ** Full Stack Web Development (WD)**: Starting with web basics, the terminal and GitHub, this track progresses to comprehensive web development skills, encompassing:
+- **Full Stack Web Development (WD)**: Starting with web basics, the terminal and GitHub, this track progresses to comprehensive web development skills, encompassing:
 
   - HTML, CSS, and JavaScript fundamentals
   - Responsive design and CSS frameworks like Bootstrap
