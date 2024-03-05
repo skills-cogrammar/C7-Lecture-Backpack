@@ -29,8 +29,8 @@ This repository is structured into five main folders, each targeting a specific 
   - HTML, CSS, and introductory programming in JavaScript.
   - Responsive design and CSS frameworks like Bootstrap
   - Front-end development with React.js
-  - RESTful API development with Node.js and Express.js
-  - Database integration with MongoDB
+  - RESTful API development with Node.js, Express.js and MongoDB
+  - Application security with JWT
 
 - **Coding Interview Workshops**: A series of workshops 🧩 focusing on fundamental computer science concepts, common interview questions, and problem-solving strategies. Topics include:
   - Data structures (arrays, lists, stacks, queues, hashtables trees, graphs)
