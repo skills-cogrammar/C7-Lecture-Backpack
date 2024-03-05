@@ -6,9 +6,7 @@ Welcome to the Lecture Backpack 🚀, a comprehensive resource repository design
 
 This repository is structured into five main folders, each targeting a specific learning track:
 
-- **Python**: A foundational phase for Software Engineering and Data Science 🐍 that introduces basic programming concepts, including the terminal, setting up development environments, data types, control structures, iteration, and GitHub. This serves as the starting point for all Software Engineering and Data Science learners.
-
-After completing the Python phase, students diverge into their specialized tracks:
+- **Python**: A foundational phase for Software Engineering and Data Science 🐍 that introduces basic programming concepts, including the terminal, setting up development environments and basic procedural programming in Python.
 
 - **Software Engineering (SE)**: Building on Python phase, the SE track delves into advanced software development topics. It covers:
 
