@@ -43,7 +43,7 @@ This repository is structured into five main folders, each targeting a specific 
 To get started with the Lecture Backpack, follow these steps:
 
 1. **Clone the repository**: Use `git clone https://github.com/skills-cogrammar/C7-Lecture-Backpack.git` to clone this repository to your local machine.
-2. **Choose your track**: Begin with the Python folder 🐍 if you're in weeks 1 - 4 of Software Engineering or Data Science and move directly to your either Data Science or Software Engineering for weeks 5 - 16. If you're Full Stack Web Development, you can simply jump straight to the Full Stack Web Development folder. For coding interview preparation, please jump to the Coding Interview Workshop folder.
+2. **Choose your track**: Begin with the Python folder if you're in weeks 1 - 4 of Software Engineering or Data Science, and move directly to your either Data Science or Software Engineering for weeks 5 - 16. If you're Full Stack Web Development, simply jump straight to the Full Stack Web Development folder. For coding interview preparation, please jump to the Coding Interview Workshop folder.
 
 ## License 📄
 
