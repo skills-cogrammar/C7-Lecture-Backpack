@@ -6,13 +6,39 @@ Welcome to the Lecture Backpack 🚀, a comprehensive resource repository design
 
 This repository is structured into five main folders, each targeting a specific learning track:
 
-- **Python**: A foundational course 🐍 that introduces basic programming concepts. This track lays the groundwork for all learners before they diverge into their specialized fields of interest.
-- **Software Engineering**: Tailored for aspiring software engineers 👨‍💻, this track covers software development methodologies, system design, and architectural patterns among other key concepts.
-- **Data Science**: Designed for budding data scientists 📊, this track delves into data analysis, machine learning algorithms, statistical methods, and data visualization techniques.
-- **Web Development**: Aimed at future web developers 🌐, this section encompasses front-end and back-end development skills, frameworks, databases, and best practices for building scalable web applications.
-- **Coding Interview Workshops**: A series of workshops 🧩 focused on fundamental computer science concepts, common interview questions, problem-solving strategies, and coding exercises to prepare learners for technical interviews.
+- **Python**: A foundational course 🐍 that introduces basic programming concepts, including the terminal, setting up development environments, data types, control structures, iteration, and GitHub. This serves as the starting point for all learners.
 
-Each track is designed to be self-contained, with its own set of resources, assignments, and projects. The Python course is recommended for all students as a starting point, after which they can proceed to their chosen specialization.
+After completing the Python course, students diverge into their specialized tracks:
+
+- **Software Engineering (SE)**: Building on Python fundamentals, the SE track delves into advanced software development topics. It covers:
+
+  - Version control with GitHub
+  - Debugging techniques and tools
+  - Software design patterns and principles
+  - Agile methodologies and TDD (Test-Driven Development)
+  - Continuous integration/continuous deployment (CI/CD) processes
+
+- **Data Science (DS)**: Following the Python introduction, the DS track focuses on data manipulation and analysis. Key topics include:
+
+  - Data cleaning and preprocessing
+  - Exploratory data analysis (EDA) with Pandas
+  - Visualization with Matplotlib and Seaborn
+  - Statistical analysis and hypothesis testing
+  - Introduction to machine learning with scikit-learn
+
+- **Web Development (WD)**: Starting with web basics, this track progresses to comprehensive web development skills, encompassing:
+
+  - HTML, CSS, and JavaScript fundamentals
+  - Responsive design and CSS frameworks like Bootstrap
+  - Front-end development with React or Angular
+  - Back-end development with Node.js and Express
+  - Database integration with MongoDB or SQL
+
+- **Coding Interview Workshops**: A series of workshops 🧩 focusing on fundamental computer science concepts, common interview questions, and problem-solving strategies. Topics include:
+  - Data structures (arrays, lists, stacks, queues, trees, graphs)
+  - Algorithms (sorting, searching, recursion)
+  - Complexity analysis and space-time trade-offs
+  - Coding exercises targeting specific interview scenarios
 
 ## Getting Started 🚦
 
