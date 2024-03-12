@@ -32,7 +32,7 @@ This repository is structured into five main folders, each targeting a specific 
   - RESTful API development with Node.js, Express.js and MongoDB
   - Application security with JWT
 
-- **[Coding Interview Workshops](https://github.com/skills-cogrammar/C7-Lecture-Backpack/tree/main/5%20-%20Coding%20Interview%20Workshops)**: A series of workshops 🧩 focusing on fundamental computer science concepts, common interview questions, and problem-solving strategies. Topics include:
+- **[Coding Interview Workshops](https://github.com/skills-cogrammar/C7-Lecture-Backpack/tree/main/5%20-%20Coding%20Interview%20Workshops)** : A series of workshops 🧩 focusing on fundamental computer science concepts, common interview questions, and problem-solving strategies. Topics include:
   - Data structures (arrays, lists, stacks, queues, hashtables trees, graphs)
   - Algorithms (sorting, searching, recursion)
   - Complexity analysis and space-time trade-offs
