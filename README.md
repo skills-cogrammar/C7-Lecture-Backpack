@@ -6,9 +6,9 @@ Welcome to the Lecture Backpack 🚀, a comprehensive resource repository design
 
 This repository is structured into five main folders, each targeting a specific learning track:
 
-- **Python**: A foundational phase for Software Engineering and Data Science 🐍 that introduces basic programming concepts, including the terminal, setting up development environments and basic procedural programming in Python.
+- **[Python](https://github.com/skills-cogrammar/C7-Lecture-Backpack/tree/main/1%20-%20Python)** : A foundational phase for Software Engineering and Data Science 🐍 that introduces basic programming concepts, including the terminal, setting up development environments and basic procedural programming in Python.
 
-- **Software Engineering (SE)**: Building on Python phase, the SE track delves into advanced software development topics. It covers:
+- **[Software Engineering (SE)](https://github.com/skills-cogrammar/C7-Lecture-Backpack/tree/main/2%20-%20Software%20Engineering%20(SE))** : Building on Python phase, the SE track delves into advanced software development topics. It covers:
 
   - Version control with GitHub
   - Debugging techniques and tools
@@ -16,7 +16,7 @@ This repository is structured into five main folders, each targeting a specific 
   - Agile methodologies and unit testing
   - Application development with Django and SQL
 
-- **Data Science (DS)**: Following the Python introduction, the DS track focuses on data manipulation and analysis. Key topics include:
+- **[Data Science (DS)](https://github.com/skills-cogrammar/C7-Lecture-Backpack/tree/main/3%20-%20Data%20Science%20(DS))** : Following the Python introduction, the DS track focuses on data manipulation and analysis. Key topics include:
 
   - Data cleaning and preprocessing
   - Exploratory data analysis (EDA) with Pandas
@@ -24,7 +24,7 @@ This repository is structured into five main folders, each targeting a specific 
   - Statistical analysis and hypothesis testing
   - Introduction to machine learning with scikit-learn
 
-- **Full Stack Web Development (WD)**: Starting with web basics, the terminal and GitHub, this track progresses to comprehensive web development skills, encompassing:
+- **[Full Stack Web Development (WD)](https://github.com/skills-cogrammar/C7-Lecture-Backpack/tree/main/4%20-%20Full%20Stack%20Web%20Development%20(WD))** : Starting with web basics, the terminal and GitHub, this track progresses to comprehensive web development skills, encompassing:
 
   - HTML, CSS, and introductory programming in JavaScript.
   - Responsive design and CSS frameworks like Bootstrap
@@ -32,7 +32,7 @@ This repository is structured into five main folders, each targeting a specific 
   - RESTful API development with Node.js, Express.js and MongoDB
   - Application security with JWT
 
-- **Coding Interview Workshops**: A series of workshops 🧩 focusing on fundamental computer science concepts, common interview questions, and problem-solving strategies. Topics include:
+- **[Coding Interview Workshops](https://github.com/skills-cogrammar/C7-Lecture-Backpack/tree/main/5%20-%20Coding%20Interview%20Workshops)**: A series of workshops 🧩 focusing on fundamental computer science concepts, common interview questions, and problem-solving strategies. Topics include:
   - Data structures (arrays, lists, stacks, queues, hashtables trees, graphs)
   - Algorithms (sorting, searching, recursion)
   - Complexity analysis and space-time trade-offs
