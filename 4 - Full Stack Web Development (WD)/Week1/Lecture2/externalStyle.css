@@ -3,30 +3,30 @@
    and Heading 2 using ID Selectors */
 
 h1 {
-    text-align: center;
-    font-family: Montserrat, Helvetica;
-    font-size: 30px;
-    color: darkblue;
-    padding-top: 20px;
+  text-align: center;
+  font-family: Montserrat, Helvetica;
+  font-size: 40px;
+  color: brown;
+  padding-top: 20px;
 }
 
-#heading2 {
-    text-align: center;
-    font-family: Montserrat, Helvetica;
-    font-size: 26px;
-    font-style: italic;
-    color: darkgoldenrod;
+#welcome_everyone {
+  text-align: center;
+  font-family: Montserrat, Helvetica;
+  font-size: 26px;
+  font-style: italic;
+  color: darkgoldenrod;
 }
 
 .endingMessage {
-    text-align: center;
-    font-family: Bubbly;
-    font-size: 20px;
-    color: darkslateblue;
-    margin-bottom: -18px;
+  text-align: center;
+  font-family: Bubbly;
+  font-size: 20px;
+  background-color: aqua;
+  color: darkslateblue;
+  margin-bottom: -18px;
 }
 
-p.endingMessage {
-    padding-bottom: 20px;
+h3.endingMessage {
+  padding-bottom: 20px;
 }
-
