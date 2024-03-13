@@ -1,0 +1,32 @@
+/* This is an external CSS code file. 
+   We will be changing the style of Heading 1 using Element Selectors
+   and Heading 2 using ID Selectors */
+
+h1 {
+    text-align: center;
+    font-family: Montserrat, Helvetica;
+    font-size: 30px;
+    color: darkblue;
+    padding-top: 20px;
+}
+
+#heading2 {
+    text-align: center;
+    font-family: Montserrat, Helvetica;
+    font-size: 26px;
+    font-style: italic;
+    color: darkgoldenrod;
+}
+
+.endingMessage {
+    text-align: center;
+    font-family: Bubbly;
+    font-size: 20px;
+    color: darkslateblue;
+    margin-bottom: -18px;
+}
+
+p.endingMessage {
+    padding-bottom: 20px;
+}
+
