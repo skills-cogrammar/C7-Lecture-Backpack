@@ -1,0 +1,134 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  /* background-color: orange; */
+  text-transform: uppercase;
+}
+
+.contact-details {
+  background-color: rgb(205, 205, 205);
+  display: flex;
+  justify-content: space-around;
+}
+
+.about {
+  /* background-color: aqua; */
+  text-align: left;
+  vertical-align: middle;
+}
+
+.key-skills {
+  /* background-color: yellow; */
+  text-align: center;
+  vertical-align: middle;
+}
+
+.key-skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.key-skills-list-item {
+  width: 15vw;
+  padding: 1%;
+  margin: 0.5%;
+  color: white;
+  background-color: rgb(0, 0, 55);
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+.key-skills-list div:hover {
+  background-color: orange;
+  color: black;
+}
+
+.experience {
+  /* background-color: pink; */
+}
+
+.experience-item {
+  /* background-color: coral; */
+}
+
+.experience-item::first-line {
+  /* background-color: violet; */
+  font-size: 1em;
+  font-weight: 800;
+}
+
+.experience-item div:nth-child(2) {
+  /* background-color: chartreuse; */
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+}
+
+.experience-item div:nth-child(3) {
+  /* background-color: springgreen; */
+  text-align: justify;
+}
+
+.experience-item ul {
+  margin-top: 0;
+  /* background-color: royalblue; */
+}
+
+.experience-item li::marker {
+  content: "o ";
+}
+
+.certifications {
+  /* background-color: violet; */
+}
+
+.certifications-item {
+  /* background-color: rgb(255, 183, 131); */
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.education {
+  /* background-color: tomato; */
+}
+
+.education-item {
+  /* background-color: salmon; */
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.technical-skills {
+  /* background-color: fuchsia; */
+}
+
+.technical-skills-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.technical-skills-list-item {
+  text-transform: uppercase;
+  padding: 0.5%;
+  margin: 0.5%;
+  font-size: small;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(0, 0, 55);
+}

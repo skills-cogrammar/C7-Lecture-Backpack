@@ -1,0 +1,165 @@
+/* This is called the element selector, select element by name */
+/* h2 {
+  color: purple !important ;
+} */
+
+/* This is called the ID selector, select element by ID attribute */
+/* #special_paragraph {
+  background-color: green;
+  color: purple;
+} */
+
+/* Class selector, select element by class attribute value */
+/* .second_paragraph {
+  background-color: brown;
+  color: white;
+} */
+
+/* * {
+  color: black;
+} */
+/* div,
+p {
+  background-color: black;
+  color: cadetblue;
+} */
+
+/*Attrib. Selector*/
+/* p[class="super_paragraph"] {
+  background-color: yellow;
+  color: red;
+} */
+
+/* The selectors below after the : and :: are what we call pseudo-class selectors  */
+/* Pseudo class selectors allow us to select elements on the basis of their position 
+   and state within the document */
+/* button:hover {
+  background-color: red;
+  color: white;
+} */
+
+/* div p:first-child {
+  color: chartreuse;
+  background-color: aqua;
+}
+
+div p:last-child {
+  color: coral;
+  background-color: aquamarine;
+} */
+
+/* p:first-of-type {
+  color: yellow;
+  background-color: red;
+} */
+
+/* p:not(.super_paragraph) {
+  color: crimson;
+} */
+
+/* div:empty {
+  width: 100px;
+  height: 20px;
+  background-color: black !important;
+} */
+
+/* p::first-line {
+  background-color: aquamarine;
+} */
+
+/* p::first-letter {
+  color: orange;
+  font-size: 32px;
+  font-weight: bold;
+} */
+
+/* p::before {
+  content: "[";
+  color: cornflowerblue;
+}
+
+p::after {
+  content: "]";
+  color: cornflowerblue;
+} */
+
+/* Selects and styles the markers of the list items. */
+/* li::marker {
+  color: brown;
+} */
+
+/* p::selection {
+  background-color: black;
+  color: green;
+} */
+
+/* Other interesting things you can do with CSS */
+
+/* p {
+  width: 500px;
+  height: 1in;
+  margin: 2cm;
+  padding: 5mm;
+  font-size: 14pt;
+  background-color: black;
+  color: aliceblue;
+} */
+
+/* body {
+  font-family: Arial;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+} */
+
+/* p {
+  text-decoration: underline dashed green 1px;
+} */
+/* 
+p {
+  text-transform: capitalize;
+} */
+
+/* p {
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  text-indent: 40px;
+} */
+
+/* h2 {
+  text-shadow: -1px -1px 4px red;
+} */
+
+/* p {
+  text-align: left;
+  text-align-last: center;
+} */
+
+/* p {
+  direction: rtl;
+} */
+
+/* body { */
+/* background-color: orange; */
+/* background: url("avatar.png") top center no-repeat rgba(255, 1, 1, 0.1); */
+/* opacity: 0.5; */
+/* background-size: contain; */
+/* height: 100vh; */
+/* background: url("https://www.programiz.com/blog/content/images/2022/03/Banner-Image-1.png")
+    round orange; */
+/* } */
+
+/* body {
+  background-image: url("avatar.png");
+  background-attachment: fixed;
+} */
+
+/* body {
+  background: linear-gradient(90deg, green, rgb(91, 255, 91), white);
+} */
+
+/* body {
+  background-image: radial-gradient(circle, red 20%, blue 40%, black 60%);
+} */

@@ -1,0 +1,15 @@
+vi filename, Press ESC -> Shift+ZZ
+cat filename
+cp filename filename2
+cp directoryname1 directoryname2 
+mv filename1 filename1
+mv directoryname1 directoryname2
+rm filename
+rmdir directoryname
+mkdir new_directory_name
+ls
+ls -a, to view hidden files and directories
+ls directoryname
+cd directoryname
+cd ..
+pwd
