@@ -7,12 +7,13 @@ git add filename, Note don't forget the extension
 git add .
 git commit -m "This message is compulsary"
 git log, press q to exit
-
+git restore --staged . , to move back from stage
+git restore . , to completely undo your changes
 -------- Sync local repo to Github repository---------------------
 git remote add origin https://github.com/[REPO-OWNER]/[REPO-NAME]
 git branch -M main
 git push -u origin main
-
+git remote show origin
 ------------------------------------------------------------------
 git clone https://github.com/[REPO-OWNER]/[REPO-NAME]
 git fetch origin
