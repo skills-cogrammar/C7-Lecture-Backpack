@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interactive 3D Scene with WebGL</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+      canvas {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"></script>
+    <script>
+      // Vertex shader source code
+      const vertexShaderSource = `
+            attribute vec3 aPosition;
+            attribute vec3 aNormal;
+            attribute vec2 aTexCoord;
+
+            uniform mat4 uModelViewMatrix;
+            uniform mat4 uProjectionMatrix;
+            uniform mat4 uNormalMatrix;
+
+            varying vec3 vNormal;
+            varying vec2 vTexCoord;
+
+            void main() {
+                gl_Position = uProjectionMatrix * uModelViewMatrix * vec4(aPosition, 1.0);
+                vNormal = mat3(uNormalMatrix) * aNormal;
+                vTexCoord = aTexCoord;
+            }
+        `;
+
+      // Fragment shader source code
+      const fragmentShaderSource = `
+            precision mediump float;
+
+            uniform sampler2D uTexture;
+            uniform vec3 uLightDirection;
+
+            varying vec3 vNormal;
+            varying vec2 vTexCoord;
+
+            void main() {
+                vec3 normal = normalize(vNormal);
+                float light = max(dot(normal, uLightDirection), 0.0);
+                gl_FragColor = texture2D(uTexture, vTexCoord) * light;
+            }
+        `;
+
+      // Initialize WebGL context
+      const canvas = document.createElement("canvas");
+      document.body.appendChild(canvas);
+      const gl = canvas.getContext("webgl");
+
+      // Compile shaders
+      const vertexShader = gl.createShader(gl.VERTEX_SHADER);
+      gl.shaderSource(vertexShader, vertexShaderSource);
+      gl.compileShader(vertexShader);
+
+      const fragmentShader = gl.createShader(gl.FRAGMENT_SHADER);
+      gl.shaderSource(fragmentShader, fragmentShaderSource);
+      gl.compileShader(fragmentShader);
+
+      // Create and link program
+      const program = gl.createProgram();
+      gl.attachShader(program, vertexShader);
+      gl.attachShader(program, fragmentShader);
+      gl.linkProgram(program);
+      gl.useProgram(program);
+
+      // Set up vertex buffers
+      const positions = [
+        // Front face
+        -1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0, -1.0, 1.0, 1.0,
+
+        // Back face
+        -1.0, -1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, -1.0, -1.0,
+
+        // Top face
+        -1.0, 1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, -1.0,
+
+        // Bottom face
+        -1.0, -1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0, -1.0, -1.0, 1.0,
+
+        // Right face
+        1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0, -1.0, 1.0,
+
+        // Left face
+        -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, -1.0,
+      ];
+
+      const normals = [
+        // Front face
+        0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0,
+
+        // Back face
+        0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0,
+
+        // Top face
+        0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0,
+
+        // Bottom face
+        0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0,
+
+        // Right face
+        1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0,
+
+        // Left face
+        -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0,
+      ];
+
+      const texCoords = [
+        // Front face
+        0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0,
+
+        // Back face
+        1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0,
+
+        // Top face
+        0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0,
+
+        // Bottom face
+        1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0,
+
+        // Right face
+        1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0,
+
+        // Left face
+        0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0,
+      ];
+
+      const indices = [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3, // Front face
+        4,
+        5,
+        6,
+        4,
+        6,
+        7, // Back face
+        8,
+        9,
+        10,
+        8,
+        10,
+        11, // Top face
+        12,
+        13,
+        14,
+        12,
+        14,
+        15, // Bottom face
+        16,
+        17,
+        18,
+        16,
+        18,
+        19, // Right face
+        20,
+        21,
+        22,
+        20,
+        22,
+        23, // Left face
+      ];
+
+      const positionBuffer = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+      gl.bufferData(
+        gl.ARRAY_BUFFER,
+        new Float32Array(positions),
+        gl.STATIC_DRAW
+      );
+
+      const normalBuffer = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, normalBuffer);
+      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(normals), gl.STATIC_DRAW);
+
+      const texCoordBuffer = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, texCoordBuffer);
+      gl.bufferData(
+        gl.ARRAY_BUFFER,
+        new Float32Array(texCoords),
+        gl.STATIC_DRAW
+      );
+
+      const indexBuffer = gl.createBuffer();
+      gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, indexBuffer);
+      gl.bufferData(
+        gl.ELEMENT_ARRAY_BUFFER,
+        new Uint16Array(indices),
+        gl.STATIC_DRAW
+      );
+
+      // Set up texture
+      const texture = gl.createTexture();
+      gl.bindTexture(gl.TEXTURE_2D, texture);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+      const image = new Image();
+      image.src = "https://example.com/texture.jpg";
+      image.onload = function () {
+        gl.bindTexture(gl.TEXTURE_2D, texture);
+        gl.texImage2D(
+          gl.TEXTURE_2D,
+          0,
+          gl.RGBA,
+          gl.RGBA,
+          gl.UNSIGNED_BYTE,
+          image
+        );
+        gl.generateMipmap(gl.TEXTURE_2D);
+      };
+
+      // Set up shader attributes and uniforms
+      const aPosition = gl.getAttribLocation(program, "aPosition");
+      gl.enableVertexAttribArray(aPosition);
+      gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+      gl.vertexAttribPointer(aPosition, 3, gl.FLOAT, false, 0, 0);
+
+      const aNormal = gl.getAttribLocation(program, "aNormal");
+      gl.enableVertexAttribArray(aNormal);
+      gl.bindBuffer(gl.ARRAY_BUFFER, normalBuffer);
+      gl.vertexAttribPointer(aNormal, 3, gl.FLOAT, false, 0, 0);
+
+      const aTexCoord = gl.getAttribLocation(program, "aTexCoord");
+      gl.enableVertexAttribArray(aTexCoord);
+      gl.bindBuffer(gl.ARRAY_BUFFER, texCoordBuffer);
+      gl.vertexAttribPointer(aTexCoord, 2, gl.FLOAT, false, 0, 0);
+
+      const uModelViewMatrix = gl.getUniformLocation(
+        program,
+        "uModelViewMatrix"
+      );
+      const uProjectionMatrix = gl.getUniformLocation(
+        program,
+        "uProjectionMatrix"
+      );
+      const uNormalMatrix = gl.getUniformLocation(program, "uNormalMatrix");
+      const uTexture = gl.getUniformLocation(program, "uTexture");
+      const uLightDirection = gl.getUniformLocation(program, "uLightDirection");
+
+      gl.uniform1i(uTexture, 0);
+      gl.uniform3fv(uLightDirection, [0.0, 0.0, 1.0]);
+
+      // Set up camera and projection
+      const modelViewMatrix = mat4.create();
+      const projectionMatrix = mat4.create();
+      const normalMatrix = mat4.create();
+
+      mat4.translate(modelViewMatrix, modelViewMatrix, [0.0, 0.0, -5.0]);
+      mat4.perspective(
+        projectionMatrix,
+        Math.PI / 4,
+        canvas.width / canvas.height,
+        0.1,
+        100.0
+      );
+
+      // Mouse interaction variables
+      let isDragging = false;
+      let lastMouseX = 0;
+      let lastMouseY = 0;
+      let currentAngleX = 0;
+      let currentAngleY = 0;
+
+      // Mouse event listeners
+      canvas.addEventListener("mousedown", function (event) {
+        isDragging = true;
+        lastMouseX = event.clientX;
+        lastMouseY = event.clientY;
+      });
+
+      canvas.addEventListener("mousemove", function (event) {
+        if (isDragging) {
+          const deltaX = event.clientX - lastMouseX;
+          const deltaY = event.clientY - lastMouseY;
+
+          currentAngleY += deltaX * 0.01;
+          currentAngleX += deltaY * 0.01;
+
+          lastMouseX = event.clientX;
+          lastMouseY = event.clientY;
+        }
+      });
+
+      canvas.addEventListener("mouseup", function (event) {
+        isDragging = false;
+      });
+
+      // Animation loop
+      function render() {
+        mat4.identity(modelViewMatrix);
+        mat4.translate(modelViewMatrix, modelViewMatrix, [0.0, 0.0, -5.0]);
+        mat4.rotateX(modelViewMatrix, modelViewMatrix, currentAngleX);
+        mat4.rotateY(modelViewMatrix, modelViewMatrix, currentAngleY);
+
+        mat4.invert(normalMatrix, modelViewMatrix);
+        mat4.transpose(normalMatrix, normalMatrix);
+
+        gl.uniformMatrix4fv(uModelViewMatrix, false, modelViewMatrix);
+        gl.uniformMatrix4fv(uProjectionMatrix, false, projectionMatrix);
+        gl.uniformMatrix4fv(uNormalMatrix, false, normalMatrix);
+
+        gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+        gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_SHORT, 0);
+
+        requestAnimationFrame(render);
+      }
+
+      // Enable depth testing and start rendering
+      gl.enable(gl.DEPTH_TEST);
+      render();
+
+      // Resize canvas on window resize
+      window.addEventListener("resize", function () {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        gl.viewport(0, 0, canvas.width, canvas.height);
+        mat4.perspective(
+          projectionMatrix,
+          Math.PI / 4,
+          canvas.width / canvas.height,
+          0.1,
+          100.0
+        );
+      });
+    </script>
+  </body>
+</html>
