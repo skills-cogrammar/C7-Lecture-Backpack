@@ -1,15 +1,19 @@
+// let a = Number(prompt("Enter a: "));
+// let b = Number(prompt("Enter b: "));
+// console.log(`${a} + ${b} = ${a + b}`);
 ////Strings
-// const X = prompt("What is your name?");
-// const Y = "Jack";
+// const X = "Zahir";
+// const Y = 'Jack';
 // const result = `The names are ${X} and ${Y}`;
 // console.log(result);
 
+// A string is an array of characters
 // let hello = "hello";
-// console.log(hello[1]);
+// console.log(hello[3]);
 // console.log(hello.length);
 // console.log(hello.concat("world"));
 // hello = "hello";
-// console.log(hello.replace("lo", "ll"));
+// console.log(hello.replace("lo", "zahir"));
 
 // let sentence = "Another brick in the wall";
 // console.log(sentence.split(" "));
@@ -24,7 +28,7 @@
 // console.log("word4.includes:", word4.includes("script"));
 
 // let word = "Hellooooooo";
-// First argument is exclusive. Second arg is exclusive.
+// First argument is inclusive. Second arg is exclusive.
 // console.log("Slice: ", word.slice(2, 5));
 
 // //// Arrays
@@ -38,20 +42,32 @@
 // // array with mixed data types
 // let data = ["name", 1, true];
 
-// let even = [2, 4, 6, 8, 10];
-// console.log("even[0]: ", even[0]);
+// Multidim array
+// let table = [
+//     ["zahir", 1],
+//     ["john", 2],
+//     ["jax", 3]
+// ]
+
+// console.log(table[1])
+// console.log(table[1][0])
+
+let even = [2, 4, 6, 8, 10];
+// console.log(even[2]);
 
 // console.log(even.push(12));
+// console.log(even)
 // Inserts new elements at the start of an array,
 // and returns the new length of the array.
-// console.log(even.unshift(0));
+// console.log(even.unshift(1000));
+// console.log(even)
 
 // even = [2, 4, 6, 8, 10];
 // even[0] = 100;
-// console.log(even); // [100, 4, 6, 8, 10]
+// console.log(even);
 
 // even = [2, 4, 6, 8, 10];
-// console.log(even.splice(2, 1)); // [6]
+// console.log(even.splice(2, 1));
 // console.log(even); // [2, 4, 8, 10]
 // console.log(even.length); // 4
 
@@ -61,19 +77,19 @@
 // let joined = part1.concat(part2);
 // console.log(joined);
 
-// let languages = ["English", "Japanese", "French", "Spanish"];
-// let index = languages.indexOf("French");
+let languages = ["English", "Japanese", "French", "Spanish"];
+// let index = languages.indexOf("Japanese");
 // console.log(index);
 
 // console.log(languages.includes("English"));
 
-// let num = [1, 3, 4, 9, 8];
-// // get the first even number
-// let even1 = num.find((x) => x % 2 == 0);
+let num = [1, 3, 4, 9, 8];
+// get the first even number
+// let even1 = num.find((x) => x % 2 != 0);
 // console.log(even1);
 
 // num.forEach(function (even) {
-//   console.log(even * even);
+//   console.log(even * even * even);
 // });
 
 // console.log(
@@ -104,8 +120,8 @@
 
 // // program to display numbers from 1 to 5
 // // initialize the variable
-// let laps = 1,
-//   finish_line = 5;
+let laps = 1,
+  finish_line = 5;
 
 // // while loop from i = 1 to 5
 // while (laps <= finish_line) {
@@ -163,24 +179,25 @@
 // //// Maps
 // let m = new Map(); // Create a new, empty map
 
-// let x = new Map(); // Start with an empty map
+let x = new Map(); // Start with an empty map
 // console.log(x.size); // => 0: empty maps have no keys
 // x.set("one", 1); // Map the key "one" to the value 1
-// x.set("two", 2); // And the key "two" to the value 2.
+// x.set("two", 1000); // And the key "two" to the value 2.
 // console.log(x.size); // => 2: the map now has two keys
-// x.get("two"); // => 2: return the value associated with key "two"
-// x.get("three"); // => undefined: this key is not in the set
+// console.log(x.get("two")); // => 2: return the value associated with key "two"
+// console.log(x.get("three")); // => undefined: this key is not in the set
+// console.log(x)
 // x.set("one", true); // Change the value associated with an existing key
-
+// console.log(x)
 // console.log(x.has("one")); // => true: the map has a key "one"
 // console.log(x.has("momomomomomo")); // => false: the map does not have a key true
 
 // console.log("Size before delete: ", x.size);
 // x.delete("one"); // => true: the key existed and deletion succeeded
 // console.log("Size after delete: ", x.size); // => 1
-
+// console.log(x)
 // x.clear(); // Remove all keys and values from the map
-
+// console.log(x)
 // console.log(x.keys()); // => ["x", "y"]: just the keys
 // console.log(x.values()); // => [1, 2]: just the values
 // console.log(x.entries()); // => [["x", 1], ["y", 2]]
