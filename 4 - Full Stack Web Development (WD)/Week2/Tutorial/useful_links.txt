@@ -1,0 +1,14 @@
+JavaScript Documentation
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+https://devdocs.io/javascript/
+https://www.w3schools.com/jsrEF/default.asp
+
+StackOverflow Developer Survey
+https://survey.stackoverflow.co/2023/#technology-most-popular-technologies
+
+NodeJS
+https://nodejs.org/en/download
+
+VS Code Extensions
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
