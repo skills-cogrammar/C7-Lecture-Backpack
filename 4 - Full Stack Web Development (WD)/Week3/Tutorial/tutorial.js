@@ -70,16 +70,20 @@
 
 //arrow function
 // let add = (x,y) => {
+//     // console.log(x)
+//     // console.log(y)
 //     return x + y;
 // } 
+
+// add(2,3)
 
 //arrow function (even shorter)
 // let add = (x,y) => x + y;
 // console.log(add(3,5))
 
-// function transform(element){
-//     return element * 2;
-// }
+function transform(element){
+    return element * 2;
+}
 
 // const numbers = [1, 2, 3, 4, 5];
 // const doubled = numbers.map(num => num * 2);
@@ -87,7 +91,7 @@
 // console.log(`Doubled array: ${doubled}`);
 
 // const scores = [80, 90, 60, 45, 75];
-// const passed = scores.filter(score => score % 2 == 0);
+// const passed = scores.filter(score => score % 2 != 0);
 // console.log(scores)
 // console.log(passed);
 
@@ -95,15 +99,15 @@
 // const sum = numbers.reduce((acc, num) => acc + num, 0);
 // console.log(sum);
 
-// let twoDimArr = [[2,2],[3,3],[4,4]]
+// let twoDimArr = [[2,2],[3,3],[4,4]] // 2 x 3
 // let oneDimArr = twoDimArr.reduce((result, arr) => result.concat(arr),[])
 // console.log(twoDimArr)
 // console.log(oneDimArr)
 
-// function fetchData(f) {
+// function fetchData(callback) {
 //     setTimeout(() => {
 //       const data = 'Hello Zahir';
-//       f(data);
+//       callback(data);
 //     }, 3000);
 //   }
   
@@ -113,19 +117,20 @@
   
 // document
 // .getElementById('myButton')
-// .addEventListener('click',() => {
+// .addEventListener('click', () => {
 //     console.log('Button clicked!');
 //   });
   
 // const add = x => x + 100;
 // const multiplyByTwo = x => x * 2;
 
-// // // Compose two functions
+// // // // Compose two functions
 // const composedFunction = x => multiplyByTwo(add(x));
 
 // console.log(composedFunction(3));
 
 // let people = ["Zahir", "Liano", "Ronald", "Bongani"]
+
 // let checkUninvited = (arr) => (fn) => {
 //     let inviteList = ["Liano", "Ronald", "Bongani"]
 //     for(let element of arr){
