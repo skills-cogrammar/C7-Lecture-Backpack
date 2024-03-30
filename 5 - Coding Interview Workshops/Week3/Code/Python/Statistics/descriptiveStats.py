@@ -2,7 +2,8 @@ import numpy as np
 import scipy as sp
 import scipy.stats as stats
 
-heights = [168, 170, 150, 160, 182, 140, 175, 191, 152, 150]
+heights = [168, 170, 150, 160, 182,
+            140, 175, 191, 152, 150]
 
 # Mean
 mean = np.mean(heights)
@@ -22,5 +23,8 @@ print(var)
 
 # Standard Deviation
 std = np.std(heights)
+print(std)
+
+
 
 
