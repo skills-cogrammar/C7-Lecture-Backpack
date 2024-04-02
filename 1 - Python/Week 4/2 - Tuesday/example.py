@@ -16,9 +16,8 @@ class Cat:
         the age provided by the user when creating an instance of the class. It is assigned to the `age`
         attribute of the class instance
         
-        :param user_given_type: It seems like you were about to ask for clarification on the
-        `user_given_type` parameter. This parameter is used to store the type of the user, such as
-        "admin", "guest", "member", etc. It allows you to categorize users based on different roles or
+        :param user_given_type: This parameter is used to store the type of the cat, such as
+        "persian", "orange", "norweigen forrest", etc. It allows you to categorize cats based on different breed or
         characteristics
         """
         self.name = user_given_name
