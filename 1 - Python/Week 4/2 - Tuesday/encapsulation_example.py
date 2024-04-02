@@ -1,7 +1,5 @@
 # The class `Car` has methods to initialize a speed attribute, accelerate the car, and retrieve the
 # current speed.
-# This Python class defines a Car with a private speed attribute that can be increased by 100 units
-# and accessed through a method.
 class Car:
     """
     This Python class defines a Car with a private speed attribute that can be
