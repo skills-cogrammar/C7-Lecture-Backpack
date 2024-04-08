@@ -12,17 +12,40 @@
 //     manufacturer_name: "Tesla"
 // }
 
+class Animal {
+    constructor (name, noLegs) {
+        this.name = name;
+        this.noLegs = noLegs;
+    }
+}
+
+class Mammals extends Animal {
+    constructor (name, noLegs, colourOfFur, gestationPeriod) {
+        super(name, noLegs);
+        this.colourOfFur = colourOfFur;
+        this.gestationPeriod = gestationPeriod;
+    }
+}
+
+let animal = new Animal("Snake", 0);
+let mammal = new Mammals("Zebra", 4, "Black and White", 8);
+let mammal2 = new Mammals("Dolphin", 0);
+
+console.log(animal.name);
+console.log(mammal.name);
+console.log(mammal2.name);
+
 
 // Creating objects and setting prototypes
-// let parent = {
-//     greet: function() {
-//         return "Hello";
-//     }
-// };
+let parent = {
+    greet: function() {
+        return "Hello";
+    }
+};
 
-// let child = Object.create(parent); // Inherit from parent prototype
+let child = Object.create(parent); // Inherit from parent prototype
 // // let child = null;
-// console.log(child.greet()); // Output: "Hello"
+console.log(child.greet()); // Output: "Hello"
 
 // Defining a class
 // class Person {
@@ -47,31 +70,30 @@
 // console.log(person1.sayhi("Zahir"));
 
 // Constructor function
-// function Car(make, model) {
-//     this.make = make;
-//     this.model = model;
-// }
+function Car(make, model) {
+    this.make = make;
+    this.model = model;
+}
 
-// // Creating an instance using the constructor function
-// let car1 = new Car("Toyota", "Camry");
-// console.log(car1.make);
+// Creating an instance using the constructor function
+let car1 = new Car("Toyota", "Camry");
+console.log(car1.make);
 
 // Converting JavaScript object to JSON
-// let person = {
-//     name: "John Doe",
-//     age: 30,
-//     city: "New York"
-// };
-// console.log(person)
-// let jsonStr = JSON.stringify(person);
-// console.log(jsonStr);
+let person = {
+    name: "John Doe",
+    age: 30,
+    city: "New York"
+};
+console.log(person)
+let jsonStr = JSON.stringify(person);
+console.log(jsonStr);
 
 // Parsing JSON back to JavaScript object
-// let jsonStr = '{"name":"Jane Doe","age":25,"city":"Los Angeles"}';
-// let person = JSON.parse(jsonStr);
-// console.log(person.name);
-// console.log(typeof jsonStr)
-// console.log(typeof person)
+let person2 = JSON.parse(jsonStr);
+console.log(person2.name);
+console.log(typeof jsonStr)
+console.log(typeof person)
 
 // Prototypal inheritance
 // let parent = {
