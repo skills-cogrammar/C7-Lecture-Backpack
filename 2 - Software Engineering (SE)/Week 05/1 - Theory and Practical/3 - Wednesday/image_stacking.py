@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# 3
 # Sample grayscale images (all of the same size)
 image1 = np.array([[0, 255, 255, 255, 255, 0],
                    [0, 255, 0, 0, 255, 0],
