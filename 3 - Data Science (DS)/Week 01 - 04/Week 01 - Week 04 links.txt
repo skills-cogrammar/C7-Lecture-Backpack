@@ -1,0 +1,4 @@
+Week 01 Resources: https://github.com/skills-cogrammar/C7-Lecture-Backpack/tree/main/1%20-%20Python/Week%201
+Week 02 Resources: https://github.com/skills-cogrammar/C7-Lecture-Backpack/tree/main/1%20-%20Python/Week%202
+Week 03 Resources: https://github.com/skills-cogrammar/C7-Lecture-Backpack/tree/main/1%20-%20Python/Week%203
+Week 04 Resources: https://github.com/skills-cogrammar/C7-Lecture-Backpack/tree/main/1%20-%20Python/Week%204
