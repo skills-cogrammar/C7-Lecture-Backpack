@@ -19,20 +19,22 @@ function handleClick(event) {
     moves++;
   }
 
-  if (checkWin(index)) {
+  if (checkWin()) {
     winner = currentPlayer;
   } else if (moves >= 9) {
     winner = "Draw";
   } else {
     currentPlayer = currentPlayer === "X" ? "O" : "X";
+    // condition ? true_val : false_val;
   }
 
   if (winner) {
+    // if winner != ""
     displayWinner();
   }
 }
 
-function checkWin(index) {
+function checkWin() {
   let winPatterns = [
     [0, 1, 2],
     [3, 4, 5],
