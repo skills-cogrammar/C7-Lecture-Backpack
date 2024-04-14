@@ -30,7 +30,7 @@ myexplode = [0, 0, 0, 0.2]
 plt.pie(y, labels = mylabels, colors = mycolors, 
         explode = myexplode, shadow = True)
 plt.legend(loc='center left',title = "Four Fruits:")
-plt.show() 
+plt.show()
 
 #########################################
 #Lineplots
