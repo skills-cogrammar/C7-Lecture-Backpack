@@ -13,10 +13,3 @@ def binary_search(lst, key):
 
 def binary_search_recursive(lst, min_pt, max_pt, key):
     pass
-
-        
-# test
-lst = [1,2,3,4,5,6,7,8,9]
-min_idx = 0
-max_idx = len(lst) - 1
-print(binary_search_recursive(lst, min_idx, max_idx, 9))
