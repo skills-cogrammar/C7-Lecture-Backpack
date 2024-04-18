@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, Optional
 
 class BSTNode:
     """A node in a Binary Search Tree (BST).
@@ -15,6 +15,6 @@ class BSTNode:
         Args:
             key: The value to be stored in the node.
         """
-        self.left = None
-        self.right = None
-        self.val = key
+        self.left: Optional[BSTNode] = None
+        self.right: Optional[BSTNode] = None
+        self.val: Any = key

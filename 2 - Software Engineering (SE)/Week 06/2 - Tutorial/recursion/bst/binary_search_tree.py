@@ -1,4 +1,4 @@
-from typing import List
+from typing import Optional, List
 from bst_node import BSTNode
 
 class BinarySearchTree:
@@ -13,7 +13,7 @@ class BinarySearchTree:
         """
         Initializes an empty Binary Search Tree.
         """
-        self.root = None
+        self.root: Optional[BSTNode] = None
 
     def insert(self, key: int) -> None:
         """
@@ -22,9 +22,9 @@ class BinarySearchTree:
         Args:
             key (int): The value to insert into the BST.
         """
-        pass
+        self.root = self._insert_node(self.root, key)
 
-    def _insert_node(self, node, key: int) -> BSTNode:
+    def _insert_node(self, node: Optional[BSTNode], key: int) -> BSTNode:
         """
         Recursively inserts a key into the BST.
 
@@ -35,9 +35,15 @@ class BinarySearchTree:
         Returns:
             BSTNode: The updated node.
         """
-        pass
+        if node is None:
+            return BSTNode(key)
+        if key < node.val:
+            node.left = self._insert_node(node.left, key)
+        else:
+            node.right = self._insert_node(node.right, key)
+        return node
 
-    def search(self, key: int):
+    def search(self, key: int) -> Optional[BSTNode]:
         """
         Searches for a key in the BST.
 
@@ -47,9 +53,9 @@ class BinarySearchTree:
         Returns:
             Optional[BSTNode]: The node containing the key, or None if not found.
         """
-        pass
+        return self._search_node(self.root, key)
 
-    def _search_node(self, node, key: int):
+    def _search_node(self, node: Optional[BSTNode], key: int) -> Optional[BSTNode]:
         """
         Recursively searches for a key in the BST.
 
@@ -60,7 +66,11 @@ class BinarySearchTree:
         Returns:
             Optional[BSTNode]: The node containing the key, or None if not found.
         """
-        pass
+        if node is None or node.val == key:
+            return node
+        if key < node.val:
+            return self._search_node(node.left, key)
+        return self._search_node(node.right, key)
 
     def iterative_inorder_traversal(self) -> List[int]:
         """
@@ -69,31 +79,49 @@ class BinarySearchTree:
         Returns:
             List[int]: The list containing inorder traversal elements.
         """
-        pass
+        stack, result = [], []
+        current = self.root
+        while current or stack:
+            while current:
+                stack.append(current)
+                current = current.left
+            current = stack.pop()
+            result.append(current.val)
+            current = current.right
+        return result
     
-    def recursive_inorder_traversal(self, node = None) -> None:
+    def recursive_inorder_traversal(self, node: Optional[BSTNode] = None) -> None:
         """
         Recursively performs an inorder traversal of the BST.
 
         Args:
             node (BSTNode or None): The current node being evaluated. Defaults to None.
         """
-        pass
+        if node is not None:
+            self.recursive_inorder_traversal(node.left)
+            print(node.val, end=" ")
+            self.recursive_inorder_traversal(node.right)
 
-    def recursive_preorder_traversal(self, node = None) -> None:
+    def recursive_preorder_traversal(self, node: Optional[BSTNode] = None) -> None:
         """
         Recursively performs a preorder traversal of the BST.
 
         Args:
             node (BSTNode or None): The current node being evaluated. Defaults to None.
         """
-        pass
+        if node is not None:
+            print(node.val, end=" ")
+            self.recursive_preorder_traversal(node.left)
+            self.recursive_preorder_traversal(node.right)
 
-    def recursive_postorder_traversal(self, node = None) -> None:
+    def recursive_postorder_traversal(self, node: Optional[BSTNode] = None) -> None:
         """
         Recursively performs a postorder traversal of the BST.
 
         Args:
             node (BSTNode or None): The current node being evaluated. Defaults to None.
         """
-        pass
+        if node is not None:
+            self.recursive_postorder_traversal(node.left)
+            self.recursive_postorder_traversal(node.right)
+            print(node.val, end=" ")

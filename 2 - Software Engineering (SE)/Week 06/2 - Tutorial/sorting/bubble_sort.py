@@ -23,9 +23,20 @@ def sort(lst):
     Returns:
         list: The sorted list in ascending order.
     """
-    pass
-
-
+    # Iterate through the list.
+    for i in range(len(lst)):
+        swaps = 0
+        # Iterate through the unsorted portion of the list.
+        for j in range(0, len(lst)-i-1):
+            # If the current element is greater than the next element, swap them.
+            if lst[j] > lst[j+1]:
+                swap(lst, j, j + 1)
+                swaps = 1
+        # If no swaps were made in this pass, the list is already sorted.
+        if swaps == 0:
+            break
+    # Return the sorted list.
+    return lst
 
 
 

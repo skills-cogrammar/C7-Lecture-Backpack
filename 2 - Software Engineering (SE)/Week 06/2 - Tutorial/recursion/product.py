@@ -6,17 +6,24 @@ class Product:
     """
 
     def __init__(self):
-        return None
+        return None  # Constructor method, returns None
 
     def product(self, a, b):
-        pass
+        # Recursive function to compute the product of two positive integers a and b
+        if b != 0:
+            return a + (self.product(a, b - 1))  # Recursively call product and add a
+        return 0  # Base case: if b is 0, return 0
 
     def product_normal(self, a, b):
-        pass
+        # Function to compute the product of two positive integers using multiplication
+        return a * b
 
     def product_iterative(self, a, b):
-        pass
+        # Function to compute the product of two positive integers using iteration
+        prod = 0
+        for _ in range(0, b):
+            prod = a + prod  # Add a to prod b times
+        return prod
 
-
-# Testing is 3 X 5 = 15
-print(Product().product(3, 5))
+# Testing the recursive product function
+print(Product().product(3, 2))
