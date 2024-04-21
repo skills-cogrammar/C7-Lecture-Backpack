@@ -35,7 +35,7 @@ class CheckIfPalindrome():
         # Check if characters at idx_start and idx_end are equal and if idx_start is less than idx_end
         if (word[idx_start] == word[idx_end]) and (idx_start < idx_end):
             # If true, call the method recursively with updated indices
-            self.check_if_palindrome_recursive(word, idx_start + 1, idx_end - 1)
+            return self.check_if_palindrome_recursive(word, idx_start + 1, idx_end - 1)
         
         # If characters at idx_start and idx_end are not equal, return False
         if word[idx_start] != word[idx_end]:
