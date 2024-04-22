@@ -11,7 +11,12 @@ async function getPosts() {
   }
 }
 
-// getPosts();
+fetch("https://jsonplaceholder.typicode.com/posts")
+  .then((response) => response.json())
+  .then((blogs) => blogs.forEach((blog) => { console.log(blog); }))
+  .catch((error) => console.log(error));
+
+getPosts();
 
 const createPost = async () => {
   const postData = {
@@ -32,7 +37,7 @@ const createPost = async () => {
   console.log("New post created:", data);
 };
 
-// createPost();
+//createPost();
 
 const getPost = async (postId) => {
   const response = await fetch(
@@ -82,5 +87,3 @@ const deletePost = async (postId) => {
     console.error("Failed to delete post");
   }
 };
-
-deletePost(2);
