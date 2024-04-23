@@ -4,3 +4,4 @@ def sum (n):
     else:
         return n + sum (n-1)
     
+print(sum(1000))
