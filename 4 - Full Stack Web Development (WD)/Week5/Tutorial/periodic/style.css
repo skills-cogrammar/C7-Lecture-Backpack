@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    padding: 0px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 5px;
+}
+
+.cell {
+    height: 80px;
+    width: 80px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.cell h3{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;    
+}
+
+.cell h2{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    margin: auto;
+}

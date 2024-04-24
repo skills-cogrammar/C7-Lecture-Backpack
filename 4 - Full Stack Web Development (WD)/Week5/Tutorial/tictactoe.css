@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #1e00ff;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+button {
+  margin-top: 20px;
+  font-size: 1em;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.winner {
+  background-color: gold;
+  color: blue;
+}
