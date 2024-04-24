@@ -11,7 +11,7 @@ async function getPosts() {
   }
 }
 
-// getPosts();
+getPosts();
 
 const createPost = async () => {
   const postData = {
@@ -83,4 +83,4 @@ const deletePost = async (postId) => {
   }
 };
 
-deletePost(2);
+// deletePost(2);
