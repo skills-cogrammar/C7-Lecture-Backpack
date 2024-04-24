@@ -11,6 +11,11 @@ async function getPosts() {
   }
 }
 
+fetch("https://jsonplaceholder.typicode.com/posts")
+  .then((response) => response.json())
+  .then((blogs) => blogs.forEach((blog) => { console.log(blog); }))
+  .catch((error) => console.log(error));
+
 getPosts();
 
 const createPost = async () => {
@@ -32,7 +37,7 @@ const createPost = async () => {
   console.log("New post created:", data);
 };
 
-// createPost();
+//createPost();
 
 const getPost = async (postId) => {
   const response = await fetch(
