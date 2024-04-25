@@ -42,3 +42,6 @@ After training the model, you can use `predict.py` to make predictions on new da
 - numpy
 - matplotlib
 
+## CSV to Table VS Code extension: 
+phplasma.csv-to-table
+
