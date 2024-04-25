@@ -52,4 +52,9 @@ After training the model, you can use `predict.py` to make predictions on new da
 - phplasma.csv-to-table: [CSV to Table](https://marketplace.visualstudio.com/items?itemName=phplasma.csv-to-table)
 - usernamehw.errorlens: [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
+## Auto EDA Libraries
+- [Dtale](https://pypi.org/project/dtale/)
+- [SweetViz](https://pypi.org/project/sweetviz/)
+- [ydata-profiling](https://pypi.org/project/ydata-profiling/)
+
 
