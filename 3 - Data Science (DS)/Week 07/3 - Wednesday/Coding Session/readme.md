@@ -42,6 +42,12 @@ After training the model, you can use `predict.py` to make predictions on new da
 - numpy
 - matplotlib
 
+## Useful Material 
+- [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/), Christopher Bishop, Springer, 2006
+- Machine Learning, Tom Mitchell, McGraw Hill, 1997
+- [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf), Marc Peter Deisenroth, A. Aldo Faisal, and Cheng Soon Ong, Cambridge University Press, 2020
+- [Deep Learning](https://www.deeplearningbook.org/), Ian Goodfellow and Yoshua Bengio and Aaron Courville, MIT Press, 2016
+
 ## VS Code Useful extensions: 
 - phplasma.csv-to-table: [CSV to Table](https://marketplace.visualstudio.com/items?itemName=phplasma.csv-to-table)
 - usernamehw.errorlens: [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
