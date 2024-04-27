@@ -1,4 +1,4 @@
-const greet = () => {
-  console.log("Hello, world!");
+const greet = function () {
+  console.log("I am Groot!!!");
 };
 module.exports = greet;
