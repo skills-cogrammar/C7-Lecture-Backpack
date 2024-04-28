@@ -1,4 +1,3 @@
-
 import numpy as np
 
 def mean_squared_error_custom(y_true, y_pred):
