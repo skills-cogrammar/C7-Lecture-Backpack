@@ -6,19 +6,23 @@ This repository contains code for a simple linear regression project.
 
 ### `linear_regression_training.py`
 
-This file contains the code for training a linear regression model on the provided dataset (`salary_dataset.csv`). It includes procedures for data preprocessing, model training, and evaluation.
+This file contains the code for training a linear regression model on the provided dataset (`salary_dataset.csv`). It includes procedures for data preprocessing, model training, evaluation, hyperparameter tuning, and convergence monitoring.
 
 ### `mean_square_error.py`
 
 This file contains a custom implementation of the Mean Squared Error (MSE) metric for evaluating the performance of the trained model.
 
-### `predict.py`
-
-This file is used for making predictions using the trained linear regression model. It loads the model from the `salary_model.joblib` file and provides a function to predict salaries based on input features.
-
 ### `r_squared.py`
 
 This file contains a custom implementation of the R-squared (R2) metric for evaluating the goodness-of-fit of the trained model.
+
+### `accuracy_metric.py`
+
+This file contains a custom implementation of the accuracy metric for evaluating the performance of the trained model.
+
+### `predict.py`
+
+This file is used for making predictions using the trained linear regression model. It loads the model from the `salary_model.joblib` file and provides a function to predict salaries based on input features.
 
 ### `salary_dataset.csv`
 
@@ -41,20 +45,22 @@ After training the model, you can use `predict.py` to make predictions on new da
 - pandas
 - numpy
 - matplotlib
+- joblib
 
-## Useful Material 
+## Useful Material
+
 - [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/), Christopher Bishop, Springer, 2006
 - Machine Learning, Tom Mitchell, McGraw Hill, 1997
 - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf), Marc Peter Deisenroth, A. Aldo Faisal, and Cheng Soon Ong, Cambridge University Press, 2020
 - [Deep Learning](https://www.deeplearningbook.org/), Ian Goodfellow and Yoshua Bengio and Aaron Courville, MIT Press, 2016
 
-## VS Code Useful extensions: 
+## VS Code Useful extensions:
+
 - phplasma.csv-to-table: [CSV to Table](https://marketplace.visualstudio.com/items?itemName=phplasma.csv-to-table)
 - usernamehw.errorlens: [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
 ## Auto EDA Libraries
+
 - [Dtale](https://pypi.org/project/dtale/)
 - [SweetViz](https://pypi.org/project/sweetviz/)
 - [ydata-profiling](https://pypi.org/project/ydata-profiling/)
-
-
