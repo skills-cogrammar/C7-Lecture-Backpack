@@ -1,7 +1,3 @@
-Certainly! Below is a full README file for your calculator toy project:
-
----
-
 # Calculator Toy Project
 
 This repository houses a simple calculator toy project implemented using Object-Oriented Programming (OOP) principles. The project aims to demonstrate modular programming by breaking down a standalone script (`calculator_bad_design.py`) into more organized and reusable components.
