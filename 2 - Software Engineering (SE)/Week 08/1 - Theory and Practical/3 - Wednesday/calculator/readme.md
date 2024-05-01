@@ -97,7 +97,3 @@ Contributions to this project are welcome! If you have any suggestions, improvem
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-This README provides an overview of the project, explains its structure, guides installation steps, and demonstrates how to run the scripts. Let me know if you need further assistance or modifications!
