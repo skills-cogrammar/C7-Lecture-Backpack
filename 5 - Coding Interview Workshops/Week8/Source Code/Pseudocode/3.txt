@@ -1,0 +1,11 @@
+function reverseList(head):
+    prev = null
+    curr = head
+    
+    while curr:
+        nextTemp = curr.next
+        curr.next = prev
+        prev = curr
+        curr = nextTemp
+    
+    return prev

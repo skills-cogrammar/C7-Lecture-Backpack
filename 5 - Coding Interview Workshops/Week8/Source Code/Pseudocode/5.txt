@@ -1,0 +1,29 @@
+function isPalindrome(head):
+    slow = fast = head
+    
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+    
+    second_half = reverseList(slow)
+    first_half = head
+    
+    while second_half:
+        if first_half.val != second_half.val:
+            return false
+        first_half = first_half.next
+        second_half = second_half.next
+    
+    return true
+
+function reverseList(head):
+    prev = null
+    curr = head
+    
+    while curr:
+        nextTemp = curr.next
+        curr.next = prev
+        prev = curr
+        curr = nextTemp
+    
+    return prev
