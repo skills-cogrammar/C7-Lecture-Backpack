@@ -11,6 +11,7 @@ function PetCat () {
 
   return (
     <div>
+        <p> Pet Counter: {pet.current}</p>
         <button onClick={handleClick}> Pet the virtual cat! </button>
     </div>
   )

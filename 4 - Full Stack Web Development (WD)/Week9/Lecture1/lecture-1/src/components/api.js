@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 function API() {
   let [funFact, setFunFact] = useState(null);
+  let [change, setChange] = useState(0);
 
   useEffect(() => {
     async function fetchData() {
@@ -11,10 +12,18 @@ function API() {
       setFunFact(data.fact);
     }
     fetchData();
-  },[])
+  }, [change])
+
+
+  function handleClick () {
+    setChange(change + 1);
+  }
 
   return (
-    <h1>{funFact}</h1>
+    <div>
+      <h1>{funFact}</h1>
+      <button onClick = {handleClick}> New Fact </button>
+    </div>
   )
 }
 export default API;
