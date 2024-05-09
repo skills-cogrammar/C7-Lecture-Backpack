@@ -128,6 +128,7 @@ hashtable.set("Anri", 21);
 hashtable.set("Jack", 56);
 hashtable.set("Amy", 7);
 hashtable.set("Thandi", 19);
+console.table(hashtable.buckets);
 
 // Test that element is still in array
 console.log(hashtable.get("Thandi"));
