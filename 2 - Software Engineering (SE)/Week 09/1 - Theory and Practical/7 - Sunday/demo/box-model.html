@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Example</title>
+    <style>
+        /*  The * in CSS is a wildcard selector that targets all elements
+            Apply box-sizing: border-box to all elements 
+        */
+        * {
+            box-sizing: border-box;
+            margin: 0; /* Reset margin */
+            padding: 0; /* Reset padding */
+        }
+
+        /* Styles for the container div */
+        .container {
+            width: 80%; /* Set width to 80% of the viewport */
+            margin: 20px auto; /* Center the container horizontally and provide 20px margin at the top and bottom */
+            border: 2px solid #333; /* Add a 2px solid border with color #333 */
+            padding: 20px; /* Add 20px padding inside the border */
+        }
+
+        /* Styles for the header */
+        header {
+            background-color: #f0f0f0; /* Set background color to light gray */
+            padding: 10px; /* Add 10px padding inside the header */
+            margin-bottom: 10px; /* Add 10px margin at the bottom of the header */
+        }
+
+        /* Styles for paragraphs */
+        p {
+            font-size: 16px; /* Set font size to 16px */
+            line-height: 1.5; /* Set line height to 1.5 times the font size */
+            margin-bottom: 10px; /* Add 10px margin at the bottom of paragraphs */
+        }
+
+        /* Styles for the footer */
+        footer {
+            background-color: #f0f0f0; /* Set background color to light gray */
+            padding: 10px; /* Add 10px padding inside the footer */
+            margin-top: 10px; /* Add 10px margin at the top of the footer */
+        }
+    </style>
+</head>
+<body>
+    <!-- A div box styled according to the class selector with name container -->
+    <div class="container">
+        <!-- A Header box styled according to the h1 default settings and 
+            overridden by the header internal styling -->
+        <header>
+            <h1>Welcome to Box Model Example</h1>
+        </header>
+        <!-- Paragraph boxes styled according to the p default settings and 
+            overridden by the p internal styling -->
+        <p>This is a basic example demonstrating the box model in CSS.</p>
+        <p>The box model consists of margin, border, padding, and content.</p>
+        <!-- Footer box styled according to the footer internal styling -->
+        <footer>
+            <p>Footer content goes here.</p>
+        </footer>
+    </div>
+</body>
+</html>
