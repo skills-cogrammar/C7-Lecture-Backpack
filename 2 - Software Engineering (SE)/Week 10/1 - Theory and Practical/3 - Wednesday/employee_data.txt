@@ -1,0 +1,8 @@
+1001,Alice,Smith,HR,Manager,Senior,60000
+1002,Bob,Johnson,Engineering,Software Developer,Senior,75000
+1003,Charlie,Williams,Marketing,Marketing Coordinator,Mid,50000
+1004,David,Brown,Finance,Financial Analyst,Senior,65000
+1005,Emma,Jones,Sales,Sales Representative,Mid,55000
+1006,Frank,Miller,Engineering,Systems Engineer,Senior,80000
+1007,Grace,Davis,HR,HR Assistant,Junior,45000
+1008,Henry,Wilson,Finance,Accountant,Senior,70000
