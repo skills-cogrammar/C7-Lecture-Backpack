@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block body %}
+<h1>Fill in Your Details</h1>
+<div class="form-container">
+    <form action="{% url 'welcome' %}" method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" autocomplete="off" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" autocomplete="off" required>
+        </div>
+        <div class="form-group">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+{% endblock %}
