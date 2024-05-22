@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>view</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container-fluid my-5">
+    <div class="w-50 m-auto p-4 bg-info ">
+        <h2 class="text-center mt-4"> User Details</h2>
+        <table class="table bg-white">
+            <tr>
+                <th>Photo</th>
+                <td><img src="/media/{{user.photo}} " class="rounded  d-block" height="100px" width="120px"></td>
+            </tr>
+            <tr>
+                <th>User name</th>
+                <td>{{user.name}}</td>
+            </tr>
+
+            <tr>
+                <th> Email </th>
+                <td>{{user.email}}</td>
+            </tr>
+            <tr>
+                <th> Password</th>
+                <td>{{user.password}}</td>
+            </tr>
+            <tr>
+                <th>Mobile_Number</th>
+                <td>{{user.mobile_number}}</td>
+            </tr>
+            <tr>
+                <th>Date of Birth</th>
+                <td>{{user.date_of_birth}}</td>
+            </tr>
+        </table>
+    </div>
+    <div class="text-center">
+        </button><a href="/" class="btn btn-success"> Back </button></a>
+    </div>
+</div>
+</body>
+</html>

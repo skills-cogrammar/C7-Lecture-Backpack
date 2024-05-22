@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class='container mt-5'>
+    <div class="col-sm-6 text-center badge-warning" style="margin-left: 250px; border: 1px; border-radius: 10px ; padding: 10px;">
+        <h1 class="bg-primary">Are you want to delete..?</h1>
+        <form method="post" style="align-items:center;">
+            {%csrf_token%}
+            <button type="submit" class="btn btn-danger"> Confirm </button>
+            <a href="/" class="btn btn-success"> Back</a>
+        </form>
+    </div>
+</div>
+</body>
+</html>
