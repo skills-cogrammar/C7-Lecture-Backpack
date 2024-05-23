@@ -1,0 +1,20 @@
+<!-- blog_app/templates/blog_app/view_post.html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>View Post</title>
+</head>
+
+<body>
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+    <p><strong>Author:</strong> {{ post.author }}</p>
+    <p><strong>Published on:</strong> {{ post.created_at }}</p>
+    <a href="{% url 'edit_post' post.id %}">Edit Post</a>
+    <!-- Add a link back to the list of posts -->
+    <a href="{% url 'index' %}">Back to Posts List</a>
+</body>
+
+</html>
