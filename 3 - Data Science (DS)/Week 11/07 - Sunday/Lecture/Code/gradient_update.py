@@ -2,11 +2,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Define the loss function
+# (y - y_hat)^2
+
 def f(x):
     return x**2
 
 # Define the gradient of the loss function
-def df(x):
+def loss_derivative_function(x):
     return 2*x
 
 # Gradient descent function
@@ -16,7 +18,7 @@ def gradient_descent(initial_point, alpha, num_iters):
     
     for i in range(num_iters):
         # Calculate the gradient
-        grad = df(x)
+        grad = loss_derivative_function(x)
         
         # Update the parameters
         x = x - alpha * grad
@@ -30,7 +32,8 @@ def gradient_descent(initial_point, alpha, num_iters):
 random_initial_point = 2
 
 # Learning rate and number of iterations
-learning_rate = 0.4
+# Please change this and run the code
+learning_rate = 0.1
 num_iters = 100
 
 # Run gradient descent
@@ -48,7 +51,7 @@ plt.title('Loss Function: f(x) = x^2')
 for i in range(len(x_history)):
     x_point = x_history[i]
     y_point = f(x_point)
-    grad = df(x_point)
+    grad = loss_derivative_function(x_point)
     
     # Equation of the tangent line: y = mx + b
     m = grad
