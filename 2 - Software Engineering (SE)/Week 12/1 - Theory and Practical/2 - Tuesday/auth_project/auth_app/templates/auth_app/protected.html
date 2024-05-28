@@ -1,0 +1,11 @@
+<!-- auth_app/templates/auth_app/protected.html -->
+
+{% extends 'auth_app/base.html' %}
+
+{% block content %}
+<div class="protected-page">
+    <h2>Protected Page</h2>
+    <p>You are viewing a protected page.</p>
+    <a class="default-button" href="{% url 'index' %}">Return to Home</a>
+</div>
+{% endblock %}

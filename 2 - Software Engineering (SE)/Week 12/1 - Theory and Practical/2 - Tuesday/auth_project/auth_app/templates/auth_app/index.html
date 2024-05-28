@@ -1,0 +1,17 @@
+<!-- auth_app/templates/auth_app/index.html -->
+
+{% extends 'auth_app/base.html' %}
+
+{% block content %}
+<div class="index-page">
+    <h1>Welcome to the Auth App</h1>
+    {% if user.is_authenticated %}
+        <p>You are logged in as {{ user.username }}.</p>
+        <a class="default-button" href="{% url 'protected' %}">Go to Protected Page</a>
+    {% else %}
+        <p>You are not logged in.</p>
+        <a class="default-button" href="{% url 'login' %}">Login</a>
+        <a class="default-button" href="{% url 'register' %}">Register</a>
+    {% endif %}
+</div>
+{% endblock %}
