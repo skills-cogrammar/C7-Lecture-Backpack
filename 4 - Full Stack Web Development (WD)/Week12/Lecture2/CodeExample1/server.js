@@ -1,50 +1,29 @@
 const express = require('express');
-const jwt = require('jsonwebtoken');
+const mongoose = require('mongoose');
+const router = require('./routes/route');
+// Import CORS for front end
 
 const app = express();
 app.use(express.json());
 
-app.post('/admin_login', (req, res) => {
-    //const {username, password} = req.body;
-    // Here we would check if the user details are in the database
+// MongoDB Connection
+const url = "mongodb+srv://temp-user:1234@cogrammar.7rxh44z.mongodb.net/?retryWrites=true&w=majority&appName=CoGrammar"
+const clientOptions = {
+  serverApi: {
+    version: "1",
+    strict: true,
+    deprecationErrors: true
+  }
+};
+mongoose.connect(url, clientOptions)
+  .then(() => {
+    console.log("Connection to MongoDB successful!");
+  })
+  .catch((error) => {
+    console.error("Error occured while connecting to the database.", error);
+  })
 
-    const payload = {
-        "name": "Zahra",
-        "password": "P@$$word",
-        "admin": true
-    };
-    const token = jwt.sign(JSON.stringify(payload),
-                           "lecture-1-secret",
-                           {algorithm: 'HS256'});
-
-    res.send({
-        message: "Admin Login Successful",
-        token: token
-    });
-    
-});
-
-app.get('/admin_resource', (req, res) => {
-    const headers = req.headers['authorization'];
-    const token = headers.split(' ')[1];
-
-    try {
-      const decoded = jwt.verify(token, 'lecture-1-secret');
-
-      if (decoded.admin) {
-        res.send({
-            "message": "Success!" 
-        });
-      } else {
-        res.status(403).send({
-            "message": "Your JWT was verified, but you do not have admin access."
-        });
-      }
-    } catch (e) {
-      res.sendStatus(401);
-    }
-});
-
+app.use('/', router.router);
 app.listen(8000, () => {
     console.log(`Server running on port 8000`);
 });
