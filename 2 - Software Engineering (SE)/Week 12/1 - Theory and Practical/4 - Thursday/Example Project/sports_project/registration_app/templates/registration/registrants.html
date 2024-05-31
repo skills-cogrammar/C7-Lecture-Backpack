@@ -1,0 +1,39 @@
+{% extends 'registration/base.html' %}
+{% load static %}
+
+{% block head %}
+    <title>Registrants</title>
+    <link rel="stylesheet" href="{% static 'login.css'  %}">
+    <style>
+        .container{
+            max-width: 600px;
+        }
+        input[type="submit"] {
+            padding: 5px 5px;
+            font-size: 10px;
+        }
+    </style>
+{% endblock %}
+
+
+{% block body %}
+<div class="container">
+    <h1>Register for a Sport on Sportsday:</h1>
+    <form action="{% url 'sport_registration' %}" method="get"><input type="submit" value="Register a Team"></form>
+</div>
+<div class="container">
+    <h1>Registered Teams</h1>
+    <ul>
+        {% for registrant in registrants %}
+        <li>{{registrant.user}} | {{registrant.sport}} | {{registrant.team_name}} | {{registrant.registration_date}} | 
+            {% if perms.registration_app.delete_registration %}
+                <form action="{% url 'delete_registrant' registrant.pk %}" style="display: inline;"><input type="submit" value="Delete"></form>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+<div class="container">
+    <form action="{% url 'logout' %}"><input type="submit" value="Logout"></form>
+</div>
+{% endblock %}
