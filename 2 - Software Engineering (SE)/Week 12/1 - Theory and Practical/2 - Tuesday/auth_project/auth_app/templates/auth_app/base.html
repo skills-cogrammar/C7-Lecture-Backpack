@@ -1,0 +1,92 @@
+<!-- auth_app/templates/auth_app/base.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Django Authentication</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'auth_app/styles.css' %}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: left;
+            padding: 1rem;
+            margin: 2rem 0 0 0; /* Top margin to separate from the content */
+        }
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .index-page, .login-page, .logout-page, .protected-page, .register-page {
+            margin-bottom: 2rem;
+            color: #333;
+            text-align: left;
+        }
+        .menu-button, .default-button {
+            display: inline-block;
+            margin: 1rem 0;
+            padding: 0.5rem 1rem;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .default-button {
+            background-color: #6c757d;
+        }
+        form label {
+            display: block;
+            margin-top: 1rem;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Ensures padding in the total width/height */
+        }
+        form button {
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+   {% include "auth_app/partials/header.html" %}
+   {% if messages %}
+   <ul class="messages">
+       {% for message in messages %}
+           <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+       {% endfor %}
+   </ul>
+    {% endif %}
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+   {% include "auth_app/partials/footer.html" %}
+</body>
+</html>

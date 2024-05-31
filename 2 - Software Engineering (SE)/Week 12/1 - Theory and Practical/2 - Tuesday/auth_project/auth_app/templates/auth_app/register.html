@@ -1,0 +1,15 @@
+<!-- auth_app/templates/auth_app/register.html -->
+
+{% extends 'auth_app/base.html' %}	<!-- We inherit all the html from base.html-->
+
+{% block content %}
+<div class="register-page">
+    <h2>Register</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a href="{% url 'login' %}">Login</a></p>
+</div>
+{% endblock %}
