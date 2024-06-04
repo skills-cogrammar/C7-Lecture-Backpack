@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Blog{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'style/style.css' %}">
+</head>
+
+<body>
+    {% include "blog_app/partials/header.html" %}
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+    {% include "blog_app/partials/footer.html" %}
+</body>
+
+</html>

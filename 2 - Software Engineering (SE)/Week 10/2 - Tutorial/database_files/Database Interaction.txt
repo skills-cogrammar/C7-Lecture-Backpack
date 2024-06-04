@@ -1,0 +1,64 @@
+Database Interaction:
+
+https://sqliteonline.com/
+
+
+Activate Foreign key constraint:
+PRAGMA foreign_keys = ON;
+
+-- Creating the Customers Table
+CREATE TABLE Customers (
+    CustomerID INTEGER PRIMARY KEY,
+    CustomerName VARCHAR(100) NOT NULL,
+    CustomerAddress VARCHAR(255) NOT NULL
+);
+
+-- Creating the Products Table
+CREATE TABLE Products (
+    ProductID INTEGER PRIMARY KEY,
+    ProductName VARCHAR(100) NOT NULL,
+    ProductCategory VARCHAR(100) NOT NULL
+);
+
+-- Creating the Orders Table
+CREATE TABLE Orders (
+    OrderID INTEGER PRIMARY KEY,
+    CustomerID INT,
+    OrderDate DATE NOT NULL,
+    ProductID INT,
+    Quantity INT NOT NULL,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+    FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
+);
+
+
+-- Insert sample data into Customers Table
+INSERT INTO Customers (CustomerID, CustomerName, CustomerAddress) VALUES
+(100, 'John Doe', '123 Elm St, NY'),
+(101, 'Jane Smith', '456 Oak St, LA'),
+(102, 'Bob Johnson', '789 Pine St, TX'),
+(103, 'Alice Brown', '101 Maple St, FL');
+
+-- Insert sample data into Products Table
+INSERT INTO Products (ProductID, ProductName, ProductCategory) VALUES
+(2001, 'Widget', 'Gadgets'),
+(2002, 'Thingamajig', 'Gadgets'),
+(2003, 'Doohickey', 'Tools'),
+(2004, 'Gizmo', 'Gadgets');
+
+-- Insert sample data into Orders Table
+INSERT INTO Orders (OrderID, CustomerID, OrderDate, ProductID, Quantity) VALUES
+(1, 100, '2024-05-01', 2001, 5),
+(2, 101, '2024-05-02', 2002, 2),
+(3, 100, '2024-05-03', 2003, 1),
+(4, 102, '2024-05-04', 2001, 10),
+(5, 103, '2024-05-05', 2004, 3);
+
+
+
+
+Display Table data together:
+SELECT Orders.OrderID, Orders.ProductID, Orders.Quantity, Customers.CustomerName, Customers.CustomerAddress, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID
+WHERE Customers.CustomerID = 100;

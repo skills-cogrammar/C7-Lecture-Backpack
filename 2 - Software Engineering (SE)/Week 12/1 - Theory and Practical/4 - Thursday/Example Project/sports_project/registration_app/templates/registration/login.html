@@ -1,0 +1,21 @@
+{% extends 'registration/base.html' %}
+{% load static %}
+
+{% block head %}
+    <title>{{ form_type }} Account</title>
+    <link rel="stylesheet" href="{% static 'login.css'  %}">
+{% endblock %}
+
+
+{% block body %}
+<div class="container">
+    <h1>{{ form_type }} Account</h1>
+    <form id="userRegisterForm" method="post" autocomplete="off">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <br><input type="submit" value="Submit">
+    </form>
+    <h3>New user?</h3>
+    <form action="{% url 'register_user' %}"><input type="submit" value="Register Account"></form>
+</div>
+{% endblock %}

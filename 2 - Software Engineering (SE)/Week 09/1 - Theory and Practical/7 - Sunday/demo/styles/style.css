@@ -1,0 +1,24 @@
+.p1 {
+    background-color: burlywood;
+    font-family: 'Times New Roman';
+    color: red;
+}
+.p2 {
+    background-color: cyan;
+    font-family: Georgia;
+    color: darkgoldenrod;
+}
+.heading{
+    font-family: courier;
+}
+#top {
+    font-size: x-large;
+}
+#end {
+    font-size: small;
+    font-style: italic;
+}
+
+ul li {
+    list-style: square;
+}

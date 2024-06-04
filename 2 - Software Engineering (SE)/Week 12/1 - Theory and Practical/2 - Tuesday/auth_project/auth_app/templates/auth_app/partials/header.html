@@ -1,0 +1,14 @@
+<!-- auth_app/templates/auth_app/partials/header.html -->
+
+<div class="header">
+    <nav>
+        <a class="menu-button" href="{% url 'index' %}">Home</a>
+        {% if user.is_authenticated %}
+            <a class="menu-button" href="{% url 'protected' %}">Protected Page</a>
+            <a class="menu-button" href="{% url 'logout' %}">Logout</a>
+        {% else %}
+            <a class="menu-button" href="{% url 'login' %}">Login</a>
+            <a class="menu-button" href="{% url 'register' %}">Register</a>
+        {% endif %}
+    </nav> 
+</div>

@@ -1,0 +1,24 @@
+/* What paragraphs in general should be styled as */
+p {
+    font-size: 18px;
+    font-family: courier;
+    background-color: black;
+}
+
+/* What h1 in general should be styled as */
+h1 {
+    font-family: 'Times New Roman';
+    background-color: cadetblue;
+    color: white;
+}
+
+/* What a heading class should be styled as */
+.heading {
+    background-color: green;
+    color: yellow;
+}
+
+/* What a head id should be styled as */
+#head {
+    color: darkgray;
+}

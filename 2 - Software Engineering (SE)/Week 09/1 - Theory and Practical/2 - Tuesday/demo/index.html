@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title element below displays the info in the browser tab -->
+    <title>HTML Example</title>     
+</head>
+<body>
+    <header>
+        <!-- h1 is a main header on my webpage -->
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <!-- This is a navigation section that link to elements with an id attribute -->
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Below sections have an id attribute, it links to an external page when 
+             the user clicks on the image since the img element is inside the anchor element. 
+             To simply display an image that is not clickable, simply create the image element 
+             outside of an ancher element.
+        -->
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is the homepage of my website. <em>Welcome!</em></p>
+            <a href="index.html"><img src="../images/home.jpg" alt="Home Image" style="max-width: 100%; height: auto;"></a>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>This is the about page of my website. <strong>About Us:</strong> We are a team of passionate individuals dedicated to creating awesome websites!</p>
+            <a href="about.html"><img src="../images/about.jpg" alt="Home Image" style="max-width: 100%; height: auto;"></a>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>This is the contact page of my website. <strong>Contact Information:</strong> Email: example@example.com</p>
+            <a href="contact.html"><img src="../images/contact.jpg" alt="Home Image" style="max-width: 100%; height: auto;"></a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 MyWebsite.com</p>
+    </footer>
+</body>
+</html>

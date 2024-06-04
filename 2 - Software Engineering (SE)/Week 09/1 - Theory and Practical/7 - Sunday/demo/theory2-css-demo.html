@@ -1,0 +1,78 @@
+<!-- How to impliment CSS in web development
+    ** Inline Styling:
+    inline.html -> Like having a line of code in Python
+
+    ** Internal Styling:
+    internal.html -> Like declaring a function in Python 
+
+    ** External Styling:
+    external.html, style.css -> Like creating a module in Python and importing it
+
+    ** Using Bootstrap:
+    bootstrap.html -> Like using Python's built-in or third-party libraries
+-->
+
+<!-- How to use selectors 
+    selectors.html -> This forms part of Internal, External and Bootstrap Styling
+    ** Class Selectors
+    ** Id Selectors
+-->
+
+<!-- Cascading - How styling rules are prioritised
+    cascading.html, cascade.css
+
+    - Our .html body has 2 elements, a paragraph and a h1 header
+        p  => We start with external styling
+                font-size: 18px;
+                font-family: courier;
+                background-color: black;
+           => Now internal styling
+                font-family: Verdana;
+                background-color: blue;
+           => Then inline styling
+                background-color: brown;
+           => Each level overwrites the previous and we end up with
+                font-size: 18px;
+                font-family: Verdana;
+                background-color: brown;
+        h1 => We start with external styling
+                font-family: 'Times New Roman';
+                background-color: cadetblue;
+                color: white;
+           => Now internal styling
+                None
+           => Then inline styling
+                -> from heading class selector
+                    background-color: green;
+                    color: yellow;
+                -> then head id selector
+                    color: darkgray;
+           => Each level overwrites the previous and we end up with
+                font-size: h1 default;
+                font-family: 'Times New Roman';
+                background-color: green;
+                color: darkgray;
+--> 
+
+<!-- Implementing the Box Model
+    box-model.html
+    * A div box styled according to the class selector with name container
+    <div class="container">
+    
+    * A Header box styled according to the h1 default settings and 
+        overridden by the header internal styling
+        <header>
+            <h1>Welcome to Box Model Example</h1>
+        </header>
+    
+    * Paragraph boxes styled according to the p default settings and 
+        overridden by the p internal styling
+        <p>This is a basic example demonstrating the box model in CSS.</p>
+        <p>The box model consists of margin, border, padding, and content.</p>
+    
+    * Footer box styled according to the footer internal styling
+        <footer>
+            <p>Footer content goes here.</p>
+        </footer>
+    </div>
+-->

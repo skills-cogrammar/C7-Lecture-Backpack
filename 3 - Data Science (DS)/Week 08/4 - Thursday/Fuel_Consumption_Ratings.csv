@@ -1,0 +1,956 @@
+Model Year,Make,Model,Vehicle Class,Engine Size,Cylinders,Transmission,Fuel,Fuel Consumption City,Fuel Consumption Hwy,Fuel Consumption,Fuel Consumption Comb_mpg,CO2 Emissions,CO2 Rating,Smog Rating
+2022,Acura,ILX,Compact,2.4,4,AM8,Z,9.9,7,8.6,33,200,6,3
+2022,Acura,MDX SH-AWD,SUV: Small,3.5,6,AS10,Z,12.6,9.4,11.2,25,263,4,5
+2022,Acura,RDX SH-AWD,SUV: Small,2,4,AS10,Z,11,8.6,9.9,29,232,5,6
+2022,Acura,RDX SH-AWD A-SPEC,SUV: Small,2,4,AS10,Z,11.3,9.1,10.3,27,242,5,6
+2022,Acura,TLX SH-AWD,Compact,2,4,AS10,Z,11.2,8,9.8,29,230,5,7
+2022,Acura,TLX SH-AWD A-SPEC,Compact,2,4,AS10,Z,11.3,8.1,9.8,29,231,5,7
+2022,Acura,TLX Type S,Compact,3,6,AS10,Z,12.3,9.4,11,26,256,5,5
+2022,Acura,TLX Type S (Performance Tire),Compact,3,6,AS10,Z,12.3,9.8,11.2,25,261,4,5
+2022,Alfa Romeo,Giulia,Mid-size,2,4,A8,Z,10,7.2,8.7,32,205,6,3
+2022,Alfa Romeo,Giulia AWD,Mid-size,2,4,A8,Z,10.5,7.7,9.2,31,217,5,3
+2022,Alfa Romeo,Giulia Quadrifoglio,Mid-size,2.9,6,A8,Z,13.5,9.3,11.6,24,271,4,3
+2022,Alfa Romeo,Stelvio,SUV: Small,2,4,A8,Z,10.3,8.1,9.3,30,218,5,3
+2022,Alfa Romeo,Stelvio AWD,SUV: Small,2,4,A8,Z,10.8,8.3,9.6,29,226,5,3
+2022,Alfa Romeo,Stelvio AWD Quadrifoglio,SUV: Small,2.9,6,A8,Z,13.9,10.3,12.3,23,288,4,3
+2022,Aston Martin,DB11 V8,Minicompact,4,8,A8,Z,13,9.8,11.5,25,271,4,5
+2022,Aston Martin,DB11 V12,Minicompact,5.2,12,A8,Z,16.4,10.7,13.8,20,324,3,3
+2022,Aston Martin,DBS V12,Minicompact,5.2,12,A8,Z,16.4,10.7,13.8,20,324,3,3
+2022,Aston Martin,DBX V8,SUV: Standard,4,8,A9,Z,16.8,11.9,14.6,19,343,3,5
+2022,Aston Martin,Vantage V8,Two-seater,4,8,A8,Z,13.1,9.6,11.5,25,270,4,5
+2022,Audi,A3 Sedan 40 TFSI quattro,Subcompact,2,4,AM7,X,8.5,6.6,7.6,37,178,7,7
+2022,Audi,A4 Sedan 40 TFSI quattro,Compact,2,4,AM7,Z,9.1,7,8.2,34,190,6,5
+2022,Audi,A4 Sedan 45 TFSI quattro,Compact,2,4,AM7,Z,9.8,7.6,8.8,32,205,6,5
+2022,Audi,A4 allroad 45 TFSI quattro,Station wagon: Small,2,4,AM7,Z,9.8,7.9,8.9,32,208,6,5
+2022,Audi,A5 Cabriolet 45 TFSI quattro,Subcompact,2,4,AM7,Z,10.4,7.5,9.1,31,214,5,5
+2022,Audi,A5 Coupe 45 TFSI quattro,Subcompact,2,4,AM7,Z,9.8,7.6,8.8,32,205,6,5
+2022,Audi,A5 Sportback 45 TFSI quattro,Mid-size,2,4,AM7,Z,9.8,7.6,8.8,32,205,6,5
+2022,Audi,A6 Sedan 45 TFSI quattro,Mid-size,2,4,AM7,Z,10.2,7.4,8.9,32,208,6,5
+2022,Audi,A6 Sedan 55 TFSI quattro,Mid-size,3,6,AM7,Z,11.1,7.8,9.6,29,224,5,5
+2022,Audi,A6 allroad 55 TFSI quattro,Station wagon: Mid-size,3,6,AM7,Z,11.5,8.3,10,28,234,5,5
+2022,Audi,A7 Sportback 55 TFSI quattro,Mid-size,3,6,AM7,Z,11.1,7.8,9.6,29,224,5,5
+2022,Audi,A8 L Sedan 55 TFSI quattro,Full-size,3,6,AS8,Z,12.6,8.3,10.6,27,248,5,5
+2022,Audi,Q3 40 TFSI quattro,SUV: Small,2,4,AS8,X,10.4,7.7,9.2,31,215,5,7
+2022,Audi,Q3 45 TFSI quattro,SUV: Small,2,4,AS8,X,11.4,8.3,10,28,233,5,7
+2022,Audi,Q5 40 TFSI quattro,SUV: Small,2,4,AM7,Z,10.3,8.1,9.3,30,217,5,5
+2022,Audi,Q5 45 TFSI quattro,SUV: Small,2,4,AM7,Z,10.3,8.4,9.4,30,220,5,5
+2022,Audi,Q5 Sportback 45 TFSI quattro,SUV: Small,2,4,AM7,Z,10.3,8.4,9.4,30,220,5,5
+2022,Audi,Q7 45 TFSI quattro,SUV: Standard,2,4,AS8,Z,12,9.4,10.8,26,252,5,3
+2022,Audi,Q7 55 TFSI quattro,SUV: Standard,3,6,AS8,Z,12.8,10.5,11.7,24,273,4,5
+2022,Audi,Q8 55 TFSI quattro,SUV: Standard,3,6,AS8,Z,12.8,10.5,11.7,24,273,4,5
+2022,Audi,R8 Coupe Performance,Two-seater,5.2,10,AM7,Z,16.7,10.3,13.8,20,322,3,1
+2022,Audi,R8 Coupe Performance quattro,Two-seater,5.2,10,AM7,Z,17.9,12.1,15.3,18,356,3,1
+2022,Audi,R8 Spyder Performance,Two-seater,5.2,10,AM7,Z,16.7,10.3,13.8,20,322,3,1
+2022,Audi,R8 Spyder Performance quattro,Two-seater,5.2,10,AM7,Z,17.9,12.1,15.3,18,356,3,1
+2022,Audi,RS 5 Coupe quattro,Subcompact,2.9,6,AS8,Z,13,9.4,11.4,25,267,4,5
+2022,Audi,RS 5 Sportback quattro,Mid-size,2.9,6,AS8,Z,13.1,9.4,11.4,25,268,4,5
+2022,Audi,RS 6 Avant quattro,Station wagon: Mid-size,4,8,AS8,Z,16.1,10.7,13.7,21,319,3,3
+2022,Audi,RS 7 Sportback quattro,Mid-size,4,8,AS8,Z,16,10.5,13.5,21,315,3,3
+2022,Audi,RS Q8 quattro,SUV: Standard,4,8,AS8,Z,18,12.3,15.4,18,360,2,3
+2022,Audi,S3 Sedan quattro,Subcompact,2,4,AM7,Z,10,7.2,8.8,32,206,6,5
+2022,Audi,S4 Sedan quattro,Compact,3,6,AS8,Z,11.1,8,9.7,29,227,5,5
+2022,Audi,S5 Cabriolet quattro,Subcompact,3,6,AS8,Z,11.3,8.4,10,28,233,5,5
+2022,Audi,S5 Coupe quattro,Subcompact,3,6,AS8,Z,11.1,8,9.7,29,227,5,5
+2022,Audi,S5 Sportback quattro,Mid-size,3,6,AS8,Z,11.1,8,9.7,29,227,5,5
+2022,Audi,S6 Sedan quattro,Mid-size,2.9,6,AS8,Z,12.8,8.5,10.9,26,254,5,5
+2022,Audi,S7 Sportback quattro,Mid-size,2.9,6,AS8,Z,12.8,8.5,10.9,26,254,5,5
+2022,Audi,S8 Sedan quattro,Full-size,4,8,AS8,Z,16.9,10.2,13.8,20,323,3,3
+2022,Audi,SQ5 quattro,SUV: Small,3,6,AS8,Z,12.5,9.7,11.2,25,262,4,5
+2022,Audi,SQ5 Sportback quattro,SUV: Small,3,6,AS8,Z,12.5,9.7,11.2,25,262,4,5
+2022,Audi,SQ7 quattro,SUV: Standard,4,8,AS8,Z,16,11.4,13.9,20,325,3,3
+2022,Audi,SQ8 quattro,SUV: Standard,4,8,AS8,Z,16,11.4,13.9,20,325,3,3
+2022,Audi,TT Coupe 45 TFSI quattro,Subcompact,2,4,AM7,X,10.5,7.9,9.4,30,218,5,7
+2022,Audi,TT Roadster 45 TFSI quattro,Two-seater,2,4,AM7,X,10.5,7.9,9.4,30,218,5,7
+2022,Audi,TTS Coupe quattro,Subcompact,2,4,AM7,Z,10,7.7,9,31,209,5,3
+2022,Bentley,Bentayga,SUV: Standard,4,8,AS8,Z,15.8,9.9,13.2,21,309,3,3
+2022,Bentley,Bentayga Speed,SUV: Standard,6,12,AS8,Z,19,13,16.3,17,383,2,3
+2022,Bentley,Continental GT,Subcompact,4,8,AM8,Z,14.9,9,12.2,23,287,4,3
+2022,Bentley,Continental GT Speed,Subcompact,6,12,AM8,Z,19.6,12,16.2,17,379,2,3
+2022,Bentley,Continental GT Convertible,Minicompact,4,8,AM8,Z,15.2,9.2,12.5,23,294,4,3
+2022,Bentley,Continental GT Convertible Speed,Minicompact,6,12,AM8,Z,20.3,12.9,17,17,395,2,3
+2022,Bentley,Flying Spur,Mid-size,4,8,AM8,Z,15.5,11.6,13.7,21,323,3,3
+2022,Bentley,Flying Spur,Mid-size,6,12,AM8,Z,19.2,12.2,16,18,373,2,3
+2022,BMW,330i xDrive Sedan,Compact,2,4,AS8,Z,9.5,6.9,8.3,34,195,6,7
+2022,BMW,430i xDrive Cabriolet,Subcompact,2,4,AS8,Z,10,7.1,8.7,32,202,6,7
+2022,BMW,430i xDrive Coupe,Subcompact,2,4,AS8,Z,10,7.1,8.7,32,202,6,7
+2022,BMW,530i xDrive Sedan,Mid-size,2,4,AS8,Z,10.1,7.4,8.9,32,206,6,7
+2022,BMW,540i xDrive Sedan,Full-size,3,6,AS8,Z,10.5,8.1,9.4,30,219,5,5
+2022,BMW,750i xDrive Sedan,Full-size,4.4,8,AS8,Z,13.9,9.6,12,24,279,4,3
+2022,BMW,750Li xDrive Sedan,Full-size,4.4,8,AS8,Z,13.9,9.6,12,24,279,4,3
+2022,BMW,Alpina B7,Full-size,4.4,8,AS8,Z,13.9,9.6,12,24,279,4,3
+2022,BMW,Alpina B8 Gran Coupe,Mid-size,4.4,8,AS8,Z,13.9,9.6,12,24,279,4,3
+2022,BMW,Alpina XB7,SUV: Standard,4.4,8,AS8,Z,15.7,11.5,13.8,20,321,3,3
+2022,BMW,M235i xDrive Gran Coupe,Compact,2,4,AS8,Z,10.4,7.8,9.2,31,214,5,3
+2022,BMW,M240i xDrive Coupe,Subcompact,3,6,AS8,Z,10.4,7.5,9.1,31,212,5,5
+2022,BMW,M3 Sedan,Compact,3,6,M6,Z,14.7,10.1,12.6,22,293,4,5
+2022,BMW,M3 Competition Sedan,Compact,3,6,AS8,Z,14.5,10.2,12.6,22,292,4,5
+2022,BMW,M3 Competition Sedan M xDrive,Compact,3,6,AS8,Z,14.6,10.5,12.7,22,296,4,5
+2022,BMW,M340i xDrive Sedan,Compact,3,6,AS8,Z,10.4,7.7,9.2,31,214,5,5
+2022,BMW,M4 Competition Cabriolet M xDrive,Subcompact,3,6,AS8,Z,15.1,10.4,12.9,22,301,3,5
+2022,BMW,M4 Coupe,Subcompact,3,6,M6,Z,14.7,10.1,12.6,22,293,4,5
+2022,BMW,M4 Competition Coupe,Subcompact,3,6,AS8,Z,14.5,10.2,12.6,22,292,4,5
+2022,BMW,M4 Competition Coupe M xDrive,Subcompact,3,6,AS8,Z,14.6,10.5,12.7,22,296,4,5
+2022,BMW,M440i xDrive Cabriolet,Subcompact,3,6,AS8,Z,10.4,7.4,9.1,31,211,5,5
+2022,BMW,M440i xDrive Coupe,Subcompact,3,6,AS8,Z,10.4,7.7,9.2,31,214,5,5
+2022,BMW,M440i xDrive Gran Coupe,Compact,3,6,AS8,Z,10.9,8,9.6,29,224,5,5
+2022,BMW,M5 Sedan,Mid-size,4.4,8,AS8,Z,16.1,11,13.8,20,322,3,3
+2022,BMW,M5 Competition,Mid-size,4.4,8,AS8,Z,16.1,11,13.8,20,322,3,3
+2022,BMW,M5 CS,Mid-size,4.4,8,AS8,Z,16.1,11,13.8,20,322,3,3
+2022,BMW,M550i xDrive Sedan,Mid-size,4.4,8,AS8,Z,13.5,9.3,11.6,24,271,4,3
+2022,BMW,M760i xDrive Sedan,Full-size,6.6,12,AS8,Z,17.8,11.9,15.1,19,354,3,3
+2022,BMW,M8 Cabriolet,Subcompact,4.4,8,AS8,Z,16.1,11,13.8,20,322,3,3
+2022,BMW,M8 Cabriolet Competition,Subcompact,4.4,8,AS8,Z,16.1,11,13.8,20,322,3,3
+2022,BMW,M8 Coupe,Subcompact,4.4,8,AS8,Z,16.1,11,13.8,20,322,3,3
+2022,BMW,M8 Coupe Competition,Subcompact,4.4,8,AS8,Z,16.1,11,13.8,20,322,3,3
+2022,BMW,M8 Gran Coupe,Mid-size,4.4,8,AS8,Z,16.1,11,13.8,20,322,3,3
+2022,BMW,M8 Gran Coupe Competition,Mid-size,4.4,8,AS8,Z,16.1,11,13.8,20,322,3,3
+2022,BMW,M850i xDrive Cabriolet,Subcompact,4.4,8,AS8,Z,13.9,9.6,12,24,279,4,3
+2022,BMW,M850i xDrive Coupe,Subcompact,4.4,8,AS8,Z,13.5,9.3,11.6,24,271,4,3
+2022,BMW,M850i xDrive Gran Coupe,Mid-size,4.4,8,AS8,Z,13.9,9.6,12,24,279,4,3
+2022,BMW,X1 xDrive28i,SUV: Small,2,4,AS8,Z,10.3,7.7,9.1,31,213,5,7
+2022,BMW,X2 xDrive28i,SUV: Small,2,4,AS8,Z,9.9,7.6,8.8,32,207,6,7
+2022,BMW,X2 M35i,SUV: Small,2,4,AS8,Z,9.9,7.6,8.9,32,207,6,3
+2022,BMW,X3 xDrive30i,SUV: Small,2,4,AS8,Z,11,8.5,9.9,29,230,5,7
+2022,BMW,X3 M,SUV: Small,3,6,AS8,Z,15.7,11.7,13.9,20,323,3,3
+2022,BMW,X3 M Competition,SUV: Small,3,6,AS8,Z,15.7,11.7,13.9,20,323,3,3
+2022,BMW,X3 M40i,SUV: Small,3,6,AS8,Z,11.2,9.1,10.3,27,241,5,5
+2022,BMW,X4 xDrive30i,SUV: Small,2,4,AS8,Z,11,8.5,9.9,29,230,5,7
+2022,BMW,X4 M,SUV: Small,3,6,AS8,Z,15.7,11.7,13.9,20,323,3,3
+2022,BMW,X4 M Competition,SUV: Small,3,6,AS8,Z,15.7,11.7,13.9,20,323,3,3
+2022,BMW,X4 M40i,SUV: Small,3,6,AS8,Z,11.2,9.1,10.3,27,241,5,5
+2022,BMW,X5 xDrive40i,SUV: Standard,3,6,AS8,Z,11.3,9.2,10.4,27,241,5,3
+2022,BMW,X5 M,SUV: Standard,4.4,8,AS8,Z,17.9,13,15.7,18,364,2,3
+2022,BMW,X5 M Competition,SUV: Standard,4.4,8,AS8,Z,17.9,13,15.7,18,364,2,3
+2022,BMW,X5 M50i,SUV: Standard,4.4,8,AS8,Z,14.4,10.6,12.7,22,302,3,3
+2022,BMW,X6 xDrive40i,SUV: Standard,3,6,AS8,Z,11.3,9.2,10.4,27,241,5,3
+2022,BMW,X6 M,SUV: Standard,4.4,8,AS8,Z,17.9,13,15.7,18,364,2,3
+2022,BMW,X6 M Competition,SUV: Standard,4.4,8,AS8,Z,17.9,13,15.7,18,364,2,3
+2022,BMW,X6 M50i,SUV: Standard,4.4,8,AS8,Z,14.4,10.6,12.7,22,302,3,3
+2022,BMW,X7 xDrive40i,SUV: Standard,3,6,AS8,Z,12.1,9.8,11.1,25,256,5,3
+2022,BMW,X7 M50i,SUV: Standard,4.4,8,AS8,Z,15.7,11.5,13.8,20,321,3,3
+2022,BMW,Z4 sDrive30i,Two-seater,2,4,AS8,Z,9.4,7.4,8.5,33,199,6,7
+2022,BMW,Z4 M40i,Two-seater,3,6,AS8,Z,10.8,8.1,9.6,29,223,5,5
+2022,Bugatti,Chiron,Two-seater,8,16,AM7,Z,26.8,16.6,22.2,13,522,1,1
+2022,Bugatti,Chiron Pur Sport,Two-seater,8,16,AM7,Z,30.3,20.9,26.1,11,608,1,1
+2022,Bugatti,Chiron Super Sport,Two-seater,8,16,AM7,Z,30.3,20.9,26.1,11,608,1,1
+2022,Buick,Enclave,SUV: Standard,3.6,6,A9,X,13,9.1,11.2,25,263,4,6
+2022,Buick,Enclave AWD,SUV: Standard,3.6,6,A9,X,13.6,9.6,11.8,24,277,4,6
+2022,Buick,Encore,SUV: Small,1.4,4,AS6,X,9.7,7.3,8.6,33,201,6,7
+2022,Buick,Encore AWD,SUV: Small,1.4,4,AS6,X,10.2,7.7,9.1,31,214,5,7
+2022,Buick,Encore GX,SUV: Small,1.2,3,AV,X,8,7.6,7.8,36,184,6,7
+2022,Buick,Encore GX,SUV: Small,1.3,3,AV,X,8.2,7.4,7.9,36,185,6,7
+2022,Buick,Encore GX AWD,SUV: Small,1.3,3,A9,X,9,8.3,8.6,33,202,6,7
+2022,Buick,Envision,SUV: Small,2,4,AS9,X,10,7.6,8.9,32,209,5,7
+2022,Buick,Envision AWD,SUV: Small,2,4,AS9,X,10.5,8.2,9.5,30,220,5,7
+2022,Cadillac,CT4,Compact,2,4,AS8,Z,10.2,7,8.8,32,206,6,7
+2022,Cadillac,CT4,Compact,2.7,4,AS10,Z,11,7.6,9.5,30,221,5,6
+2022,Cadillac,CT4 AWD,Compact,2,4,AS8,Z,10.5,7.6,9.2,31,216,5,7
+2022,Cadillac,CT4 AWD,Compact,2.7,4,AS10,Z,11.4,8.2,10,28,233,5,6
+2022,Cadillac,CT4-V,Compact,2.7,4,AS10,Z,11.9,8.2,10.2,28,239,5,6
+2022,Cadillac,CT4-V AWD,Compact,2.7,4,AS10,Z,12,8.4,10.4,27,244,5,6
+2022,Cadillac,CT4-V Blackwing,Compact,3.6,6,AS10,Z,15,9.7,12.6,22,297,4,5
+2022,Cadillac,CT4-V Blackwing,Compact,3.6,6,M6,Z,15.2,10.2,13,22,303,3,5
+2022,Cadillac,CT5,Mid-size,2,4,AS10,Z,10.3,7.1,8.8,32,207,6,7
+2022,Cadillac,CT5,Mid-size,3,6,AS10,Z,12.4,8.7,10.7,26,252,5,5
+2022,Cadillac,CT5 AWD,Mid-size,2,4,AS10,Z,10.9,7.8,9.5,30,222,5,7
+2022,Cadillac,CT5 AWD,Mid-size,3,6,AS10,Z,12.8,9.1,11.1,25,260,4,5
+2022,Cadillac,CT5-V,Mid-size,3,6,AS10,Z,12.8,8.7,11,26,258,4,5
+2022,Cadillac,CT5-V AWD,Mid-size,3,6,AS10,Z,12.8,9.1,11.1,25,260,4,5
+2022,Cadillac,CT5-V Blackwing,Mid-size,6.2,8,AS10,Z,18.1,10.7,14.8,19,346,3,3
+2022,Cadillac,CT5-V Blackwing,Mid-size,6.2,8,M6,Z,18.3,11.4,15.2,19,356,3,3
+2022,Cadillac,Escalade 4WD,SUV: Standard,3,6,A10,D,11.7,9,10.5,27,281,4,3
+2022,Cadillac,Escalade 4WD,SUV: Standard,6.2,8,A10,Z,16.3,12.7,14.7,19,345,3,6
+2022,Cadillac,Escalade 4WD (No Stop-Start),SUV: Standard,6.2,8,A10,Z,17,12.7,15.1,19,353,3,6
+2022,Cadillac,XT4,SUV: Small,2,4,AS9,Z,10,7.8,9,31,211,5,7
+2022,Cadillac,XT4 AWD,SUV: Small,2,4,AS9,Z,10.9,8.2,9.7,29,225,5,7
+2022,Cadillac,XT5,SUV: Small,2,4,AS9,Z,10.8,8.2,9.6,29,225,5,7
+2022,Cadillac,XT5 AWD,SUV: Small,2,4,AS9,Z,11.2,8.7,10.1,28,237,5,7
+2022,Cadillac,XT5 AWD,SUV: Small,3.6,6,AS9,X,12.9,9.2,11.2,25,263,4,6
+2022,Cadillac,XT6 AWD,SUV: Small,2,4,AS9,Z,11.2,9,10.2,28,239,5,7
+2022,Cadillac,XT6 AWD,SUV: Small,3.6,6,AS9,X,13.1,9.5,11.5,25,269,4,6
+2022,Chevrolet,Blazer,SUV: Small,2,4,A9,X,10.6,8,9.4,30,221,5,7
+2022,Chevrolet,Blazer,SUV: Small,3.6,6,A9,X,12.3,8.8,10.7,26,252,5,6
+2022,Chevrolet,Blazer AWD,SUV: Small,2,4,A9,X,10.8,8.7,9.9,29,232,5,7
+2022,Chevrolet,Blazer AWD,SUV: Small,3.6,6,A9,X,12.6,9.2,11,26,259,4,6
+2022,Chevrolet,Camaro,Subcompact,2,4,AS8,Z,10.9,7.8,9.5,30,222,5,5
+2022,Chevrolet,Camaro,Subcompact,2,4,M6,Z,12.6,8,10.5,27,239,5,5
+2022,Chevrolet,Camaro,Subcompact,3.6,6,AS10,X,12.8,8.1,10.7,26,251,5,6
+2022,Chevrolet,Camaro,Subcompact,3.6,6,M6,X,14.4,9.1,12,24,281,4,6
+2022,Chevrolet,Camaro SS,Subcompact,6.2,8,AS10,Z,14.6,8.9,12,24,281,4,1
+2022,Chevrolet,Camaro SS,Subcompact,6.2,8,M6,Z,14.9,9.9,12.6,22,296,4,1
+2022,Chevrolet,Camaro ZL1,Subcompact,6.2,8,AS10,Z,18.3,11.2,15.1,19,355,3,1
+2022,Chevrolet,Camaro ZL1,Subcompact,6.2,8,M6,Z,17.2,12,14.9,19,349,3,1
+2022,Chevrolet,Colorado,Pickup truck: Small,2.5,4,A6,X,12.2,9.4,10.9,26,257,5,6
+2022,Chevrolet,Colorado,Pickup truck: Small,2.8,4,A6,D,11.8,7.9,10.1,28,270,4,3
+2022,Chevrolet,Colorado,Pickup truck: Small,3.6,6,A8,X,12.9,9.3,11.3,25,263,4,6
+2022,Chevrolet,Colorado 4WD,Pickup truck: Small,2.5,4,A6,X,12.6,9.9,11.4,25,267,4,6
+2022,Chevrolet,Colorado 4WD,Pickup truck: Small,2.8,4,A6,D,12.2,8.4,10.5,27,283,4,3
+2022,Chevrolet,Colorado 4WD,Pickup truck: Small,3.6,6,A8,X,14,9.9,12.1,23,283,4,6
+2022,Chevrolet,Colorado ZR2 4WD,Pickup truck: Small,2.8,4,A6,D,13.3,10.6,12.1,23,326,3,3
+2022,Chevrolet,Colorado ZR2 4WD,Pickup truck: Small,3.6,6,A8,X,15,13,14.1,20,329,3,6
+2022,Chevrolet,Corvette,Two-seater,6.2,8,AS8,Z,15.1,9.6,12.6,22,297,4,5
+2022,Chevrolet,Equinox,SUV: Small,1.5,4,A6,X,8.9,7.7,8.4,34,198,6,7
+2022,Chevrolet,Equinox AWD,SUV: Small,1.5,4,A6,X,9.4,8,8.8,32,208,6,7
+2022,Chevrolet,Malibu,Mid-size,1.5,4,AV,X,8.2,6.6,7.5,38,175,7,7
+2022,Chevrolet,Malibu,Mid-size,2,4,A9,Z,10.7,7.1,9.1,31,213,5,5
+2022,Chevrolet,Silverado,Pickup truck: Standard,2.7,4,A8,X,12.5,10.6,11.6,24,274,4,6
+2022,Chevrolet,Silverado,Pickup truck: Standard,3,6,A10,D,10.2,7.5,8.9,32,240,5,3
+2022,Chevrolet,Silverado FFV,Pickup truck: Standard,5.3,8,A6,X,16.2,12.3,14.5,19,341,3,3
+2022,Chevrolet,Silverado FFV,Pickup truck: Standard,5.3,8,A6,E,21.5,16,19.1,15,321,3,3
+2022,Chevrolet,Silverado,Pickup truck: Standard,5.3,8,A8,X,15.1,11.3,13.4,21,314,3,6
+2022,Chevrolet,Silverado,Pickup truck: Standard,5.3,8,A10,X,14.4,11.3,13,22,304,3,6
+2022,Chevrolet,Silverado 4WD,Pickup truck: Standard,2.7,4,A8,X,13.9,12,13.1,22,306,3,6
+2022,Chevrolet,Silverado 4WD Mud Terrain Tire,Pickup truck: Standard,2.7,4,A8,X,14.7,13.1,14,20,328,3,6
+2022,Chevrolet,Silverado 4WD,Pickup truck: Standard,3,6,A10,D,10.9,9.1,10.1,28,272,4,3
+2022,Chevrolet,Silverado 4WD (With Sport Mode),Pickup truck: Standard,3,6,A10,D,10.5,9.1,9.9,29,265,4,3
+2022,Chevrolet,Silverado 4WD Mud Terrain Tire,Pickup truck: Standard,3,6,A10,D,11.8,10.3,11.2,25,298,4,3
+2022,Chevrolet,Silverado 4WD FFV,Pickup truck: Standard,5.3,8,A6,X,16.5,12.8,14.8,19,347,3,3
+2022,Chevrolet,Silverado 4WD FFV,Pickup truck: Standard,5.3,8,A6,E,22,16.4,19.5,14,326,3,3
+2022,Chevrolet,Silverado 4WD Mud Terrain Tire FFV,Pickup truck: Standard,5.3,8,A6,X,17.4,14.7,16.2,17,380,2,3
+2022,Chevrolet,Silverado 4WD Mud Terrain Tire FFV,Pickup truck: Standard,5.3,8,A6,E,23.1,19.6,21.5,13,358,2,3
+2022,Chevrolet,Silverado 4WD,Pickup truck: Standard,5.3,8,A8,X,15.6,11.9,13.9,20,327,3,6
+2022,Chevrolet,Silverado 4WD Mud Terrain Tire,Pickup truck: Standard,5.3,8,A8,X,16.9,13.3,15.3,18,359,2,6
+2022,Chevrolet,Silverado 4WD,Pickup truck: Standard,5.3,8,A10,X,14.7,11.8,13.4,21,314,3,6
+2022,Chevrolet,Silverado 4WD (No DFM),Pickup truck: Standard,5.3,8,A10,X,16.8,12.4,14.8,19,347,3,6
+2022,Chevrolet,Silverado 4WD (With Sport Mode),Pickup truck: Standard,5.3,8,A10,X,15.3,12.3,13.9,20,327,3,6
+2022,Chevrolet,Silverado 4WD (No Stop-Start),Pickup truck: Standard,5.3,8,A10,X,16.1,12.4,14.4,20,339,3,6
+2022,Chevrolet,Silverado 4WD Mud Terrain Tire,Pickup truck: Standard,5.3,8,A10,X,16.6,14,15.4,18,361,2,6
+2022,Chevrolet,Silverado 4WD Mud Terrain Tire (No Stop-Start),Pickup truck: Standard,5.3,8,A10,X,16.8,13.9,15.5,18,364,2,6
+2022,Chevrolet,Silverado 4WD Mud Terrain Tire (No DFM),Pickup truck: Standard,5.3,8,A10,X,18.1,13.8,16.2,17,381,2,6
+2022,Chevrolet,Silverado 4WD,Pickup truck: Standard,6.2,8,A10,Z,15.7,11.9,14,20,329,3,6
+2022,Chevrolet,Silverado 4WD (No Stop-Start),Pickup truck: Standard,6.2,8,A10,Z,16.6,12.3,14.7,19,345,3,6
+2022,Chevrolet,Silverado 4WD Custom Trail Boss,Pickup truck: Standard,6.2,8,A10,Z,16.5,13.2,15,19,352,3,6
+2022,Chevrolet,Silverado 4WD Mud Terrain Tire,Pickup truck: Standard,6.2,8,A10,Z,16.5,13.2,15,19,352,3,6
+2022,Chevrolet,Silverado 4WD Mud Terrain Tire (No Stop-Start),Pickup truck: Standard,6.2,8,A10,Z,18.2,14.2,16.4,17,385,2,6
+2022,Chevrolet,Silverado 4WD ZR2,Pickup truck: Standard,6.2,8,A10,Z,16.7,14.1,15.5,18,366,2,6
+2022,Chevrolet,Spark,Subcompact,1.4,4,AV,X,7.7,6.2,7,40,165,7,5
+2022,Chevrolet,Spark,Subcompact,1.4,4,M5,X,8,6.2,7.2,39,170,7,5
+2022,Chevrolet,Suburban,SUV: Standard,3,6,A10,D,11.2,8.7,10.1,28,272,4,3
+2022,Chevrolet,Suburban,SUV: Standard,5.3,8,A10,X,15.8,11.8,14,20,327,3,6
+2022,Chevrolet,Suburban (No Stop-Start),SUV: Standard,5.3,8,A10,X,16,11.9,14.1,20,332,3,6
+2022,Chevrolet,Suburban 4WD,SUV: Standard,3,6,A10,D,11.7,9,10.5,27,281,4,3
+2022,Chevrolet,Suburban 4WD,SUV: Standard,5.3,8,A10,X,15.9,12.4,14.3,20,336,3,6
+2022,Chevrolet,Suburban 4WD (No Stop-Start),SUV: Standard,5.3,8,A10,X,17,12.7,15.1,19,354,3,6
+2022,Chevrolet,Suburban 4WD,SUV: Standard,6.2,8,A10,Z,16.3,12.7,14.7,19,345,3,6
+2022,Chevrolet,Suburban 4WD (No Stop-Start),SUV: Standard,6.2,8,A10,Z,17,12.7,15.1,19,353,3,6
+2022,Chevrolet,Tahoe,SUV: Standard,3,6,A10,D,11,8.4,9.8,29,263,4,3
+2022,Chevrolet,Tahoe,SUV: Standard,5.3,8,A10,X,15.8,11.8,14,20,327,3,6
+2022,Chevrolet,Tahoe (No Stop-Start),SUV: Standard,5.3,8,A10,X,16,11.9,14.1,20,332,3,6
+2022,Chevrolet,Tahoe 4WD,SUV: Standard,3,6,A10,D,11.7,9,10.5,27,281,4,3
+2022,Chevrolet,Tahoe 4WD,SUV: Standard,5.3,8,A10,X,15.8,11.8,14,20,327,3,6
+2022,Chevrolet,Tahoe 4WD (No Stop-Start),SUV: Standard,5.3,8,A10,X,17,12.7,15.1,19,354,3,6
+2022,Chevrolet,Tahoe 4WD,SUV: Standard,6.2,8,A10,Z,16.3,12.7,14.7,19,345,3,6
+2022,Chevrolet,Tahoe 4WD (No Stop-Start),SUV: Standard,6.2,8,A10,Z,17,12.7,15.1,19,353,3,6
+2022,Chevrolet,Trailblazer,SUV: Small,1.2,3,AV,X,8,7.6,7.8,36,184,6,7
+2022,Chevrolet,Trailblazer,SUV: Small,1.3,3,AV,X,8,7.2,7.6,37,178,7,7
+2022,Chevrolet,Trailblazer AWD,SUV: Small,1.3,3,A9,X,8.9,7.8,8.4,34,197,6,7
+2022,Chevrolet,Traverse,SUV: Standard,3.6,6,A9,X,13,8.8,11.1,25,260,4,6
+2022,Chevrolet,Traverse AWD,SUV: Standard,3.6,6,A9,X,13.6,9.6,11.8,24,277,4,6
+2022,Chevrolet,Trax,SUV: Small,1.4,4,AS6,X,9.7,7.3,8.6,33,201,6,7
+2022,Chevrolet,Trax AWD,SUV: Small,1.4,4,AS6,X,10.2,7.7,9.1,31,214,5,7
+2022,Chrysler,300,Full-size,3.6,6,A8,X,12.4,7.8,10.3,27,242,5,5
+2022,Chrysler,300,Full-size,5.7,8,A8,X,14.7,9.4,12.3,23,289,4,3
+2022,Chrysler,300 AWD,Full-size,3.6,6,A8,X,12.8,8.7,11,26,258,4,5
+2022,Chrysler,Grand Caravan,Minivan,3.6,6,A9,X,12.4,8.4,10.6,27,249,5,5
+2022,Chrysler,Pacifica,Minivan,3.6,6,A9,X,12.4,8.4,10.6,27,249,5,5
+2022,Chrysler,Pacifica AWD,Minivan,3.6,6,A9,X,14.1,9.4,12,24,279,4,5
+2022,Dodge,Challenger,Mid-size,3.6,6,A8,X,12.4,7.8,10.3,27,242,5,5
+2022,Dodge,Challenger (MDS),Mid-size,5.7,8,A8,X,14.7,9.4,12.3,23,289,4,3
+2022,Dodge,Challenger,Mid-size,5.7,8,M6,Z,15.6,10.1,13.1,22,307,3,1
+2022,Dodge,Challenger (MDS),Mid-size,6.4,8,A8,Z,15.8,9.6,13,22,305,3,1
+2022,Dodge,Challenger,Mid-size,6.4,8,M6,Z,16.7,10.4,13.9,20,325,3,1
+2022,Dodge,Challenger AWD,Mid-size,3.6,6,A8,X,12.8,8.7,11,26,258,4,5
+2022,Dodge,Challenger Widebody (MDS),Mid-size,6.4,8,A8,Z,15.8,9.6,13,22,305,3,1
+2022,Dodge,Challenger Widebody,Mid-size,6.4,8,M6,Z,16.7,10.4,13.9,20,325,3,1
+2022,Dodge,Challenger SRT Hellcat,Mid-size,6.2,8,A8,Z,17.6,10.7,14.5,19,339,3,1
+2022,Dodge,Challenger SRT Hellcat,Mid-size,6.2,8,M6,Z,18.1,11.4,15.1,19,352,3,1
+2022,Dodge,Challenger SRT Hellcat Widebody,Mid-size,6.2,8,A8,Z,18.6,11.3,15.3,18,359,2,1
+2022,Dodge,Challenger SRT Hellcat Widebody,Mid-size,6.2,8,M6,Z,18.1,11.4,15.1,19,352,3,1
+2022,Dodge,Charger,Full-size,3.6,6,A8,X,12.4,7.8,10.3,27,242,5,5
+2022,Dodge,Charger (MDS),Full-size,5.7,8,A8,X,14.7,9.4,12.3,23,289,4,3
+2022,Dodge,Charger (MDS),Full-size,6.4,8,A8,Z,15.8,9.6,13,22,305,3,1
+2022,Dodge,Charger AWD,Full-size,3.6,6,A8,X,12.8,8.7,11,26,258,4,5
+2022,Dodge,Charger Widebody (MDS),Full-size,6.4,8,A8,Z,15.8,9.6,13,22,305,3,1
+2022,Dodge,Charger SRT Hellcat Widebody,Full-size,6.2,8,A8,Z,19,11.5,15.6,18,368,2,1
+2022,Dodge,Durango AWD,SUV: Standard,3.6,6,A8,X,12.7,9.6,11.3,25,265,4,7
+2022,Dodge,Durango AWD,SUV: Standard,5.7,8,A8,X,16.7,10.9,14.1,20,331,3,5
+2022,Dodge,Durango AWD SRT,SUV: Standard,6.4,8,A8,Z,18.3,12.2,15.6,18,363,2,1
+2022,FIAT,500X AWD,SUV: Small,1.3,4,A9,X,10,7.9,9.1,31,221,5,6
+2022,Ford,Bronco 4WD,SUV: Small,2.3,4,AS10,X,12.1,11.2,11.7,24,275,4,5
+2022,Ford,Bronco 4WD,SUV: Small,2.3,4,M7,X,12.1,11.4,11.8,24,277,4,5
+2022,Ford,Bronco 4WD,SUV: Small,2.7,6,AS10,X,12.8,11.9,12.4,23,291,4,6
+2022,Ford,Bronco Badlands 4WD,SUV: Small,2.3,4,AS10,X,13.5,14,13.7,21,323,3,5
+2022,Ford,Bronco Badlands 4WD,SUV: Small,2.3,4,M7,X,14.9,13.5,14.3,20,336,3,5
+2022,Ford,Bronco Badlands 4WD,SUV: Small,2.7,6,AS10,X,14.1,14.1,14.1,20,331,3,6
+2022,Ford,Bronco Black Diamond 4WD,SUV: Small,2.3,4,AS10,X,13.1,13.1,13.1,22,308,3,5
+2022,Ford,Bronco Black Diamond 4WD,SUV: Small,2.3,4,M7,X,13.8,12.4,13.2,21,310,3,5
+2022,Ford,Bronco Raptor 4WD,SUV: Standard,3,6,AS10,X,15.7,14.8,15.3,18,358,2,6
+2022,Ford,Bronco Sasquatch 4WD,SUV: Small,2.3,4,AS10,X,13.1,13.8,13.4,21,314,3,5
+2022,Ford,Bronco Sasquatch 4WD,SUV: Small,2.3,4,M7,X,13.8,13.1,13.5,21,317,3,5
+2022,Ford,Bronco Sasquatch 4WD,SUV: Small,2.7,6,AS10,X,14.1,14.1,14.1,20,331,3,6
+2022,Ford,Bronco Sport 4WD,SUV: Small,1.5,3,A8,X,9.3,8.4,8.9,32,209,5,7
+2022,Ford,Bronco Sport 4WD,SUV: Small,2,4,AS8,X,11.1,9,10.2,27,240,5,5
+2022,Ford,EcoSport AWD,SUV: Small,2,4,AS6,X,10.4,8,9.3,30,219,5,5
+2022,Ford,Edge AWD,SUV: Small,2,4,A8,X,11.5,8.4,10.1,28,238,5,6
+2022,Ford,Edge AWD,SUV: Small,2,4,AS8,X,11.6,8.5,10.2,28,239,5,6
+2022,Ford,Edge AWD,SUV: Small,2.7,6,AS8,X,12.6,9.3,11.2,25,262,4,5
+2022,Ford,Escape,SUV: Small,1.5,3,A8,X,8.5,6.8,7.8,36,182,6,7
+2022,Ford,Escape AWD,SUV: Small,1.5,3,A8,X,9,7.6,8.4,34,198,6,7
+2022,Ford,Escape AWD,SUV: Small,2,4,A8,X,10.5,7.5,9.2,31,216,5,5
+2022,Ford,Escape Hybrid,SUV: Small,2.5,4,AV,X,5.4,6.3,5.8,49,136,8,7
+2022,Ford,Escape Hybrid AWD,SUV: Small,2.5,4,AV,X,5.5,6.4,5.9,48,139,8,7
+2022,Ford,Expedition 4X4,SUV: Standard,3.5,6,AS10,X,14.8,10.6,12.9,22,304,3,6
+2022,Ford,Expedition 4X4 (Without Stop-Start),SUV: Standard,3.5,6,AS10,X,15.4,11.2,13.5,21,317,3,6
+2022,Ford,Expedition Timberline 4X4,SUV: Standard,3.5,6,AS10,X,14.5,12.3,13.5,21,317,3,6
+2022,Ford,Expedition Timberline 4X4 (Without Stop-Start),SUV: Standard,3.5,6,AS10,X,15.2,12.3,13.9,20,326,3,6
+2022,Ford,Explorer AWD,SUV: Standard,2.3,4,A10,X,11.7,8.6,10.3,27,242,5,6
+2022,Ford,Explorer AWD (Without Stop-Start),SUV: Standard,2.3,4,A10,X,12,9,10.7,26,252,5,6
+2022,Ford,Explorer Timberline AWD,SUV: Standard,2.3,4,AS10,X,12.2,10.5,11.5,25,269,4,6
+2022,Ford,Explorer Timberline AWD (Without Stop-Start),SUV: Standard,2.3,4,AS10,X,12.5,11,11.8,24,277,4,6
+2022,Ford,Explorer AWD,SUV: Standard,3,6,A10,X,13.4,9.8,11.8,24,277,4,5
+2022,Ford,Explorer Hybrid AWD,SUV: Standard,3.3,6,AS10,X,10.1,9,9.6,29,225,5,6
+2022,Ford,F-150,Pickup truck: Standard,2.7,6,AS10,X,12.1,9.4,10.9,26,256,5,6
+2022,Ford,F-150 (Without Stop-Start),Pickup truck: Standard,2.7,6,AS10,X,13.5,10.1,12,24,282,4,6
+2022,Ford,F-150 FFV,Pickup truck: Standard,3.3,6,AS10,X,12.1,9.8,11.1,25,260,4,6
+2022,Ford,F-150 FFV,Pickup truck: Standard,3.3,6,AS10,E,16.8,12.8,15,19,249,5,6
+2022,Ford,F-150,Pickup truck: Standard,3.5,6,AS10,X,13.1,9.9,11.7,24,275,4,6
+2022,Ford,F-150 (Without Stop-Start),Pickup truck: Standard,3.5,6,AS10,X,13.7,10,12,24,281,4,6
+2022,Ford,F-150 FFV,Pickup truck: Standard,5,8,AS10,X,14.4,10.8,12.8,22,300,3,5
+2022,Ford,F-150 FFV,Pickup truck: Standard,5,8,AS10,E,20.8,14.3,17.9,16,298,4,5
+2022,Ford,F-150 FFV (Without Stop-Start),Pickup truck: Standard,5,8,AS10,X,14.7,10.6,12.9,22,302,3,5
+2022,Ford,F-150 FFV (Without Stop-Start),Pickup truck: Standard,5,8,AS10,E,20.1,14.1,17.4,16,289,4,5
+2022,Ford,F-150 4X4,Pickup truck: Standard,2.7,6,AS10,X,12.9,10.1,11.7,24,274,4,6
+2022,Ford,F-150 4X4 FFV,Pickup truck: Standard,3.3,6,AS10,X,12.6,10.7,11.8,24,277,4,6
+2022,Ford,F-150 4X4 FFV,Pickup truck: Standard,3.3,6,AS10,E,17.3,13.1,15.4,18,256,5,6
+2022,Ford,F-150 4X4,Pickup truck: Standard,3.5,6,AS10,X,13.5,10.3,12.1,23,284,4,6
+2022,Ford,F-150 4X4 (Without Stop-Start),Pickup truck: Standard,3.5,6,AS10,X,14.6,11,13,22,304,3,6
+2022,Ford,F-150 4X4 FFV,Pickup truck: Standard,5,8,AS10,X,14.7,10.8,12.9,22,304,3,5
+2022,Ford,F-150 4X4 FFV,Pickup truck: Standard,5,8,AS10,E,21.2,14.2,18.1,16,301,3,5
+2022,Ford,F-150 4X4 FFV (Without Stop-Start),Pickup truck: Standard,5,8,AS10,X,15.1,10.7,13.1,22,308,3,5
+2022,Ford,F-150 4X4 FFV (Without Stop-Start),Pickup truck: Standard,5,8,AS10,E,20.7,14.2,17.8,16,295,4,5
+2022,Ford,F-150 Raptor 4X4,Pickup truck: Standard,3.5,6,AS10,X,15.8,13.2,14.6,19,344,3,6
+2022,Ford,F-150 Raptor 4X4 (Without Stop-Start),Pickup truck: Standard,3.5,6,AS10,X,16.8,13.2,15.2,19,357,2,6
+2022,Ford,F-150 Raptor 37 4X4,Pickup truck: Standard,3.5,6,AS10,X,16,14.4,15.3,18,359,2,6
+2022,Ford,F-150 Raptor 37 4X4 (Without Stop-Start),Pickup truck: Standard,3.5,6,AS10,X,16.6,14.8,15.8,18,370,2,6
+2022,Ford,F-150 Tremor 4X4,Pickup truck: Standard,3.5,6,AS10,X,14.3,11.8,13.2,21,310,3,6
+2022,Ford,F-150 Tremor 4X4 (Without Stop-Start),Pickup truck: Standard,3.5,6,AS10,X,14.7,11.7,13.3,21,313,3,6
+2022,Ford,F-150 Hybrid,Pickup truck: Standard,3.5,6,AS10,X,9.8,9.7,9.7,29,228,5,6
+2022,Ford,F-150 Hybrid 4X4,Pickup truck: Standard,3.5,6,AS10,X,10.3,10,10.2,28,238,5,6
+2022,Ford,GT,Two-seater,3.5,6,AM7,Z,19.9,12.8,16.7,17,395,2,3
+2022,Ford,Maverick AWD,Pickup truck: Small,2,4,A8,X,10.7,8.1,9.6,29,226,5,5
+2022,Ford,Maverick Hybrid,Pickup truck: Small,2.5,4,AV,X,5.6,7.1,6.3,45,147,8,6
+2022,Ford,Mustang,Subcompact,2.3,4,A10,X,11,7.4,9.3,30,220,5,5
+2022,Ford,Mustang,Subcompact,2.3,4,AS10,X,11.4,7.9,9.8,29,231,5,5
+2022,Ford,Mustang (High Performance),Subcompact,2.3,4,AS10,X,11.7,8.6,10.3,27,242,5,5
+2022,Ford,Mustang,Subcompact,2.3,4,M6,X,11.5,8.2,10,28,236,5,5
+2022,Ford,Mustang (High Performance),Subcompact,2.3,4,M6,X,11.9,8.7,10.5,27,246,5,5
+2022,Ford,Mustang,Subcompact,5,8,AS10,X,15.2,9.7,12.7,22,298,4,3
+2022,Ford,Mustang,Subcompact,5,8,M6,X,16.1,10.1,13.4,21,314,3,3
+2022,Ford,Mustang Convertible,Subcompact,2.3,4,A10,X,11.7,8.1,10.1,28,237,5,5
+2022,Ford,Mustang Convertible,Subcompact,2.3,4,AS10,X,12,8.5,10.4,27,244,5,5
+2022,Ford,Mustang Convertible (High Performance),Subcompact,2.3,4,AS10,X,12.1,8.9,10.7,26,252,5,5
+2022,Ford,Mustang Convertible,Subcompact,2.3,4,M6,X,11.8,8.6,10.4,27,244,5,5
+2022,Ford,Mustang Convertible (High Performance),Subcompact,2.3,4,M6,X,12.3,9.2,10.9,26,256,5,5
+2022,Ford,Mustang Convertible,Subcompact,5,8,AS10,X,15.8,10.4,13.4,21,314,3,3
+2022,Ford,Mustang Mach 1,Subcompact,5,8,AS10,X,15.2,10.1,12.9,22,302,3,3
+2022,Ford,Mustang Mach 1,Subcompact,5,8,M6,X,17.1,11.2,14.5,19,339,3,3
+2022,Ford,Ranger 4WD,Pickup truck: Standard,2.3,4,AS10,X,11.9,9.7,10.9,26,256,5,6
+2022,Ford,Ranger 4WD (Without Stop-Start),Pickup truck: Standard,2.3,4,AS10,X,12.4,9.7,11.2,25,262,4,6
+2022,Ford,Ranger 4WD Tremor,Pickup truck: Standard,2.3,4,AS10,X,12.4,12.3,12.4,23,291,4,3
+2022,Ford,Shelby GT500 Mustang,Subcompact,5.2,8,AM7,Z,19.9,12.7,16.7,17,392,2,3
+2022,Ford,Transit Connect Van,Special purpose vehicle,2,4,AS8,X,9.8,8.9,9.4,30,221,5,6
+2022,Ford,Transit Connect Van FFV,Special purpose vehicle,2,4,AS8,X,9.8,8.9,9.4,30,221,5,5
+2022,Ford,Transit Connect Van FFV,Special purpose vehicle,2,4,AS8,E,13.3,11.9,12.7,22,211,5,5
+2022,Ford,Transit Connect Van,Special purpose vehicle,2.5,4,AS6,X,12,8.9,10.6,27,249,5,5
+2022,Ford,Transit Connect Wagon LWB,Special purpose vehicle,2,4,AS8,X,10,8.3,9.2,31,216,5,6
+2022,Ford,Transit Connect Wagon LWB FFV,Special purpose vehicle,2,4,AS8,X,10,8.3,9.2,31,216,5,5
+2022,Ford,Transit Connect Wagon LWB FFV,Special purpose vehicle,2,4,AS8,E,14.7,11.3,13.2,21,219,5,5
+2022,Ford,Transit Connect Wagon LWB,Special purpose vehicle,2.5,4,AS6,X,12.1,9,10.6,27,249,5,5
+2022,Genesis,G70 AWD,Compact,2,4,AS8,Z,11.4,8.2,10,28,236,5,3
+2022,Genesis,G70 AWD,Compact,3.3,6,AS8,Z,13.5,9.1,11.5,25,273,4,3
+2022,Genesis,G80 AWD,Full-size,2.5,4,AS8,Z,10.8,7.9,9.5,30,225,5,5
+2022,Genesis,G80 AWD,Full-size,3.5,6,AS8,Z,14.8,9.9,12.6,22,298,4,5
+2022,Genesis,G90 AWD,Full-size,5,8,AS8,Z,15,10.1,12.8,22,303,3,5
+2022,Genesis,GV70 AWD,SUV: Small,2.5,4,AS8,Z,10.7,8.4,9.7,29,229,5,5
+2022,Genesis,GV70 AWD,SUV: Small,3.5,6,AS8,Z,12.9,10,11.6,24,275,4,5
+2022,Genesis,GV80 AWD,SUV: Standard,2.5,4,AS8,Z,11.3,9.5,10.5,27,248,5,5
+2022,Genesis,GV80 AWD,SUV: Standard,3.5,6,AS8,Z,12.9,10.4,11.8,24,279,4,5
+2022,GMC,Acadia,SUV: Standard,2,4,A9,X,10.6,8,9.4,30,221,5,7
+2022,GMC,Acadia,SUV: Standard,3.6,6,A9,X,12.3,8.8,10.7,26,252,5,6
+2022,GMC,Acadia AWD,SUV: Standard,2,4,A9,X,10.8,8.7,9.9,29,232,5,7
+2022,GMC,Acadia AWD,SUV: Standard,3.6,6,A9,X,12.6,9.2,11,26,259,4,6
+2022,GMC,Canyon,Pickup truck: Small,2.5,4,A6,X,12.2,9.4,10.9,26,257,5,6
+2022,GMC,Canyon,Pickup truck: Small,2.8,4,A6,D,11.8,7.9,10.1,28,270,4,3
+2022,GMC,Canyon,Pickup truck: Small,3.6,6,A8,X,12.9,9.3,11.3,25,263,4,6
+2022,GMC,Canyon 4WD,Pickup truck: Small,2.5,4,A6,X,12.6,9.9,11.4,25,267,4,6
+2022,GMC,Canyon 4WD,Pickup truck: Small,2.8,4,A6,D,12.2,8.4,10.5,27,283,4,3
+2022,GMC,Canyon 4WD,Pickup truck: Small,3.6,6,A8,X,14,9.9,12.1,23,283,4,6
+2022,GMC,Sierra,Pickup truck: Standard,2.7,4,A8,X,12.5,10.6,11.6,24,274,4,6
+2022,GMC,Sierra,Pickup truck: Standard,3,6,A10,D,10.2,7.8,9.1,31,245,5,3
+2022,GMC,Sierra FFV,Pickup truck: Standard,5.3,8,A6,X,16.2,12.3,14.5,19,341,3,3
+2022,GMC,Sierra FFV,Pickup truck: Standard,5.3,8,A6,E,21.5,16,19.1,15,321,3,3
+2022,GMC,Sierra,Pickup truck: Standard,5.3,8,A8,X,15.1,11.3,13.4,21,314,3,6
+2022,GMC,Sierra,Pickup truck: Standard,5.3,8,A10,X,14.4,11.3,13,22,305,3,6
+2022,GMC,Sierra 4WD,Pickup truck: Standard,2.7,4,A8,X,13.9,12,13.1,22,306,3,6
+2022,GMC,Sierra 4WD Mud Terrain Tire,Pickup truck: Standard,2.7,4,A8,X,14.7,13.1,14,20,328,3,6
+2022,GMC,Sierra 4WD,Pickup truck: Standard,3,6,A10,D,10.5,9.1,9.9,29,265,4,3
+2022,GMC,Sierra 4WD Mud Terrain Tire,Pickup truck: Standard,3,6,A10,D,11.8,10.3,11.2,25,298,4,3
+2022,GMC,Sierra 4WD FFV,Pickup truck: Standard,5.3,8,A6,X,16.5,12.8,14.8,19,347,3,3
+2022,GMC,Sierra 4WD FFV,Pickup truck: Standard,5.3,8,A6,E,22,16.4,19.5,14,326,3,3
+2022,GMC,Sierra 4WD Mud Terrain Tire FFV,Pickup truck: Standard,5.3,8,A6,X,17.4,14.7,16.2,17,380,2,3
+2022,GMC,Sierra 4WD Mud Terrain Tire FFV,Pickup truck: Standard,5.3,8,A6,E,23.1,19.6,21.5,13,358,2,3
+2022,GMC,Sierra 4WD,Pickup truck: Standard,5.3,8,A8,X,15.6,11.9,13.9,20,327,3,6
+2022,GMC,Sierra 4WD Mud Terrain Tire,Pickup truck: Standard,5.3,8,A8,X,16.9,13.3,15.3,18,359,2,6
+2022,GMC,Sierra 4WD,Pickup truck: Standard,5.3,8,A10,X,14.9,12,13.6,21,318,3,6
+2022,GMC,Sierra 4WD (No DFM),Pickup truck: Standard,5.3,8,A10,X,16.8,12.4,14.8,19,347,3,6
+2022,GMC,Sierra 4WD (With Sport Mode),Pickup truck: Standard,5.3,8,A10,X,15.4,12.3,14,20,329,3,6
+2022,GMC,Sierra 4WD (No Stop-Start),Pickup truck: Standard,5.3,8,A10,X,16.1,12.4,14.4,20,338,3,6
+2022,GMC,Sierra 4WD Mud Terrain Tire,Pickup truck: Standard,5.3,8,A10,X,16.6,14,15.4,18,360,2,6
+2022,GMC,Sierra 4WD Mud Terrain Tire (No DFM),Pickup truck: Standard,5.3,8,A10,X,18.1,13.8,16.2,17,381,2,6
+2022,GMC,Sierra 4WD,Pickup truck: Standard,6.2,8,A10,Z,15.7,11.9,14,20,329,3,6
+2022,GMC,Sierra 4WD (No Stop-Start),Pickup truck: Standard,6.2,8,A10,Z,16.6,12.3,14.7,19,345,3,6
+2022,GMC,Sierra 4WD Mud Terrain Tire,Pickup truck: Standard,6.2,8,A10,Z,16.5,13.2,15,19,352,3,6
+2022,GMC,Sierra 4WD Mud Terrain Tire (No Stop-Start),Pickup truck: Standard,6.2,8,A10,Z,18.2,14.2,16.4,17,385,2,6
+2022,GMC,Terrain,SUV: Small,1.5,4,A9,X,9.2,7.8,8.6,33,202,6,7
+2022,GMC,Terrain AWD,SUV: Small,1.5,4,A9,X,9.6,8.3,9,31,212,5,7
+2022,GMC,Yukon,SUV: Standard,3,6,A10,D,11.2,8.7,10.1,28,272,4,3
+2022,GMC,Yukon,SUV: Standard,5.3,8,A10,X,15.8,11.8,14,20,327,3,6
+2022,GMC,Yukon (No Stop-Start),SUV: Standard,5.3,8,A10,X,16,11.9,14.1,20,332,3,6
+2022,GMC,Yukon 4WD,SUV: Standard,3,6,A10,D,11.7,9,10.5,27,281,4,3
+2022,GMC,Yukon 4WD,SUV: Standard,5.3,8,A10,X,15.8,11.8,14,20,327,3,6
+2022,GMC,Yukon 4WD (No Stop-Start),SUV: Standard,5.3,8,A10,X,17,12.7,15.1,19,354,3,6
+2022,GMC,Yukon 4WD,SUV: Standard,6.2,8,A10,Z,16.3,12.7,14.7,19,345,3,6
+2022,GMC,Yukon 4WD (No Stop-Start),SUV: Standard,6.2,8,A10,Z,17,12.7,15.1,19,353,3,6
+2022,GMC,Yukon XL,SUV: Standard,3,6,A10,D,11.2,8.7,10.1,28,272,4,3
+2022,GMC,Yukon XL,SUV: Standard,5.3,8,A10,X,15.8,11.8,14,20,327,3,6
+2022,GMC,Yukon XL (No Stop-Start),SUV: Standard,5.3,8,A10,X,16,11.9,14.1,20,332,3,6
+2022,GMC,Yukon XL 4WD,SUV: Standard,3,6,A10,D,11.7,9,10.5,27,281,4,3
+2022,GMC,Yukon XL 4WD,SUV: Standard,5.3,8,A10,X,15.9,12.4,14.3,20,336,3,6
+2022,GMC,Yukon XL 4WD (No Stop-Start),SUV: Standard,5.3,8,A10,X,17,12.7,15.1,19,354,3,6
+2022,GMC,Yukon XL 4WD,SUV: Standard,6.2,8,A10,Z,16.3,12.7,14.7,19,345,3,6
+2022,GMC,Yukon XL 4WD (No Stop-Start),SUV: Standard,6.2,8,A10,Z,17,12.7,15.1,19,353,3,6
+2022,Honda,Accord,Full-size,1.5,4,AV,X,7.8,6.5,7.2,39,168,7,7
+2022,Honda,Accord Sport/Touring,Full-size,1.5,4,AV7,X,8.1,6.8,7.5,38,176,7,7
+2022,Honda,Accord Sport/Touring,Full-size,2,4,AS10,X,10.4,7.4,9.1,31,211,5,7
+2022,Honda,Accord Hybrid,Full-size,2,4,AV,X,5,5,5,56,117,9,7
+2022,Honda,Accord Hybrid Sport/Touring,Full-size,2,4,AV,X,5.3,5.7,5.5,51,129,8,7
+2022,Honda,Civic Hatchback,Full-size,1.5,4,AV7,X,7.7,6.3,7.1,40,166,7,7
+2022,Honda,Civic Hatchback,Full-size,1.5,4,M6,X,8.5,6.3,7.5,38,175,7,6
+2022,Honda,Civic Hatchback,Full-size,2,4,AV,X,8,6.2,7.2,39,167,7,7
+2022,Honda,Civic Hatchback,Full-size,2,4,M6,X,9.1,6.6,8,35,186,6,6
+2022,Honda,Civic Sedan,Mid-size,1.5,4,AV7,X,7.6,6.1,6.9,41,162,7,7
+2022,Honda,Civic Sedan,Mid-size,2,4,AV,X,7.7,6,6.9,41,162,7,7
+2022,Honda,Civic Sedan,Mid-size,2,4,AV7,X,7.8,6.3,7.1,40,165,7,7
+2022,Honda,Civic Sedan Si,Mid-size,1.5,4,M6,Z,8.7,6.4,7.7,37,180,7,6
+2022,Honda,CR-V,SUV: Small,1.5,4,AV,X,8.3,7,7.7,37,180,7,6
+2022,Honda,CR-V AWD,SUV: Small,1.5,4,AV,X,8.7,7.4,8.1,35,189,6,6
+2022,Honda,HR-V,Station wagon: Small,1.8,4,AV,X,8.4,7,7.8,36,181,6,5
+2022,Honda,HR-V AWD,Station wagon: Small,1.8,4,AV,X,8.8,7.5,8.2,34,193,6,5
+2022,Honda,HR-V AWD,Station wagon: Small,1.8,4,AV7,X,9.1,7.7,8.5,33,200,6,5
+2022,Honda,Odyssey,Minivan,3.5,6,AS10,X,12.2,8.5,10.6,27,248,5,5
+2022,Honda,Passport AWD,SUV: Small,3.5,6,AS9,X,12.5,9.8,11.3,25,265,4,3
+2022,Honda,Pilot AWD,SUV: Small,3.5,6,AS9,X,12.4,9.3,11,26,256,5,3
+2022,Honda,Pilot AWD TrailSport,SUV: Small,3.5,6,AS9,X,12.3,9.5,11.1,25,260,4,3
+2022,Honda,Ridgeline AWD,Pickup truck: Standard,3.5,6,AS9,X,12.8,9.9,11.5,25,271,4,3
+2022,Hyundai,Elantra,Mid-size,1.6,4,AM7,X,8.4,6.6,7.6,37,179,7,5
+2022,Hyundai,Elantra,Mid-size,2,4,AV1,X,7.6,5.7,6.7,42,158,7,5
+2022,Hyundai,Elantra (ISG),Mid-size,2,4,AV1,X,7.1,5.5,6.4,44,151,7,5
+2022,Hyundai,Elantra,Mid-size,2,4,M6,X,9.1,6.3,7.8,36,185,6,5
+2022,Hyundai,Elantra N,Mid-size,2,4,AM8,Z,12.1,7.9,10.2,28,241,5,3
+2022,Hyundai,Elantra N,Mid-size,2,4,M6,Z,10.9,7.7,9.4,30,223,5,3
+2022,Hyundai,Elantra Hybrid Blue,Mid-size,1.6,4,AM6,X,4.5,4.2,4.4,64,103,9,7
+2022,Hyundai,IONIQ,Full-size,1.6,4,AM6,X,4.3,4.1,4.2,67,99,9,7
+2022,Hyundai,IONIQ Blue,Full-size,1.6,4,AM6,X,4,3.9,4,71,94,10,7
+2022,Hyundai,Kona,SUV: Small,2,4,AV,X,8,6.6,7.4,38,174,7,7
+2022,Hyundai,Kona N,SUV: Small,2,4,AM8,Z,11.8,8.7,10.4,27,246,5,3
+2022,Hyundai,Kona AWD,SUV: Small,1.6,4,AM7,X,8.8,7.4,8.2,34,193,6,5
+2022,Hyundai,Kona AWD,SUV: Small,2,4,AV,X,8.5,7.2,7.9,36,187,6,7
+2022,Hyundai,Palisade AWD,SUV: Standard,3.8,6,AS8,X,12.3,9.6,11.1,25,265,4,5
+2022,Hyundai,Santa Cruz AWD,Pickup truck: Small,2.5,4,AM8,X,12.1,8.6,10.6,27,250,5,5
+2022,Hyundai,Santa Fe AWD,SUV: Small,2.5,4,AM8,X,11,8.5,9.9,29,233,5,5
+2022,Hyundai,Santa Fe AWD,SUV: Small,2.5,4,AS8,X,10.6,9.3,10,28,235,5,7
+2022,Hyundai,Santa Fe Hybrid,SUV: Small,1.6,4,AM6,X,7.1,7.9,7.4,38,176,7,7
+2022,Hyundai,Sonata,Full-size,1.6,4,AS8,X,8.8,6.4,7.7,37,183,6,5
+2022,Hyundai,Sonata,Full-size,2.5,4,AM8,X,10.1,7.2,8.8,32,208,6,5
+2022,Hyundai,Sonata,Full-size,2.5,4,AS8,X,8.8,6.4,7.7,37,182,6,7
+2022,Hyundai,Sonata Hybrid,Full-size,2,4,AM6,X,5.3,4.6,5,56,117,9,7
+2022,Hyundai,Tucson,SUV: Small,2.5,4,AS8,X,9.1,7.1,8.2,34,194,6,5
+2022,Hyundai,Tucson AWD,SUV: Small,2.5,4,AS8,X,9.9,8,9,31,214,5,5
+2022,Hyundai,Tucson Hybrid,SUV: Small,1.6,4,AM6,X,6.3,6.6,6.4,44,152,7,7
+2022,Hyundai,Veloster N,Compact,2,4,AM8,Z,12,8.6,10.5,27,248,5,3
+2022,Hyundai,Veloster N,Compact,2,4,M6,Z,10.6,8.3,9.5,30,226,5,3
+2022,Hyundai,Venue,Mid-size,1.6,4,AV1,X,7.9,6.9,7.5,38,176,7,5
+2022,Hyundai,Venue,Mid-size,1.6,4,M6,X,8.6,6.8,7.8,36,184,6,5
+2022,Infiniti,Q50 AWD,Mid-size,3,6,AS7,Z,12.5,8.7,10.8,26,254,5,3
+2022,Infiniti,Q50 AWD Red Sport,Mid-size,3,6,AS7,Z,12.5,9.3,11.1,25,261,4,3
+2022,Infiniti,Q60 AWD,Subcompact,3,6,AS7,Z,12.3,8.7,10.7,26,252,5,3
+2022,Infiniti,Q60 AWD Red Sport,Subcompact,3,6,AS7,Z,12.5,9.2,11,26,259,4,3
+2022,Infiniti,QX50 AWD,SUV: Small,2,4,AV8,Z,10.8,8.3,9.7,29,228,5,6
+2022,Infiniti,QX55 AWD,SUV: Small,2,4,AV8,Z,10.5,8.3,9.5,30,223,5,6
+2022,Infiniti,QX60 AWD,SUV: Standard,3.5,6,AS9,Z,11.9,9.5,10.8,26,253,5,5
+2022,Infiniti,QX80 4WD,SUV: Standard,5.6,8,AS7,Z,17.5,12.2,15.1,19,355,3,3
+2022,Jaguar,E-PACE P250,SUV: Small,2,4,AS9,Z,11.5,9.2,10.4,27,247,5,7
+2022,Jaguar,E-PACE P300,SUV: Small,2,4,AS9,Z,11.2,9.2,10.3,27,245,5,7
+2022,Jaguar,F-TYPE P450 Convertible,Two-seater,5,8,AS8,Z,14.1,9.7,12.1,23,286,4,3
+2022,Jaguar,F-TYPE P450 Convertible AWD,Two-seater,5,8,AS8,Z,15.2,9.8,12.7,22,299,3,3
+2022,Jaguar,F-TYPE P450 Coupe,Two-seater,5,8,AS8,Z,14.1,9.7,12.1,23,286,4,3
+2022,Jaguar,F-TYPE P450 Coupe AWD,Two-seater,5,8,AS8,Z,15.2,9.8,12.7,22,299,3,3
+2022,Jaguar,F-TYPE R Convertible AWD,Two-seater,5,8,AS8,Z,15.2,9.8,12.7,22,299,3,3
+2022,Jaguar,F-TYPE R Coupe AWD,Two-seater,5,8,AS8,Z,15.2,9.8,12.7,22,299,3,3
+2022,Jeep,Cherokee,SUV: Small,2,4,A9,X,10.4,7.6,9.1,31,214,5,5
+2022,Jeep,Cherokee,SUV: Small,2.4,4,A9,X,10.8,7.5,9.3,30,219,5,6
+2022,Jeep,Cherokee,SUV: Small,3.2,6,A9,X,11.9,8.2,10.2,28,240,5,5
+2022,Jeep,Cherokee 4X4 Active Drive I,SUV: Small,2,4,A9,X,11.2,8,9.8,29,229,5,5
+2022,Jeep,Cherokee 4X4 Active Drive I,SUV: Small,2.4,4,A9,X,11.2,8,9.8,29,230,5,6
+2022,Jeep,Cherokee 4X4 Active Drive I,SUV: Small,3.2,6,A9,X,12.2,8.6,10.6,27,249,5,5
+2022,Jeep,Cherokee 4X4 Active Drive Lock,SUV: Small,3.2,6,A9,X,12.9,9.7,11.5,25,268,4,5
+2022,Jeep,Compass,SUV: Small,2.4,4,A6,X,10.6,7.6,9.3,30,218,5,6
+2022,Jeep,Compass 4X4,SUV: Small,2.4,4,A9,X,10.8,7.8,9.5,30,222,5,6
+2022,Jeep,Gladiator 4X4 EcoDiesel,Pickup truck: Standard,3,6,A8,D,10.8,8.5,9.8,29,263,4,1
+2022,Jeep,Gladiator 4X4 Rubicon EcoDiesel,Pickup truck: Standard,3,6,A8,D,11,8.7,10,28,271,4,1
+2022,Jeep,Gladiator 4X4,Pickup truck: Standard,3.6,6,A8,X,13.7,10.7,12.3,23,290,4,7
+2022,Jeep,Gladiator 4X4,Pickup truck: Standard,3.6,6,M6,X,14.3,10.4,12.6,22,296,4,5
+2022,Jeep,Grand Cherokee 4X4,SUV: Standard,3.6,6,A8,X,12.3,9.2,10.9,26,256,5,7
+2022,Jeep,Grand Cherokee 4X4,SUV: Standard,5.7,8,A8,X,16.7,10.9,14.1,20,331,3,5
+2022,Jeep,Grand Cherokee L 4X4,SUV: Standard,3.6,6,A8,X,13,9.4,11.3,25,266,4,7
+2022,Jeep,Grand Cherokee L 4X4,SUV: Standard,5.7,8,A8,X,16.7,10.9,14.1,20,331,3,5
+2022,Jeep,Grand Cherokee WK 4X4,SUV: Standard,3.6,6,A8,X,12.7,9.6,11.3,25,265,4,7
+2022,Jeep,Grand Wagoneer 4X4,SUV: Standard,3,6,A8,Z,16.3,11.8,14.3,20,334,3,5
+2022,Jeep,Grand Wagoneer 4X4,SUV: Standard,6.4,8,A8,Z,18.6,12.8,16,18,374,2,1
+2022,Jeep,Renegade,SUV: Small,1.3,4,A9,X,9.8,7.4,8.7,32,204,6,6
+2022,Jeep,Renegade 4X4,SUV: Small,1.3,4,A9,X,10.1,8.1,9.2,31,222,5,6
+2022,Jeep,Renegade 4X4 Trailhawk,SUV: Small,1.3,4,A9,X,10.8,8.7,9.9,29,231,5,6
+2022,Jeep,Wagoneer 4X4,SUV: Standard,5.7,8,A8,X,15.6,11.7,13.8,20,323,3,5
+2022,Jeep,Wrangler JL 4X4,SUV: Small,2,4,A8,X,10.7,9.8,10.3,27,241,5,5
+2022,Jeep,Wrangler JL 4X4,SUV: Small,3.6,6,A8,X,12.8,10.4,11.8,24,274,4,7
+2022,Jeep,Wrangler JL 4X4 eTorque,SUV: Small,3.6,6,A8,X,12,9.8,11,26,258,4,5
+2022,Jeep,Wrangler JL 4X4,SUV: Small,3.6,6,M6,X,13.7,9.6,11.8,24,277,4,5
+2022,Jeep,Wrangler JL Unlimited 4X4,SUV: Small,2,4,A8,X,11.5,9.9,10.8,26,251,5,5
+2022,Jeep,Wrangler JL Unlimited 4X4 EcoDiesel,SUV: Small,3,6,A8,D,10.6,8.1,9.5,30,255,5,1
+2022,Jeep,Wrangler JL Unlimited 4X4 Rubicon EcoDiesel,SUV: Small,3,6,A8,D,11.2,9,10.2,28,275,4,1
+2022,Jeep,Wrangler JL Unlimited 4X4,SUV: Small,3.6,6,A8,X,12.9,10.2,11.7,24,275,4,7
+2022,Jeep,Wrangler JL Unlimited 4X4 eTorque,SUV: Small,3.6,6,A8,X,12.3,9.9,11.2,25,262,4,5
+2022,Jeep,Wrangler JL Unlimited 4X4,SUV: Small,3.6,6,M6,X,13.8,10.1,12.2,23,285,4,5
+2022,Jeep,Wrangler JL Unlimited 4X4,SUV: Small,6.4,8,A8,Z,18.5,14.1,16.5,17,387,2,1
+2022,Kia,Carnival,Minivan,3.5,6,AS8,X,12,8.9,10.6,27,252,5,5
+2022,Kia,Forte,Mid-size,1.6,4,AM7,X,8.7,6.6,7.8,36,184,6,5
+2022,Kia,Forte,Mid-size,2,4,AV,X,7.9,5.9,7,40,165,7,5
+2022,Kia,Forte,Mid-size,2,4,M6,X,8.8,6.1,7.6,37,178,7,5
+2022,Kia,Forte 5,Full-size,1.6,4,AM7,X,8.9,6.9,8,35,190,6,5
+2022,Kia,Forte 5,Full-size,2,4,AV,X,8,6,7.1,40,169,7,5
+2022,Kia,K5,Full-size,2.5,4,AM8,X,9.9,7.3,8.7,32,207,6,5
+2022,Kia,K5 AWD,Full-size,1.6,4,AS8,X,9.2,7,8.2,34,195,6,5
+2022,Kia,Niro,Station wagon: Small,1.6,4,AM6,X,4.4,4.9,4.6,61,110,9,7
+2022,Kia,Niro FE,Station wagon: Small,1.6,4,AM6,X,4.4,4.9,4.6,61,110,9,7
+2022,Kia,Niro Touring,Station wagon: Small,1.6,4,AM6,X,5,5.6,5.3,53,124,9,7
+2022,Kia,Rio,Compact,1.6,4,AV1,X,7.2,6,6.7,42,159,7,3
+2022,Kia,Rio,Compact,1.6,4,M6,X,7.7,6.1,7,40,166,7,3
+2022,Kia,Seltos,SUV: Small,2,4,AV8,X,8.2,7.1,7.7,37,182,6,5
+2022,Kia,Seltos AWD,SUV: Small,1.6,4,AM7,X,9.4,7.9,8.7,32,205,6,5
+2022,Kia,Seltos AWD,SUV: Small,2,4,AV8,X,8.8,7.6,8.2,34,195,6,5
+2022,Kia,Sorento AWD,SUV: Small,2.5,4,AM8,X,10.9,8.7,9.9,29,234,5,5
+2022,Kia,Sorento AWD,SUV: Small,2.5,4,AS8,X,10.1,9.2,9.7,29,227,5,5
+2022,Kia,Sorento Hybrid AWD,SUV: Small,1.6,4,AM6,X,6.4,7,6.6,43,157,7,7
+2022,Kia,Soul,Station wagon: Small,2,4,AV,X,8.5,7,7.9,36,187,6,7
+2022,Kia,Sportage,SUV: Small,2.4,4,AS6,X,10.1,7.6,9,31,214,5,5
+2022,Kia,Sportage AWD,SUV: Small,2,4,AS6,X,12.1,9.6,11,26,261,4,5
+2022,Kia,Sportage AWD,SUV: Small,2.4,4,AS6,X,10.8,9.1,10,28,238,5,5
+2022,Kia,Stinger AWD,Mid-size,3.3,6,AS8,Z,13.7,9.6,11.9,24,280,4,3
+2022,Kia,Telluride AWD,SUV: Small,3.8,6,AS8,X,12.7,9.7,11.3,25,266,4,5
+2022,Lamborghini,Aventador Countach,Two-seater,6.5,12,AM7,Z,26.5,14.6,21.2,13,489,1,1
+2022,Lamborghini,Aventador Ultimae Coupe,Two-seater,6.5,12,AM7,Z,26.8,15.1,21.5,13,498,1,1
+2022,Lamborghini,Aventador Ultimae Roadster,Two-seater,6.5,12,AM7,Z,26.8,15.1,21.5,13,498,1,1
+2022,Lamborghini,Huracan evo Coupe,Two-seater,5.2,10,AM7,Z,18,12.9,15.7,18,371,2,1
+2022,Lamborghini,Huracan evo Coupe AWD,Two-seater,5.2,10,AM7,Z,18,12.9,15.7,18,370,2,1
+2022,Lamborghini,Huracan evo Spyder,Two-seater,5.2,10,AM7,Z,18,12.9,15.7,18,371,2,1
+2022,Lamborghini,Huracan evo Spyder AWD,Two-seater,5.2,10,AM7,Z,18,12.9,15.7,18,370,2,1
+2022,Lamborghini,Urus,SUV: Standard,4,8,AS8,Z,19.2,14.1,16.9,17,384,2,3
+2022,Land Rover,Defender 90 P300,SUV: Standard,2,4,AS8,Z,13.2,11.3,12.3,23,289,4,7
+2022,Land Rover,Defender 90 P400,SUV: Standard,3,6,AS8,Z,13.5,10.8,12.3,23,287,4,7
+2022,Land Rover,Defender 90 5.0L V8,SUV: Standard,5,8,AS8,Z,15.8,12.4,14.3,20,339,3,3
+2022,Land Rover,Defender 110 P300,SUV: Standard,2,4,AS8,Z,14.2,11.7,13,22,306,3,7
+2022,Land Rover,Defender 110 P400,SUV: Standard,3,6,AS8,Z,13.5,10.8,12.3,23,287,4,7
+2022,Land Rover,Defender 110 5.0L V8,SUV: Standard,5,8,AS8,Z,16.4,12.7,14.7,19,350,3,3
+2022,Land Rover,Discovery P300,SUV: Standard,2,4,AS8,Z,12.2,10.6,11.5,25,271,4,7
+2022,Land Rover,Discovery P360,SUV: Standard,3,6,AS8,Z,12.8,9.8,11.4,25,270,4,7
+2022,Land Rover,Range Rover P360,SUV: Standard,3,6,AS8,Z,13.3,10.2,11.9,24,279,4,7
+2022,Land Rover,Range Rover P400,SUV: Standard,3,6,AS8,Z,13.3,10.2,11.9,24,279,4,7
+2022,Land Rover,Range Rover P525,SUV: Standard,5,8,AS8,Z,14.4,11.3,13,22,305,3,3
+2022,Land Rover,Range Rover P525 LWB,SUV: Standard,5,8,AS8,Z,14.4,11.3,13,22,305,3,3
+2022,Land Rover,Range Rover SVAutobiography,SUV: Standard,5,8,AS8,Z,17.1,12.6,15.1,19,354,3,3
+2022,Land Rover,Range Rover SVAutobiography LWB,SUV: Standard,5,8,AS8,Z,17.9,12.7,15.5,18,365,2,3
+2022,Land Rover,Range Rover Sport P360,SUV: Standard,3,6,AS8,Z,12.7,9.9,11.4,25,269,4,7
+2022,Land Rover,Range Rover Sport HST P400,SUV: Standard,3,6,AS8,Z,12.7,9.9,11.4,25,269,4,7
+2022,Land Rover,Range Rover Sport P525,SUV: Standard,5,8,AS8,Z,14.1,10.7,12.6,22,294,4,3
+2022,Land Rover,Range Rover Sport P575 SVR,SUV: Standard,5,8,AS8,Z,16.2,12,14.3,20,336,3,3
+2022,Lexus,ES 250 AWD,Mid-size,2.5,4,AS8,X,9.5,7,8.4,34,195,6,6
+2022,Lexus,ES 300h,Mid-size,2.5,4,AV6,X,5.5,5.2,5.3,53,124,9,7
+2022,Lexus,ES 350,Mid-size,3.5,6,AS8,X,10.7,7.3,9.2,31,214,5,5
+2022,Lexus,ES 350 F SPORT,Mid-size,3.5,6,AS8,X,10.9,7.5,9.4,30,219,5,5
+2022,Lexus,GX 460,SUV: Standard,4.6,8,AS6,Z,16.2,12.3,14.5,19,337,3,3
+2022,Lexus,IS 300,Compact,2,4,AS6,Z,11,7.6,9.5,30,221,5,5
+2022,Lexus,IS 300 AWD,Compact,3.5,6,AS6,Z,12.2,9,10.8,26,253,5,5
+2022,Lexus,IS 350 AWD,Compact,3.5,6,AS6,Z,12.2,9,10.8,26,253,5,5
+2022,Lexus,IS 500,Compact,5,8,AS8,Z,14.1,9.3,11.9,24,280,4,5
+2022,Lexus,LC 500,Subcompact,5,8,AS10,Z,15.1,9.6,12.6,22,294,4,5
+2022,Lexus,LC 500 Convertible,Minicompact,5,8,AS10,Z,16,9.5,13,22,304,3,5
+2022,Lexus,LC 500h,Subcompact,3.5,6,AV10,Z,9,7.1,8.1,35,189,6,7
+2022,Lexus,LS 500 AWD,Mid-size,3.4,6,AS10,Z,13.8,8.7,11.2,25,270,4,5
+2022,Lexus,LS 500h AWD,Mid-size,3.5,6,AV10,Z,10.1,8.1,9.2,31,216,5,7
+2022,Lexus,LX 600,SUV: Standard,3.4,6,AS10,Z,14.2,10.8,12.7,22,298,4,5
+2022,Lexus,NX 250 AWD,SUV: Small,2.5,4,AS8,X,9.4,7.4,8.4,34,198,6,6
+2022,Lexus,NX 350 AWD,SUV: Small,2.4,4,AS8,Z,10.5,8.3,9.5,30,221,5,7
+2022,Lexus,NX 350 AWD F SPORT,SUV: Small,2.4,4,AS8,Z,10.5,8.4,9.5,30,222,5,7
+2022,Lexus,NX 350h AWD,SUV: Small,2.5,4,AV6,Z,5.7,6.4,6,47,140,8,7
+2022,Lexus,RC 300 AWD,Subcompact,3.5,6,AS6,Z,12.2,9,10.8,26,253,5,5
+2022,Lexus,RC 350 AWD,Subcompact,3.5,6,AS6,Z,12.2,9,10.8,26,253,5,5
+2022,Lexus,RC F,Subcompact,5,8,AS8,Z,14.4,9.6,12.2,23,285,4,5
+2022,Lexus,RX 350 AWD,SUV: Small,3.5,6,AS8,X,12.2,9,10.8,26,252,5,5
+2022,Lexus,RX 350 L AWD,SUV: Small,3.5,6,AS8,X,13.1,9.4,11.1,25,268,4,5
+2022,Lexus,RX 450h AWD,SUV: Standard,3.5,6,AV6,Z,7.5,8.4,7.9,36,185,6,7
+2022,Lexus,RX 450h L AWD,SUV: Standard,3.5,6,AV6,Z,8.1,8.4,8.1,35,190,6,7
+2022,Lexus,UX 200,Mid-size,2,4,AS10,X,8,6.3,7.2,39,168,7,6
+2022,Lexus,UX 250h AWD,Compact,2,4,AV6,X,5.7,6.2,6,47,140,8,7
+2022,Lincoln,Aviator AWD,SUV: Standard,3,6,AS10,X,13.7,9.7,11.9,24,280,4,5
+2022,Lincoln,Corsair AWD,SUV: Small,2,4,AS8,X,11.1,8.1,9.8,29,229,5,5
+2022,Lincoln,Corsair AWD,SUV: Small,2.3,4,AS8,X,11.2,8.3,9.9,29,232,5,5
+2022,Lincoln,Nautilus AWD,SUV: Small,2,4,A8,X,11.8,9.4,10.7,26,252,5,6
+2022,Lincoln,Nautilus AWD,SUV: Small,2,4,AS8,X,11.8,9.4,10.7,26,251,5,6
+2022,Lincoln,Nautilus AWD,SUV: Small,2.7,6,AS8,X,12.6,9.3,11.2,25,262,4,5
+2022,Lincoln,Navigator 4X4,SUV: Standard,3.5,6,AS10,X,15.2,10.8,13.2,21,311,3,6
+2022,Maserati,Ghibli GT,Mid-size,3,6,A8,Z,13.4,9.4,11.6,24,271,4,3
+2022,Maserati,Ghibli Modena,Mid-size,3,6,A8,Z,13.4,9.4,11.6,24,271,4,3
+2022,Maserati,Ghibli Modena AWD,Mid-size,3,6,A8,Z,14.8,9.8,12.6,22,293,4,3
+2022,Maserati,Ghibli Trofeo,Mid-size,3.8,8,A8,Z,17.4,11.9,14.9,19,348,3,1
+2022,Maserati,Levante GT,SUV: Standard,3,6,A8,Z,15.1,10.9,13.2,21,308,3,3
+2022,Maserati,Levante Modena,SUV: Standard,3,6,A8,Z,15.1,10.9,13.2,21,308,3,3
+2022,Maserati,Levante Modena V8,SUV: Standard,3.8,8,A8,Z,17.4,12,15,19,349,3,1
+2022,Maserati,Levante Trofeo,SUV: Standard,3.8,8,A8,Z,17.4,12,15,19,349,3,1
+2022,Maserati,MC20,Two-seater,3,6,AS8,Z,15.4,9.5,12.8,22,295,4,5
+2022,Maserati,Quattroporte GT,Full-size,3,6,A8,Z,14.4,9.3,12.1,23,281,4,3
+2022,Maserati,Quattroporte Modena,Full-size,3,6,A8,Z,14.4,9.3,12.1,23,281,4,3
+2022,Maserati,Quattroporte Modena AWD,Full-size,3,6,A8,Z,14.8,9.8,12.6,22,293,4,3
+2022,Maserati,Quattroporte Trofeo,Full-size,3.8,8,A8,Z,17.4,11.9,14.9,19,348,3,1
+2022,Mazda,CX-3,Compact,2,4,AS6,X,8.3,6.9,7.7,37,179,7,3
+2022,Mazda,CX-3 (SIL),Compact,2,4,M6,X,8.8,7,8,35,186,6,3
+2022,Mazda,CX-3 4WD,Compact,2,4,AS6,X,8.6,7.4,8.1,35,189,6,3
+2022,Mazda,CX-30 4WD,SUV: Small,2,4,AS6,X,9.4,7.7,8.6,33,202,6,7
+2022,Mazda,CX-30 4WD,SUV: Small,2.5,4,AS6,X,9.9,7.7,8.9,32,208,6,7
+2022,Mazda,CX-30 Turbo 4WD,SUV: Small,2.5,4,AS6,X,10.5,7.9,9.3,30,220,5,5
+2022,Mazda,CX-5 4WD,SUV: Small,2.5,4,AS6,X,10.2,8.2,9.3,30,216,5,6
+2022,Mazda,CX-5 4WD (Cylinder Deactivation),SUV: Small,2.5,4,AS6,X,9.9,7.9,9,31,209,5,6
+2022,Mazda,CX-5 Turbo 4WD,SUV: Small,2.5,4,AS6,X,10.8,8.7,9.8,29,230,5,5
+2022,Mazda,CX-9 4WD,SUV: Small,2.5,4,AS6,X,11.6,9,10.4,27,243,5,5
+2022,Mazda,Mazda3 4-Door,Compact,2,4,AS6,X,8.4,6.6,7.6,37,178,7,7
+2022,Mazda,Mazda3 4-Door (SIL),Compact,2,4,M6,X,8.7,6.4,7.7,37,180,7,7
+2022,Mazda,Mazda3 4-Door,Compact,2.5,4,AS6,X,8.9,6.5,7.8,36,183,6,7
+2022,Mazda,Mazda3 4-Door 4WD,Compact,2.5,4,AS6,X,9.5,7.2,8.5,33,199,6,7
+2022,Mazda,Mazda3 4-Door Turbo 4WD,Compact,2.5,4,AS6,X,10.1,7.3,8.8,32,207,6,5
+2022,Mazda,Mazda3 5-Door,Mid-size,2,4,AS6,X,8.6,6.7,7.7,37,181,7,7
+2022,Mazda,Mazda3 5-Door (SIL),Mid-size,2,4,M6,X,8.7,6.6,7.8,36,181,6,7
+2022,Mazda,Mazda3 5-Door,Mid-size,2.5,4,AS6,X,9.1,6.8,8.1,35,190,6,7
+2022,Mazda,Mazda3 5-Door (SIL),Mid-size,2.5,4,M6,X,9.6,7.1,8.4,34,198,6,7
+2022,Mazda,Mazda3 5-Door 4WD,Mid-size,2.5,4,AS6,X,9.5,7.4,8.6,33,200,6,7
+2022,Mazda,Mazda3 5-Door Turbo 4WD,Mid-size,2.5,4,AS6,X,10.1,7.5,8.9,32,209,5,5
+2022,Mazda,MX-5,Two-seater,2,4,AS6,Z,9,6.6,7.9,36,186,6,3
+2022,Mazda,MX-5 (SIL),Two-seater,2,4,M6,Z,9,7,8.1,35,189,6,3
+2022,Mercedes-Benz,A 220 4MATIC Sedan,Subcompact,2,4,AM7,Z,9.5,6.8,8.3,34,194,6,5
+2022,Mercedes-Benz,A 250 4MATIC Hatch,Station wagon: Small,2,4,AM7,Z,10,7,8.7,32,202,6,5
+2022,Mercedes-Benz,AMG A 35 4MATIC Sedan,Subcompact,2,4,AM7,Z,10.8,7.9,9.5,30,221,5,5
+2022,Mercedes-Benz,AMG A 35 4MATIC Hatch,Station wagon: Small,2,4,AM7,Z,10.8,7.8,9.4,30,221,5,5
+2022,Mercedes-Benz,AMG C 43 4MATIC Cabriolet,Subcompact,3,6,A9,Z,12.7,8.7,10.9,26,256,5,5
+2022,Mercedes-Benz,AMG C 43 4MATIC Coupe,Subcompact,3,6,A9,Z,12.6,8.5,10.8,26,252,5,5
+2022,Mercedes-Benz,AMG CLA 35 4MATIC Coupe,Compact,2,4,AM7,Z,11,8.2,9.7,29,227,5,5
+2022,Mercedes-Benz,AMG CLA 45 4MATIC Coupe,Compact,2,4,AM8,Z,12,8.5,10.4,27,243,5,3
+2022,Mercedes-Benz,AMG CLS 53 4MATIC+ Coupe,Compact,3,6,A9,Z,11.6,8.8,10.3,27,241,5,6
+2022,Mercedes-Benz,AMG E 53 4MATIC+ Sedan,Mid-size,3,6,A9,Z,11.3,8.3,9.9,29,232,5,6
+2022,Mercedes-Benz,AMG E 53 4MATIC+ Cabriolet,Subcompact,3,6,A9,Z,12,8.9,10.6,27,247,5,6
+2022,Mercedes-Benz,AMG E 53 4MATIC+ Coupe,Subcompact,3,6,A9,Z,11.7,8.4,10.2,28,239,5,6
+2022,Mercedes-Benz,AMG G 63 SUV,SUV: Standard,4,8,A9,Z,19.3,15.6,17.6,16,412,1,3
+2022,Mercedes-Benz,AMG GLA 35 4MATIC SUV,Station wagon: Small,2,4,AM8,Z,11,8.4,9.8,29,230,5,5
+2022,Mercedes-Benz,AMG GLA 45 4MATIC SUV,Station wagon: Small,2,4,AM8,Z,12.3,9.6,11.1,25,260,4,3
+2022,Mercedes-Benz,AMG GLB 35 4MATIC SUV,Station wagon: Mid-size,2,4,AM8,Z,12.7,9.4,11.2,25,262,4,5
+2022,Mercedes-Benz,AMG GLC 43 4MATIC SUV,SUV: Small,3,6,A9,Z,12.9,9.3,11.3,25,264,4,5
+2022,Mercedes-Benz,AMG GLC 43 4MATIC Coupe,SUV: Small,3,6,A9,Z,14,10.1,12.3,23,287,4,5
+2022,Mercedes-Benz,AMG GLE 53 4MATIC+ SUV,SUV: Standard,3,6,A9,Z,13.4,10.6,12.1,23,283,4,6
+2022,Mercedes-Benz,AMG GLE 53 4MATIC+ Coupe,SUV: Standard,3,6,A9,Z,13.6,11.1,12.5,23,292,4,6
+2022,Mercedes-Benz,AMG GLE 63 S 4MATIC+ SUV,SUV: Standard,4,8,A9,Z,16.2,12.6,14.6,19,341,3,5
+2022,Mercedes-Benz,AMG GLE 63 S 4MATIC+ Coupe,SUV: Standard,4,8,A9,Z,16.4,12.8,14.8,19,346,3,5
+2022,Mercedes-Benz,AMG GLS 63 4MATIC+ SUV,SUV: Standard,4,8,A9,Z,17.1,13.2,15.3,18,360,2,5
+2022,Mercedes-Benz,AMG GT 53 4MATIC+ Coupe,Compact,3,6,A9,Z,12.3,9.4,11,26,258,4,6
+2022,Mercedes-Benz,AMG SL 63 4MATIC+ Roadster,Minicompact,4,8,A9,Z,17.1,11.3,14.5,19,339,3,5
+2022,Mercedes-Benz,C 300 4MATIC Sedan,Compact,2,4,A9,Z,9.9,7.1,8.6,33,202,6,7
+2022,Mercedes-Benz,C 300 4MATIC Cabriolet,Subcompact,2,4,A9,Z,11,8,9.6,29,224,5,6
+2022,Mercedes-Benz,C 300 4MATIC Coupe,Subcompact,2,4,A9,Z,10.7,7.5,9.3,30,217,5,6
+2022,Mercedes-Benz,CLA 250 4MATIC Coupe,Compact,2,4,AM7,Z,9.8,7,8.6,33,200,6,5
+2022,Mercedes-Benz,CLS 450 4MATIC Coupe,Compact,3,6,A9,Z,11.1,8.2,9.8,29,229,5,6
+2022,Mercedes-Benz,E 350 4MATIC Sedan,Mid-size,2,4,A9,Z,11.2,8.2,9.8,29,229,5,6
+2022,Mercedes-Benz,E 450 4MATIC Sedan,Mid-size,3,6,A9,Z,10.5,7.9,9.3,30,218,5,6
+2022,Mercedes-Benz,E 450 4MATIC Cabriolet,Subcompact,3,6,A9,Z,11.2,8.4,9.9,29,233,5,6
+2022,Mercedes-Benz,E 450 4MATIC Coupe,Subcompact,3,6,A9,Z,11,8,9.6,29,225,5,6
+2022,Mercedes-Benz,E 450 4MATIC All-Terrain Wagon,Station wagon: Mid-size,3,6,A9,Z,11,8.3,9.8,29,229,5,6
+2022,Mercedes-Benz,G 550 SUV,SUV: Standard,4,8,A9,Z,16.3,13.7,15.1,19,354,3,3
+2022,Mercedes-Benz,GLA 250 4MATIC SUV,SUV: Small,2,4,AM8,Z,10.3,7.3,9,31,210,5,5
+2022,Mercedes-Benz,GLB 250 4MATIC SUV,SUV: Small,2,4,AM8,Z,10.9,7.9,9.5,30,224,5,5
+2022,Mercedes-Benz,GLC 300 4MATIC SUV,SUV: Small,2,4,A9,Z,11.5,9.1,10.4,27,242,5,6
+2022,Mercedes-Benz,GLC 300 4MATIC Coupe,SUV: Small,2,4,A9,Z,11.5,8.5,10.1,28,237,5,6
+2022,Mercedes-Benz,GLE 350 4MATIC SUV,SUV: Standard,2,4,A9,Z,12.1,8.9,10.7,26,250,5,5
+2022,Mercedes-Benz,GLE 450 4MATIC SUV,SUV: Standard,3,6,A9,Z,11.4,9.3,10.4,27,244,5,6
+2022,Mercedes-Benz,GLE 450 4MATIC Coupe,SUV: Standard,3,6,A9,Z,11.7,9.2,10.5,27,247,5,6
+2022,Mercedes-Benz,GLS 450 4MATIC SUV,SUV: Standard,3,6,A9,Z,12.8,10,11.5,25,269,4,6
+2022,Mercedes-Benz,GLS 600 4MATIC Maybach SUV,SUV: Standard,4,8,A9,Z,16.3,12.2,14.4,20,338,3,5
+2022,Mercedes-Benz,Maybach S 580 4MATIC Sedan,Full-size,4,8,A9,Z,15.2,9.9,12.9,22,301,3,5
+2022,Mercedes-Benz,Metris Cargo Van,Special purpose vehicle,2,4,A9,Z,12.6,10.1,11.5,25,267,4,6
+2022,Mercedes-Benz,Metris Cargo Van LWB,Special purpose vehicle,2,4,A9,Z,12.6,10.1,11.5,25,267,4,6
+2022,Mercedes-Benz,Metris Passenger Van,Special purpose vehicle,2,4,A9,Z,13.3,10.6,12.1,23,282,4,6
+2022,Mercedes-Benz,S 500 4MATIC SWB Sedan,Full-size,3,6,A9,Z,11.4,8,9.9,29,231,5,6
+2022,Mercedes-Benz,S 580 4MATIC LWB Sedan,Full-size,4,8,A9,Z,14.3,9.5,12.2,23,285,4,5
+2022,MINI,Cooper 3 Door,Subcompact,1.5,3,AM7,Z,8.2,6.2,7.3,39,170,7,7
+2022,MINI,Cooper 3 Door,Subcompact,1.5,3,M6,Z,8.7,6.3,7.6,37,177,7,7
+2022,MINI,Cooper 5 Door,Subcompact,1.5,3,AM7,Z,8.2,6.2,7.3,39,170,7,7
+2022,MINI,Cooper 5 Door,Subcompact,1.5,3,M6,Z,8.7,6.3,7.6,37,177,7,7
+2022,MINI,Cooper Convertible,Minicompact,1.5,3,AM7,Z,8.2,6.2,7.3,39,170,7,7
+2022,MINI,Cooper Convertible,Minicompact,1.5,3,M6,Z,8.7,6.3,7.6,37,177,7,7
+2022,MINI,Cooper Countryman ALL4,Mid-size,1.5,3,AS8,Z,10.2,7.7,9.1,31,211,5,7
+2022,MINI,Cooper S 3 Door,Subcompact,2,4,AM7,Z,8.5,6.2,7.5,38,174,7,7
+2022,MINI,Cooper S 3 Door,Subcompact,2,4,M6,Z,10.5,7.3,9.1,31,211,5,7
+2022,MINI,Cooper S 5 Door,Subcompact,2,4,AM7,Z,8.5,6.2,7.5,38,174,7,7
+2022,MINI,Cooper S 5 Door,Subcompact,2,4,M6,Z,10.5,7.3,9.1,31,211,5,7
+2022,MINI,Cooper S Clubman ALL4,Mid-size,2,4,AS8,Z,10.2,7.4,8.9,32,207,6,7
+2022,MINI,Cooper S Convertible,Minicompact,2,4,AM7,Z,8.8,6.5,7.8,36,182,6,7
+2022,MINI,Cooper S Convertible,Minicompact,2,4,M6,Z,10.1,7.1,8.8,32,205,6,7
+2022,MINI,Cooper S Countryman ALL4,Mid-size,2,4,AS8,Z,10.4,7.5,9.1,31,212,5,7
+2022,MINI,John Cooper Works 3 Door,Subcompact,2,4,AS8,Z,9.3,6.9,8.2,34,191,6,7
+2022,MINI,John Cooper Works 3 Door,Subcompact,2,4,M6,Z,10.5,7.3,9.1,31,211,5,7
+2022,MINI,John Cooper Works Clubman ALL4,Mid-size,2,4,AS8,Z,10.1,7.6,9,31,210,5,3
+2022,MINI,John Cooper Works Convertible,Minicompact,2,4,AS8,Z,9.6,7.2,8.5,33,198,6,7
+2022,MINI,John Cooper Works Countryman ALL4,Mid-size,2,4,AS8,Z,10.4,7.8,9.2,31,210,5,3
+2022,Mitsubishi,Eclipse Cross 4WD,SUV: Small,1.5,4,AV8,X,9.6,8.9,9.3,30,216,5,5
+2022,Mitsubishi,Mirage,Compact,1.2,3,AV,X,6.6,5.6,6.2,46,143,8,5
+2022,Mitsubishi,Mirage,Compact,1.2,3,M5,X,7.1,5.8,6.5,43,151,8,5
+2022,Mitsubishi,Outlander 4WD,SUV: Small,2.5,4,AV8,X,9.7,7.9,8.9,32,208,6,6
+2022,Mitsubishi,RVR,SUV: Small,2,4,AV6,X,9.7,7.8,8.8,32,206,6,5
+2022,Mitsubishi,RVR 4WD,SUV: Small,2,4,AV6,X,10.1,8.2,9.2,31,213,5,5
+2022,Mitsubishi,RVR 4WD,SUV: Small,2.4,4,AV6,X,10.3,8.3,9.4,30,218,5,5
+2022,Nissan,Altima AWD,Mid-size,2.5,4,AV,X,9.1,6.5,7.9,36,186,6,7
+2022,Nissan,Altima AWD SR/Platinum,Mid-size,2.5,4,AV,X,9.3,6.7,8.1,35,190,6,7
+2022,Nissan,Armada 4WD,SUV: Standard,5.6,8,AS7,Z,17.5,12.9,15.4,18,362,2,3
+2022,Nissan,Frontier,Pickup truck: Standard,3.8,6,AS9,X,12.8,9.5,11.3,25,266,4,5
+2022,Nissan,Frontier 4WD,Pickup truck: Standard,3.8,6,AS9,X,13.7,10.6,12.3,23,288,4,5
+2022,Nissan,Kicks,Mid-size,1.6,4,AV,X,7.7,6.6,7.2,39,169,7,7
+2022,Nissan,Maxima,Mid-size,3.5,6,AV7,Z,11.6,7.9,9.9,29,233,5,3
+2022,Nissan,Murano AWD,Station wagon: Mid-size,3.5,6,AV7,X,12,8.5,10.4,27,245,5,5
+2022,Nissan,Pathfinder 4WD,SUV: Small,3.5,6,AS9,X,11.6,9.2,10.5,27,246,5,5
+2022,Nissan,Qashqai,Station wagon: Small,2,4,AV8,X,8.6,7.3,8,35,188,6,6
+2022,Nissan,Qashqai,Station wagon: Small,2,4,M6,X,10,7.9,9.1,31,213,5,6
+2022,Nissan,Qashqai AWD,Station wagon: Small,2,4,AV8,X,9,7.5,8.3,34,196,6,6
+2022,Nissan,Rogue,SUV: Small,1.5,3,AV8,X,7.8,6.5,7.2,39,169,7,6
+2022,Nissan,Rogue,SUV: Small,2.5,4,AV8,X,9,7.1,8.1,35,190,6,7
+2022,Nissan,Rogue AWD,SUV: Small,1.5,3,AV8,X,8.4,6.7,7.6,37,179,7,6
+2022,Nissan,Rogue AWD SL/Platinum,SUV: Small,1.5,3,AV8,X,8.4,6.8,7.7,37,181,6,6
+2022,Nissan,Rogue AWD,SUV: Small,2.5,4,AV8,X,9.2,7.2,8.3,34,195,6,7
+2022,Nissan,Sentra,Mid-size,2,4,AV,X,8,6,7.1,40,167,7,7
+2022,Nissan,Sentra SR,Mid-size,2,4,AV,X,8.2,6.1,7.3,39,171,7,7
+2022,Nissan,Sentra,Mid-size,2,4,M6,X,9.2,6.2,7.9,36,185,6,7
+2022,Nissan,Sentra SR,Mid-size,2,4,M6,X,9.4,6.4,8.1,35,189,6,7
+2022,Nissan,Versa,Compact,1.6,4,AV,X,7.4,5.9,6.7,42,158,7,7
+2022,Nissan,Versa,Compact,1.6,4,M5,X,8.6,6.7,7.7,37,181,7,7
+2022,Porsche,718 Boxster,Two-seater,2,4,AM7,Z,11,8.7,10,28,233,5,1
+2022,Porsche,718 Boxster,Two-seater,2,4,M6,Z,11.7,8.9,10.5,27,245,5,1
+2022,Porsche,718 Boxster T,Two-seater,2,4,AM7,Z,11.2,8.7,10.1,28,236,5,1
+2022,Porsche,718 Boxster T,Two-seater,2,4,M6,Z,11.7,8.9,10.5,27,245,5,1
+2022,Porsche,718 Boxster S,Two-seater,2.5,4,AM7,Z,12.2,9.2,10.9,26,255,5,1
+2022,Porsche,718 Boxster S,Two-seater,2.5,4,M6,Z,12.5,9.6,11.2,25,263,4,1
+2022,Porsche,718 Boxster GTS 4.0,Two-seater,4,6,AM7,Z,12.3,9.8,11.1,25,260,4,5
+2022,Porsche,718 Boxster GTS 4.0,Two-seater,4,6,M6,Z,14,10,12.2,23,284,4,5
+2022,Porsche,718 Cayman,Two-seater,2,4,AM7,Z,11,8.7,10,28,233,5,1
+2022,Porsche,718 Cayman,Two-seater,2,4,M6,Z,11.7,8.9,10.5,27,245,5,1
+2022,Porsche,718 Cayman T,Two-seater,2,4,AM7,Z,11.2,8.7,10.1,28,236,5,1
+2022,Porsche,718 Cayman T,Two-seater,2,4,M6,Z,11.7,8.9,10.5,27,245,5,1
+2022,Porsche,718 Cayman S,Two-seater,2.5,4,AM7,Z,12.2,9.2,10.9,26,255,5,1
+2022,Porsche,718 Cayman S,Two-seater,2.5,4,M6,Z,12.5,9.6,11.2,25,263,4,1
+2022,Porsche,718 Cayman GT4,Two-seater,4,6,AM7,Z,13,9.9,11.6,24,271,4,5
+2022,Porsche,718 Cayman GT4,Two-seater,4,6,M6,Z,14,10.1,12.2,23,286,4,5
+2022,Porsche,718 Cayman GTS 4.0,Two-seater,4,6,AM7,Z,12.3,9.8,11.1,25,260,4,5
+2022,Porsche,718 Cayman GTS 4.0,Two-seater,4,6,M6,Z,14,10,12.2,23,284,4,5
+2022,Porsche,718 Spyder,Two-seater,4,6,AM7,Z,13,9.9,11.6,24,271,4,5
+2022,Porsche,718 Spyder,Two-seater,4,6,M6,Z,14,10.1,12.2,23,286,4,5
+2022,Porsche,911 Carrera,Minicompact,3,6,AM8,Z,13.1,9.8,11.6,24,275,4,5
+2022,Porsche,911 Carrera Cabriolet,Minicompact,3,6,AM8,Z,13.1,9.8,11.6,24,275,4,5
+2022,Porsche,911 Carrera 4,Minicompact,3,6,AM8,Z,13.1,9.8,11.6,24,275,4,5
+2022,Porsche,911 Carrera 4 Cabriolet,Minicompact,3,6,AM8,Z,13.1,9.7,11.6,24,275,4,5
+2022,Porsche,911 Carrera S,Minicompact,3,6,AM8,Z,12.9,10.2,11.7,24,274,4,5
+2022,Porsche,911 Carrera S,Minicompact,3,6,M7,Z,12.8,9.4,11.3,25,264,4,5
+2022,Porsche,911 Carrera S Cabriolet,Minicompact,3,6,AM8,Z,12.9,10.2,11.7,24,273,4,5
+2022,Porsche,911 Carrera S Cabriolet,Minicompact,3,6,M7,Z,13.8,9.4,11.8,24,275,4,5
+2022,Porsche,911 Carrera 4S,Minicompact,3,6,AM8,Z,13,10.2,11.8,24,275,4,5
+2022,Porsche,911 Carrera 4S,Minicompact,3,6,M7,Z,13.8,9.3,11.8,24,275,4,5
+2022,Porsche,911 Carrera 4S Cabriolet,Minicompact,3,6,AM8,Z,12.8,10.2,11.7,24,273,4,5
+2022,Porsche,911 Carrera 4S Cabriolet,Minicompact,3,6,M7,Z,13.8,9.8,12,24,281,4,5
+2022,Porsche,911 Carrera GTS,Minicompact,3,6,AM8,Z,13.8,10.1,12.1,23,289,4,5
+2022,Porsche,911 Carrera GTS,Minicompact,3,6,M7,Z,13.5,9.8,11.9,24,276,4,5
+2022,Porsche,911 Carrera GTS Cabriolet,Minicompact,3,6,AM8,Z,13.8,10.2,12.2,23,289,4,5
+2022,Porsche,911 Carrera GTS Cabriolet,Minicompact,3,6,M7,Z,13.8,9.6,11.9,24,278,4,5
+2022,Porsche,911 Carrera 4 GTS,Minicompact,3,6,AM8,Z,13.8,10.1,12.1,23,288,4,5
+2022,Porsche,911 Carrera 4 GTS,Minicompact,3,6,M7,Z,13.8,10.2,12.2,23,289,4,5
+2022,Porsche,911 Carrera 4 GTS Cabriolet,Minicompact,3,6,AM8,Z,13.7,10.7,12.3,23,288,4,5
+2022,Porsche,911 Carrera 4 GTS Cabriolet,Minicompact,3,6,M7,Z,14.7,10.2,12.7,22,296,4,5
+2022,Porsche,911 GT3,Minicompact,4,6,AM7,Z,15.6,12.7,14.3,20,334,3,3
+2022,Porsche,911 GT3,Minicompact,4,6,M6,Z,17,13.1,15.2,19,355,3,3
+2022,Porsche,911 GT3 Touring,Minicompact,4,6,AM7,Z,15.7,12.7,14.4,20,335,3,3
+2022,Porsche,911 GT3 Touring,Minicompact,4,6,M6,Z,16.9,13.1,15.2,19,354,3,3
+2022,Porsche,911 Targa 4,Minicompact,3,6,AM8,Z,13.1,9.8,11.6,24,275,4,5
+2022,Porsche,911 Targa 4S,Minicompact,3,6,AM8,Z,13.1,10.2,11.8,24,274,4,5
+2022,Porsche,911 Targa 4S,Minicompact,3,6,M7,Z,13.7,9.8,11.9,24,278,4,5
+2022,Porsche,911 Targa 4 GTS,Minicompact,3,6,AM8,Z,13.6,10.7,12.3,23,287,4,5
+2022,Porsche,911 Targa 4 GTS,Minicompact,3,6,M7,Z,14.7,10.2,12.7,22,296,4,5
+2022,Porsche,911 Turbo,Minicompact,3.7,6,AM8,Z,15.2,11.9,13.7,21,321,3,5
+2022,Porsche,911 Turbo Cabriolet,Minicompact,3.7,6,AM8,Z,15.6,11.8,13.9,20,324,3,5
+2022,Porsche,911 Turbo S,Minicompact,3.7,6,AM8,Z,15.3,11.8,13.7,21,321,3,5
+2022,Porsche,911 Turbo S Cabriolet,Minicompact,3.7,6,AM8,Z,16,11.8,14.1,20,328,3,5
+2022,Porsche,Cayenne,SUV: Standard,3,6,AS8,Z,13.8,10.7,12.4,23,289,4,5
+2022,Porsche,Cayenne Coupe,SUV: Standard,3,6,AS8,Z,13.8,10.7,12.4,23,289,4,5
+2022,Porsche,Cayenne S,SUV: Standard,2.9,6,AS8,Z,14.7,10.6,12.9,22,307,3,5
+2022,Porsche,Cayenne S Coupe,SUV: Standard,2.9,6,AS8,Z,14.4,11.2,13,22,305,3,5
+2022,Porsche,Cayenne GTS,SUV: Standard,4,8,AS8,Z,15.8,12.3,14.2,20,331,3,3
+2022,Porsche,Cayenne GTS Coupe,SUV: Standard,4,8,AS8,Z,15.2,12.4,14,20,326,3,3
+2022,Porsche,Cayenne Turbo,SUV: Standard,4,8,AS8,Z,16.8,12.4,14.8,19,343,3,3
+2022,Porsche,Cayenne Turbo Coupe,SUV: Standard,4,8,AS8,Z,15.9,12,14.1,20,330,3,3
+2022,Porsche,Cayenne Turbo GT,SUV: Standard,4,8,AS8,Z,16.8,12.4,14.8,19,345,3,3
+2022,Porsche,Macan,SUV: Small,2,4,AM7,Z,12.4,9.3,11,26,263,4,5
+2022,Porsche,Macan S,SUV: Small,2.9,6,AM7,Z,13.8,10.1,12.2,23,289,4,5
+2022,Porsche,Macan GTS,SUV: Small,2.9,6,AM7,Z,13.5,10.7,12.2,23,290,4,5
+2022,Porsche,Panamera,Full-size,2.9,6,AM8,Z,13.1,9.8,11.6,24,274,4,5
+2022,Porsche,Panamera 4,Full-size,2.9,6,AM8,Z,12.8,9.8,11.5,25,274,4,5
+2022,Porsche,Panamera 4 Executive,Full-size,2.9,6,AM8,Z,13.8,10.2,12.2,23,289,4,5
+2022,Porsche,Panamera 4 ST,Full-size,2.9,6,AM8,Z,12.8,10.2,11.7,24,274,4,5
+2022,Porsche,Panamera 4S,Full-size,2.9,6,AM8,Z,12.8,9.8,11.4,25,276,4,5
+2022,Porsche,Panamera 4S Executive,Full-size,2.9,6,AM8,Z,13.8,10.2,12.2,23,292,4,5
+2022,Porsche,Panamera 4S ST,Full-size,2.9,6,AM8,Z,13.8,10.2,12.2,23,292,4,5
+2022,Porsche,Panamera GTS,Full-size,4,8,AM8,Z,15.7,11.2,13.7,21,323,3,3
+2022,Porsche,Panamera GTS ST,Full-size,4,8,AM8,Z,15.7,11.8,13.9,20,323,3,3
+2022,Porsche,Panamera Turbo S,Full-size,4,8,AM8,Z,15.3,11.2,13.5,21,326,3,3
+2022,Porsche,Panamera Turbo S Executive,Full-size,4,8,AM8,Z,15.3,11.2,13.5,21,326,3,3
+2022,Porsche,Panamera Turbo S ST,Full-size,4,8,AM8,Z,15.3,11.2,13.5,21,326,3,3
+2022,Ram,1500 EcoDiesel,Pickup truck: Standard,3,6,A8,D,10.5,7.3,9,31,243,5,1
+2022,Ram,1500 HFE EcoDiesel,Pickup truck: Standard,3,6,A8,D,10.4,7.1,8.9,32,238,5,1
+2022,Ram,1500 eTorque,Pickup truck: Standard,3.6,6,A8,X,11.9,9.4,10.8,26,253,5,5
+2022,Ram,1500 HFE eTorque,Pickup truck: Standard,3.6,6,A8,X,11.6,9,10.4,27,245,5,5
+2022,Ram,1500,Pickup truck: Standard,5.7,8,A8,X,16.2,10.5,13.6,21,320,3,5
+2022,Ram,1500 eTorque,Pickup truck: Standard,5.7,8,A8,X,13,10,11.7,24,275,4,5
+2022,Ram,1500 4X4 EcoDiesel,Pickup truck: Standard,3,6,A8,D,11.1,8,9.7,29,260,4,1
+2022,Ram,1500 4X4 eTorque,Pickup truck: Standard,3.6,6,A8,X,12.2,9.7,11.1,25,260,4,5
+2022,Ram,1500 4X4,Pickup truck: Standard,5.7,8,A8,X,16.1,11,13.8,20,325,3,5
+2022,Ram,1500 4X4 eTorque,Pickup truck: Standard,5.7,8,A8,X,13.4,10.5,12.1,23,284,4,5
+2022,Ram,1500 4X4 TRX,Pickup truck: Standard,6.2,8,A8,Z,22.4,16.5,19.8,14,465,1,1
+2022,Ram,1500 Classic,Pickup truck: Standard,3.6,6,A8,X,13.9,9.6,11.9,24,280,4,3
+2022,Ram,1500 Classic,Pickup truck: Standard,5.7,8,A8,X,15.9,11.1,13.7,21,323,3,3
+2022,Ram,1500 Classic 4X4,Pickup truck: Standard,3.6,6,A8,X,14.5,10.2,12.6,22,295,4,3
+2022,Ram,1500 Classic 4X4,Pickup truck: Standard,5.7,8,A8,X,16.2,11.6,14.1,20,330,3,3
+2022,Ram,ProMaster City,Special purpose vehicle,2.4,4,A9,X,11.2,8.3,9.9,29,232,5,6
+2022,Rolls-Royce,Cullinan,Station wagon: Mid-size,6.7,12,AS8,Z,20.1,12.1,16.5,17,386,2,3
+2022,Rolls-Royce,Cullinan Black Badge,Station wagon: Mid-size,6.7,12,AS8,Z,20.1,12.1,16.5,17,386,2,3
+2022,Rolls-Royce,Ghost,Full-size,6.7,12,AS8,Z,19.9,12.7,16.7,17,387,2,3
+2022,Rolls-Royce,Ghost Black Badge,Full-size,6.7,12,AS8,Z,19.9,12.7,16.7,17,387,2,3
+2022,Rolls-Royce,Ghost EWB,Full-size,6.7,12,AS8,Z,19.9,12.7,16.7,17,387,2,3
+2022,Rolls-Royce,Phantom,Full-size,6.7,12,AS8,Z,20,11.8,16.3,17,382,2,3
+2022,Rolls-Royce,Phantom EWB,Full-size,6.7,12,AS8,Z,20,11.8,16.3,17,382,2,3
+2022,Subaru,Ascent AWD,SUV: Standard,2.4,4,AV8,X,11.7,9,10.5,27,245,5,3
+2022,Subaru,BRZ,Minicompact,2.4,4,AS6,Z,11,7.7,9.5,30,224,5,3
+2022,Subaru,BRZ,Minicompact,2.4,4,M6,Z,12,8.8,10.5,27,247,5,3
+2022,Subaru,Crosstrek AWD,SUV: Small,2,4,AV8,X,8.5,7,7.9,36,184,6,7
+2022,Subaru,Crosstrek AWD,SUV: Small,2,4,M6,X,10.5,8.1,9.4,30,220,5,7
+2022,Subaru,Crosstrek AWD,SUV: Small,2.5,4,AV8,X,8.8,7,8,35,188,6,7
+2022,Subaru,Forester AWD,SUV: Small,2.5,4,AV7,X,9,7.2,8.2,34,192,6,7
+2022,Subaru,Forester Wilderness AWD,SUV: Small,2.5,4,AV8,X,9.5,8.3,9,31,210,5,7
+2022,Subaru,Impreza 4-Door AWD,Mid-size,2,4,AV7,X,8.3,6.4,7.4,38,174,7,7
+2022,Subaru,Impreza 4-Door AWD,Mid-size,2,4,M5,X,10.1,7.5,9,31,209,5,7
+2022,Subaru,Impreza 5-Door AWD,Station wagon: Small,2,4,AV7,X,8.4,6.6,7.6,37,178,7,7
+2022,Subaru,Impreza 5-Door AWD,Station wagon: Small,2,4,M5,X,10.1,7.7,9,31,211,5,7
+2022,Subaru,Legacy AWD,Full-size,2.4,4,AV8,X,9.9,7.3,8.7,32,205,6,3
+2022,Subaru,Legacy AWD,Full-size,2.5,4,AV8,X,8.8,6.7,7.8,36,184,6,7
+2022,Subaru,Outback AWD,SUV: Small,2.4,4,AV8,X,10.1,7.9,9.1,31,213,5,3
+2022,Subaru,Outback AWD,SUV: Small,2.5,4,AV8,X,9,7.1,8.2,34,192,6,7
+2022,Subaru,Outback Wilderness AWD,SUV: Small,2.4,4,AV8,X,10.9,8.9,10,28,235,5,3
+2022,Subaru,WRX AWD,Mid-size,2.4,4,AV8,Z,12.7,9.4,11.2,25,262,4,3
+2022,Subaru,WRX AWD,Mid-size,2.4,4,M6,Z,12.3,9,10.8,26,254,5,3
+2022,Toyota,4Runner 4WD,SUV: Standard,4,6,AS5,X,14.9,12.6,13.8,20,323,3,5
+2022,Toyota,4Runner 4WD (Part-Time 4WD) ,SUV: Standard,4,6,AS5,X,14.8,12.5,13.8,20,321,3,5
+2022,Toyota,C-HR,Compact,2,4,AS7,X,8.7,7.5,8.2,34,189,6,3
+2022,Toyota,Camry LE/SE,Mid-size,2.5,4,AS8,X,8.5,6.1,7.4,38,174,7,7
+2022,Toyota,Camry XSE,Mid-size,2.5,4,AS8,X,8.6,6.3,7.6,37,178,7,7
+2022,Toyota,Camry XSE V6,Mid-size,3.5,6,AS8,X,10.7,7.4,9.2,31,215,5,5
+2022,Toyota,Camry TRD,Mid-size,3.5,6,AS8,X,10.8,7.6,9.4,30,220,5,5
+2022,Toyota,Camry AWD SE,Mid-size,2.5,4,AS8,X,9.4,6.8,8.2,34,192,6,6
+2022,Toyota,Camry AWD XSE,Mid-size,2.5,4,AS8,X,9.5,7,8.4,34,195,6,6
+2022,Toyota,Camry Hybrid LE,Mid-size,2.5,4,AV,X,4.9,4.8,4.9,58,113,9,7
+2022,Toyota,Camry Hybrid SE/XLE/XSE,Mid-size,2.5,4,AV,X,5.3,5,5.1,55,121,9,7
+2022,Toyota,Corolla,Compact,1.8,4,AV,X,7.9,6.2,7.1,40,166,7,5
+2022,Toyota,Corolla XLE,Compact,1.8,4,AV,X,8.1,6.3,7.3,39,170,7,5
+2022,Toyota,Corolla,Compact,1.8,4,M6,X,8,6,7.1,40,165,7,5
+2022,Toyota,Corolla,Compact,2,4,AV10,X,7.6,5.9,6.8,42,159,7,7
+2022,Toyota,Corolla XSE,Compact,2,4,AV10,X,7.7,6.1,7,40,164,7,7
+2022,Toyota,Corolla,Compact,2,4,M6,X,8.2,6.5,7.4,38,172,7,7
+2022,Toyota,Corolla Apex Edition,Compact,2,4,AV10,X,7.7,6.2,7,40,164,7,7
+2022,Toyota,Corolla Hatchback,Compact,2,4,AV10,X,7.5,5.9,6.8,42,159,7,7
+2022,Toyota,Corolla Hatchback,Compact,2,4,M6,X,8.4,6.7,7.6,37,179,7,7
+2022,Toyota,Corolla Hybrid,Compact,1.8,4,AV,X,4.4,4.5,4.5,63,106,9,7
+2022,Toyota,Corolla Cross,SUV: Small,2,4,AV10,X,7.6,7,7.3,39,171,7,7
+2022,Toyota,Corolla Cross AWD,SUV: Small,2,4,AV10,X,8.1,7.4,7.8,36,182,6,7
+2022,Toyota,GR86,Minicompact,2.4,4,AS6,Z,11.1,7.7,9.6,29,224,5,3
+2022,Toyota,GR86,Minicompact,2.4,4,M6,Z,11.9,8.7,10.5,27,246,5,3
+2022,Toyota,GR Supra 2.0,Two-seater,2,4,AS8,Z,9.3,7.2,8.4,34,195,6,7
+2022,Toyota,GR Supra 3.0,Two-seater,3,6,AS8,Z,10.6,8,9.4,30,218,5,5
+2022,Toyota,Highlander AWD,SUV: Small,3.5,6,AS8,X,11.8,8.6,10.3,27,241,5,5
+2022,Toyota,Highlander Hybrid AWD,SUV: Standard,2.5,4,AV,X,6.7,6.8,6.7,42,158,7,7
+2022,Toyota,Highlander Hybrid AWD Limited/Platinum,SUV: Standard,2.5,4,AV,X,6.6,6.8,6.7,42,156,7,7
+2022,Toyota,Prius,Mid-size,1.8,4,AV,X,4.4,4.7,4.5,63,106,9,7
+2022,Toyota,Prius AWD,Mid-size,1.8,4,AV,X,4.6,5,4.8,59,111,9,7
+2022,Toyota,RAV4,SUV: Small,2.5,4,AS8,X,8.8,6.8,7.9,36,184,6,7
+2022,Toyota,RAV4 (Stop/Start),SUV: Small,2.5,4,AS8,X,8.5,6.8,7.7,37,180,7,7
+2022,Toyota,RAV4 AWD,SUV: Small,2.5,4,AS8,X,9.5,7.1,8.4,34,198,6,6
+2022,Toyota,RAV4 AWD (Stop/Start),SUV: Small,2.5,4,AS8,X,8.8,7.1,8,35,187,6,6
+2022,Toyota,RAV4 AWD LE,SUV: Small,2.5,4,AS8,X,8.7,6.9,7.9,36,184,6,6
+2022,Toyota,RAV4 AWD TRD Off-Road,SUV: Small,2.5,4,AS8,X,9.5,7.4,8.5,33,200,6,6
+2022,Toyota,RAV4 Hybrid AWD,SUV: Small,2.5,4,AV,X,5.8,6.3,6,47,140,8,7
+2022,Toyota,Sequoia 4WD,SUV: Standard,5.7,8,AS6,X,18.5,13.9,16.4,17,385,2,5
+2022,Toyota,Sienna,Minivan,2.5,4,AV,X,6.6,6.5,6.6,43,154,7,7
+2022,Toyota,Sienna AWD,Minivan,2.5,4,AV,X,6.8,6.6,6.7,42,158,7,7
+2022,Toyota,Tacoma 4WD,Pickup truck: Small,3.5,6,AS6,X,13,10.5,11.8,24,278,4,5
+2022,Toyota,Tacoma 4WD,Pickup truck: Small,3.5,6,M6,X,13.8,11.4,12.7,22,299,3,5
+2022,Toyota,Tacoma 4WD D-Cab TRD Off-Road/PRO,Pickup truck: Small,3.5,6,M6,X,13.8,11.7,12.9,22,300,3,5
+2022,Toyota,Tundra,Pickup truck: Standard,3.4,6,AS10,X,13.1,10.1,11.8,24,277,4,5
+2022,Toyota,Tundra 4WD,Pickup truck: Standard,3.4,6,AS10,X,13.6,10.4,12.2,23,285,4,5
+2022,Toyota,Tundra 4WD TRD,Pickup truck: Standard,3.4,6,AS10,X,13.5,10.6,12.2,23,286,4,5
+2022,Toyota,Tundra Hybrid 4WD,Pickup truck: Standard,3.4,6,AS10,X,12.7,10.5,11.7,24,274,4,5
+2022,Toyota,Tundra Hybrid 4WD TRD PRO,Pickup truck: Standard,3.4,6,AS10,X,12.9,11.6,12.3,23,287,4,5
+2022,Toyota,Venza AWD,SUV: Small,2.5,4,AV,X,5.9,6.4,6.1,46,142,8,7
+2022,Volkswagen,Atlas 4MOTION,SUV: Small,2,4,AS8,X,11.5,9.5,10.6,27,249,5,3
+2022,Volkswagen,Atlas 4MOTION,SUV: Small,3.6,6,AS8,X,13.8,10.2,12.2,23,286,4,5
+2022,Volkswagen,Atlas Cross Sport 4MOTION,SUV: Small,2,4,AS8,X,11.6,9.7,10.7,26,252,5,3
+2022,Volkswagen,Atlas Cross Sport 4MOTION,SUV: Small,3.6,6,AS8,X,13.1,10,11.7,24,275,4,5
+2022,Volkswagen,Golf GTI,Mid-size,2,4,AM7,X,9.3,7,8.3,34,194,6,5
+2022,Volkswagen,Golf GTI,Mid-size,2,4,M6,X,9.8,6.9,8.5,33,198,6,5
+2022,Volkswagen,Golf R,Mid-size,2,4,AM7,Z,10.3,7.7,9.1,31,213,5,5
+2022,Volkswagen,Golf R,Mid-size,2,4,M6,Z,11.8,8.3,10.2,28,237,5,5
+2022,Volkswagen,Jetta,Compact,1.5,4,AS8,X,7.7,5.7,6.8,42,159,7,7
+2022,Volkswagen,Jetta,Compact,1.5,4,M6,X,8,5.5,6.9,41,161,7,7
+2022,Volkswagen,Jetta GLI,Compact,2,4,AM7,X,9,6.5,7.9,36,185,6,7
+2022,Volkswagen,Jetta GLI,Compact,2,4,M6,X,9.1,6.4,7.9,36,186,6,7
+2022,Volkswagen,Passat,Mid-size,2,4,AS6,X,9.7,6.6,8.3,34,196,6,7
+2022,Volkswagen,Taos,SUV: Small,1.5,4,A8,X,8.4,6.6,7.6,37,178,7,7
+2022,Volkswagen,Taos 4MOTION,SUV: Small,1.5,4,A7,X,9.5,7.4,8.5,33,200,6,7
+2022,Volkswagen,Tiguan 4MOTION,SUV: Small,2,4,AS8,X,10.6,8,9.4,30,222,5,7
+2022,Volkswagen,Tiguan R-Line 4MOTION,SUV: Small,2,4,AS8,X,11,8.3,9.8,29,229,5,7
+2022,Volvo,S60 B5,Compact,2,4,AS8,Z,9,6.7,8,35,186,6,5
+2022,Volvo,S60 B5 AWD,Compact,2,4,AS8,Z,9.4,6.9,8.3,34,193,6,5
+2022,Volvo,S90 B6 AWD,Mid-size,2,4,AS8,Z,10.4,7.5,9.1,31,212,5,7
+2022,Volvo,V60 T6 AWD,Station wagon: Small,2,4,AS8,Z,11.3,7.5,9.6,29,224,5,7
+2022,Volvo,V60 CC T5 AWD,Station wagon: Small,2,4,AS8,Z,10.9,7.7,9.5,30,221,5,5
+2022,Volvo,V90 CC B6 AWD,Station wagon: Mid-size,2,4,AS8,Z,10.6,8.1,9.5,30,222,5,7
+2022,Volvo,XC40 T4 AWD,SUV: Small,2,4,AS8,X,10.7,7.6,9.3,30,217,5,5
+2022,Volvo,XC40 T5 AWD,SUV: Small,2,4,AS8,Z,10.7,7.7,9.4,30,219,5,5
+2022,Volvo,XC60 B5 AWD,SUV: Small,2,4,AS8,Z,10.5,8.1,9.4,30,219,5,5
+2022,Volvo,XC60 B6 AWD,SUV: Small,2,4,AS8,Z,11,8.7,9.9,29,232,5,7
+2022,Volvo,XC90 T5 AWD,SUV: Standard,2,4,AS8,Z,11.5,8.4,10.1,28,236,5,5
+2022,Volvo,XC90 T6 AWD,SUV: Standard,2,4,AS8,Z,12.4,8.9,10.8,26,252,5,7

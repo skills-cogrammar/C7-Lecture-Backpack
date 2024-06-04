@@ -1,0 +1,11 @@
+{
+  "name": "lecture1",
+  "version": "1.0.0",
+  "description": "This is a dummy project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zahir Junejo",
+  "license": "ISC"
+}

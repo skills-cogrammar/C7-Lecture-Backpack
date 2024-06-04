@@ -1,0 +1,11 @@
+<!-- auth_app/templates/auth_app/logout.html -->
+
+{% extends 'auth_app/base.html' %}
+
+{% block content %}
+<div class="logout-page">
+    <h2>Logout</h2>
+    <p>You have been logged out.</p>
+    <a class="default-button" href="{% url 'login' %}">Login Again</a>
+</div>
+{% endblock %}

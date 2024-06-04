@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Sports Page{% endblock %}
+
+{% block body %}
+<h1>List of Sports</h1>
+<ul class="sport-list">
+    {% for sport in sports %}
+        <li>{{ sport }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

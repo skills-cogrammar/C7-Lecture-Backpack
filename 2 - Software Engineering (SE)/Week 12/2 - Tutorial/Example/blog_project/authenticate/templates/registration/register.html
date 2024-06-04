@@ -1,0 +1,17 @@
+{% extends 'registration/base.html' %}
+
+{% block title %}Register Account{% endblock %}
+
+{% block content %}
+<h1>Register Account</h1>
+<form method="post" autocomplete="off">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <label for="account_type">Account Type</label>
+    <select name="account_type" id="account_type">
+        <option value="reader">Reader</option>
+        <option value="poster">Poster</option>
+    </select><br>
+    <br><input type="submit" value="Submit">
+</form>
+{% endblock %}

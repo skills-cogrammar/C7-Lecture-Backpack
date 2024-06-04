@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title class="bg-info">Edit User</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="w-50 m-auto p-4 bg-light">
+<h1 class="text-center bg-info"> Edit User </h1>
+    <form method="post" enctype="multipart/form-data">
+        {{form.as_p}}
+        <button type="submit" class="btn btn-primary">Update User</button>
+        {% csrf_token %}
+    </form>
+
+</div>
+</body>
+</html>

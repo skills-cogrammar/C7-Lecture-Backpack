@@ -1,0 +1,17 @@
+<!-- blog_app/templates/blog_app/index.html -->
+
+{% extends "blog_app/base.html" %}
+
+{% block title %}Blog Posts{% endblock %}
+
+{% block content %}
+<div class="index-page">
+    <h1>Blog Posts</h1>
+    <ul>
+        {% for post in posts %}
+        <li><a href="{% url 'view_post' post.id %}">{{ post.title }}</a> - {{ post.created_at }} by {{ post.author }}</a></li>
+        {% endfor %}
+    </ul>
+        <a class="add-post-button" href="{% url 'add_post' %}">Add New Post</a>
+</div>
+{% endblock %}>

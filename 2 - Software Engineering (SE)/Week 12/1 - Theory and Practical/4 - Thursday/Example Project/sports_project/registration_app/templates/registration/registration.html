@@ -1,0 +1,22 @@
+{% extends 'registration/base.html' %}
+{% load static %}
+
+{% block head %}
+    <title>Sport Register</title>
+    <link rel="stylesheet" href="{% static 'login.css'  %}">
+{% endblock %}
+
+
+{% block body %}
+<div class="container">
+    <h1>Register for a Sport on Sportsday:</h1>
+    <form id="registrationform" method="post" action="{% url 'sport_registration' %}" autocomplete="off">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" value="Submit">
+    </form><br>
+    <form action="{% url 'registrants' %}" style="display: inline-flex;">
+        <a href="{% url 'registrants' %}"><input type="submit" value="Back"></a>
+    </form>
+</div>
+{% endblock %}

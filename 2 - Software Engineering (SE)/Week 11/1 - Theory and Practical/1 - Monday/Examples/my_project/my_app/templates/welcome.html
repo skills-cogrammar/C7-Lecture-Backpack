@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Welcome Page{% endblock %}
+
+{% block body %}
+<div class="form-container">
+    <h1>Welcome, {{ name }}!</h1>
+    <p>We are excited to have you with us.</p>
+    <p><b>Email:</b> {{ email }}</p>
+    <p><b>Birthday:</b> {{ birthday }}</p>
+</div>
+{% endblock %}

@@ -1,0 +1,100 @@
+<!-- blog_app/templates/blog_app/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Blog{% endblock %}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: left;
+            padding: 1rem 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .index-page,
+        .add-post-page,
+        .view-post-page,
+        .edit-post-page {
+            margin-bottom: 2rem;
+        }
+
+        .add-post-button,
+        .edit-post-button,
+        .back-button {
+            display: inline-block;
+            margin: 1rem 0;
+            padding: 0.5rem 1rem;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .back-button {
+            background-color: #6c757d;
+        }
+
+        form label {
+            display: block;
+            margin-top: 1rem;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            /* Ensures padding in the total width/height */
+        }
+
+        form button {
+            margin-top: 1rem 0;
+            padding: 0.6rem 1rem;
+            background-color: #28a745;
+            color: #fff;
+            border-radius: 4px;
+            border: None;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    {% include "blog_app/partials/header.html" %}
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+    {% include "blog_app/partials/footer.html" %}
+</body>
+
+</html>

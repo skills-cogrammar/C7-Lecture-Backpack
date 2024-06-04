@@ -1,0 +1,19 @@
+Fine dining: Elegant and sophisticated culinary experience.
+Casual dining: Relaxed and laid-back atmosphere with a diverse menu.
+Buffet: Self-service dining with a wide variety of food options.
+Fast food: Quick and convenient meal options.
+Food truck: Mobile dining experience offering unique and diverse cuisines.
+Family-style dining: Sharing and enjoying hearty meals together.
+Farm-to-table: Fresh and locally sourced ingredients used in the dishes.
+Pop-up restaurant: Temporary dining establishment offering a unique concept or theme.
+Outdoor dining: Enjoying meals in open-air settings like gardens or rooftops.
+Ethnic cuisine: Exploring authentic flavors from various cultural backgrounds.
+Brunch: Late morning to early afternoon meal combining breakfast and lunch.
+Pub-style dining: Informal atmosphere with a focus on hearty pub food.
+Molecular gastronomy: Innovative and experimental cooking techniques.
+Chef's tasting menu: Multi-course meal curated by the chef to showcase their creativity.
+Street food: Affordable and flavorful dishes served by vendors on the streets.
+Café: Relaxed setting offering light meals, snacks, and beverages.
+Vegan/Plant-based dining: All dishes prepared without animal products.
+Fusion cuisine: Blending culinary traditions and flavors from different cultures.
+Bistro: Small, cozy restaurant serving simple yet flavorful dishes.

@@ -1,0 +1,17 @@
+<!-- blog_app/templates/blog_app/view_post.html -->
+
+{% extends "blog_app/base.html" %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+<div class="view-post-page">
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+    <p><strong>Author:</strong> {{ post.author }}</p>
+    <p><strong>Published on:</strong> {{ post.created_at }}</p>
+    <a class="edit-post-button" href="{% url 'edit_post' post.id %}">Edit Post</a>
+    <!-- Add a link back to the list of posts -->
+    <a class="back-button" href="{% url 'index' %}">Back to Posts List</a>
+</div>
+{% endblock %}

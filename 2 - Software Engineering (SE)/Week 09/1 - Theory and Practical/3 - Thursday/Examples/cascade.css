@@ -1,0 +1,20 @@
+p {
+    font-size: 18px;
+    font-family: courier;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Times New Roman';
+    background-color: cadetblue;
+    color: white;
+}
+
+.heading {
+    background-color: green;
+    color: yellow;
+}
+
+#head {
+    color: darkgray;
+}

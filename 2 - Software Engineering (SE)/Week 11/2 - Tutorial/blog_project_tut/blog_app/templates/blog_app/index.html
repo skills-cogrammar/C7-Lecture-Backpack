@@ -1,0 +1,19 @@
+<!-- blog_app/templates/blog_app/index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+</head>
+
+<body>
+    <h1>Blog Posts</h1>
+    <ul>
+        {% for post in posts %}
+        <li><a href="{% url 'view_post' post.id %}">{{ post.title }}</a> - {{ post.created_at }} by {{ post.author }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'add_post' %}">Add New Post</a>
+</body>
+
+</html>
