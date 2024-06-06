@@ -23,7 +23,7 @@ Command: mkvirtualenv tasks_env         # The tasks_env is auto activated with c
 
 # ------- Step 2: PEP 8 Linting
 # Install flake8 for PEP 8 linting:
-# Make sure that you are in your myenv
+# Make sure that you are in your tasks_env
 
 Command: pip install flake8
 
