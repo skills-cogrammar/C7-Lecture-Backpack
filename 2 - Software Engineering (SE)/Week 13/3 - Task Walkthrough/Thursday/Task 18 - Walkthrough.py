@@ -232,7 +232,7 @@ if __name__ == "__main__":
 Command: pip freeze > requirements.txt
 
 # Add software to requiements.txt with:
-Command: echo "flake8" > requirements.txt
+Command: echo flake8 > requirements.txt
 
 # Running a requiements.txt with:
 Command: pip install -r requirements.txt
