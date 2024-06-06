@@ -253,6 +253,7 @@ task_manager/
 │
 ├── data/
 │   └── data_access.py
+│   └── tasks.txt
 │
 ├── models/
 │   └── task.py
