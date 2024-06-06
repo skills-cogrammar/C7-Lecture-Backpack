@@ -194,7 +194,7 @@ from data.data_access import load_tasks, save_tasks, add_task
 class TestTaskManager(unittest.TestCase):
     def setUp(self):
         self.task = Task(1, "Task 1", "Description of Task 1", False)
-        self.tasks_file = 'tasks.txt'
+        self.tasks_file = 'data/tasks.txt'
     
     def tearDown(self):
         import os
