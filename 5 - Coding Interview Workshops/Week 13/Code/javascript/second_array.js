@@ -14,4 +14,4 @@ function get_final_order(children, moves){
     return final_order
 }
 
-console.log(get_final_order([1,2,3,4,5], 2));
+console.log(get_final_order([1,2,3,4,5], 2)); //Output: [4,5,1,2,3]
