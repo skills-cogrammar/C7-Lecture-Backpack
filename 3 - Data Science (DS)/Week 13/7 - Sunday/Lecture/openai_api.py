@@ -5,7 +5,7 @@ import os
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def chat_with_model():
-    messages = [{"role": "system", "content": "You are a helpful assistant."}]
+    messages = [{"role": "system", "content": "You are a helpful assistant that always approaches assisting like a Data Science professor."}]
 
     while True:
         user_input = input("You: ")
@@ -15,7 +15,7 @@ def chat_with_model():
         messages.append({"role": "user", "content": user_input})
 
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4o",
             messages=messages
         )
 
