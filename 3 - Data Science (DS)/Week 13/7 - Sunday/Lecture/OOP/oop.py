@@ -1,41 +1,17 @@
-class Character:
-    def __init__(self, name, health, power):
-        self.name = name
-        self.health = health
-        self.power = power
-    
-    def is_alive(self):
-        return self.health > 0
-    
-    def attack(self, other):
-        other.health -= self.power
-        print(f"\n{self.name} attacks {other.name} for {self.power} damage!")
-    
-    def heal(self, amount):
-        self.health += amount
-        print(f"\n{self.name} heals for {amount} health!")
-
-class Player(Character):
-    def __init__(self, name, health, power):
-        super().__init__(name, health, power)
-    
-    def input_action(self):
-        action = input("Enter an action (attack/heal/quit): ")
-        return action
-
-class Enemy(Character):
-    def __init__(self, name, health, power):
-        super().__init__(name, health, power)
+from Characters.player import Player
+from Characters.enemy import Enemy
 
 # Create instances of the player and enemy
 player = Player(input("Enter your name: "), 100, 10)
 enemy = Enemy("Goblin", 50, 5)
+enemy_2 = Enemy("Orc", 100, 10)
 
 # Game loop
 while True:
     # Display the current status
     print(f"\n{player.name}'s Health: {player.health}")
     print(f"{enemy.name}'s Health: {enemy.health}")
+    print(f"{enemy_2.name}'s Health: {enemy_2.health}")
     
     # Get the player's action
     action = player.input_action()

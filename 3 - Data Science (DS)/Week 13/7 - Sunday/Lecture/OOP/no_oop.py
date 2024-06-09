@@ -8,6 +8,12 @@ enemy_name = "Goblin"
 enemy_health = 50
 enemy_power = 5
 
+enemy2_name = "Orc"
+enemy2_health = 100
+enemy2_power = 10
+
+# ...
+
 # Get the player's name
 player_name = input("Enter your name: ")
 
