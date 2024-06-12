@@ -18,7 +18,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 > Example 3:
 
 - Input: l1 = [0], l2 = [0]
-- Output: [0]
+- xOutput: [0]
  
 
 > Constraints:
