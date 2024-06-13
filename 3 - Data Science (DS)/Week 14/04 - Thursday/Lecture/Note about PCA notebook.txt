@@ -1,0 +1,1 @@
+If you are interested in Scree plots, please have a look at the updated PCA notebook in the 'Week 14/03 Wednesday' folder.
