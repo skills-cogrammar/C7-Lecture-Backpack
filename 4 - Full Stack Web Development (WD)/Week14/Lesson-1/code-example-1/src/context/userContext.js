@@ -13,9 +13,9 @@ const UserProvider = ({ children }) => {
 
   const handleChange = () => {
     setUser({
-      name: "Bongani",
-      email: "bongani@hyperiondev.com",
-      role: "Programming Lecturer",
+      name: "John Doe",
+      email: "johndoe@hyperiondev.com",
+      role: "Software Lead",
     });
   };
 

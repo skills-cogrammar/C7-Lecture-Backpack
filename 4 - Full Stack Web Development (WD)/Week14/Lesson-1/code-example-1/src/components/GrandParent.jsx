@@ -5,7 +5,6 @@ const GrandParent = ()=>{
     return (
         <div>
             <Parent/>
-
         </div>
     )
 }
