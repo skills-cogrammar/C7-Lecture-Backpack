@@ -14,7 +14,7 @@ const Nested = () => {
     fetchProducts();
   }, []);
   return (
-    <section className="w-full">
+    <section className="">
       <div className="flex w-full">
         <div className="w-1/2">
           {products.map((product) => {
