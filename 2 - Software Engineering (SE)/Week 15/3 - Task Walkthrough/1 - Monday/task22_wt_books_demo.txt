@@ -1,0 +1,88 @@
+-- Go to link -> https://www.jdoodle.com/execute-sql-online
+
+-- Use the double hyphen for JDoodle comments
+
+-- RUN the below queries for each request.
+
+-- Create the Books table
+CREATE TABLE Books (
+    ISBN CHAR(13) PRIMARY KEY,
+    Title VARCHAR(100) NOT NULL,
+    Author VARCHAR(50) NOT NULL,
+    Genre VARCHAR(50),
+    Published_Date DATE,
+    Available BOOLEAN
+);
+
+-- Insert data into the Books table
+INSERT INTO Books (ISBN, Title, Author, Genre, Published_Date, Available) VALUES
+('9780061120084', 'To Kill a Mockingbird', 'Harper Lee', 'Novel', '1960-07-11', TRUE),
+('9780452284234', '1984', 'George Orwell', 'Dystopian', '1949-06-08', TRUE),
+('9780316769174', 'The Catcher in the Rye', 'J.D. Salinger', 'Coming-of-age', '1951-07-16', TRUE),
+('9788423341896', 'Don Quixote', 'Miguel de Cervantes', 'Adventure', '1605-01-16', TRUE),
+('9780140440084', 'Faust', 'Johann Wolfgang von Goethe', 'Tragedy', '1808-12-30', TRUE),
+('9780345391803', 'The Hitchhiker''s Guide to the Galaxy', 'Douglas Adams', 'Science Fiction', '1979-10-12', TRUE),
+('9781400033416', 'Life of Pi', 'Yann Martel', 'Adventure', '2001-09-11', TRUE),
+('9780385504201', 'The Da Vinci Code', 'Dan Brown', 'Mystery', '2003-03-18', TRUE),
+('9780316015844', 'The Road', 'Cormac McCarthy', 'Post-apocalyptic', '2006-09-26', TRUE),
+('9780439023528', 'The Hunger Games', 'Suzanne Collins', 'Dystopian', '2008-09-14', TRUE);
+
+
+-- Retrieve all records from Books table
+SELECT '** Insert the Data **' AS output;
+
+SELECT *
+FROM Books;
+
+-- Retrieve records with Genre of 'Science Fiction'
+SELECT '' AS output;
+SELECT '** Select Genre Science Fiction **' AS output;
+
+SELECT *
+FROM Books
+WHERE Genre = 'Science Fiction';
+
+-- Update Genre to 'Fiction' for the book with ISBN '9780316769174'
+UPDATE Books
+SET Genre = 'Fiction'
+WHERE ISBN = '9780316769174';
+
+-- Retrieve all records from Books table
+SELECT '' AS output;
+SELECT '** Update Genre Data **' AS output;
+
+SELECT *
+FROM Books;
+
+-- Delete the row for the book with Title 'Faust'
+DELETE FROM Books
+WHERE Title = 'Faust' AND Genre = 'Tragedy';
+
+-- Retrieve all records from Books table
+SELECT '' AS output;
+SELECT '** Delete Title Faust **' AS output;
+
+SELECT *
+FROM Books;
+
+-- Update Available status to FALSE for books published before 2000
+UPDATE Books
+SET Available = FALSE
+WHERE Published_Date < '2000-01-01';
+
+-- Retrieve all records from Books table
+SELECT '' AS output;
+SELECT '** Update Available Attribute**' AS output;
+
+SELECT *
+FROM Books;
+
+-- Delete the Books table entirely
+SELECT '' AS output;
+SELECT '** DROP Table **' AS output;
+
+DROP TABLE IF EXISTS Books;
+
+-- Retrieve all records from Books table
+SELECT *
+FROM Books;
