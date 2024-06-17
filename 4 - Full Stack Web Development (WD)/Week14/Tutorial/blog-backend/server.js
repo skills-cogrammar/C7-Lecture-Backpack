@@ -11,9 +11,11 @@ app.use(express.json());
 app.use('/api/auth', authRoutes);
 
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(8000, () => console.log(`Server running on port http://localhost:8000`));
 
-mongoose.connect(process.env.MONGODB_URI).then(() => console.log('MongoDB connected!'))
+const uri = "mongodb+srv://danw:Samaritan@cluster0.vrj2mpt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
+
+mongoose.connect(uri).then(() => console.log('MongoDB connected!'))
     .catch(err => console.log(err))
 
