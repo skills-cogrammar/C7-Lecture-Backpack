@@ -1,4 +1,4 @@
-### Currently Running -> [CoBattles 1](https://www.hackerrank.com/contests/cobattles/)
+### Currently Running -> [CoBattles 2](https://www.hackerrank.com/contests/cobattles-1/)
 
 ## Table of Content
 - [Introduction](#introduction)
@@ -14,7 +14,7 @@
 ## Introduction
 As programmers, we can make use of coding challenges to improve our coding and problem-solving skills, these challenges introduce us to abstract problems that often require us to think beyond the repetitive code we write on a day-to-day basis. 
 
-Coding challenges are a great way to not only practice your problem-solving skills, but they also allow you to learn more about your programming language as you look for different ways to optmise your solutions and discover new techniques. 
+Coding challenges are a great way to not only practice your problem-solving skills, but also allow you to learn more about your programming language as you look for different ways to optimise your solutions and discover new techniques. 
 
 Coding challenges are a key part of most hiring processes for technical roles, they will usually be part of the application phase where you might be required to complete a coding challenge to get to the next stage. 
 
@@ -68,10 +68,12 @@ On the left side of the screen, you will find the questions section
 ## Contests
 
 ### CoBattles 1
-[Currently Running](https://www.hackerrank.com/contests/cobattles/)
+[Ended](https://www.hackerrank.com/contests/cobattles/)
 
-Top 3 👑
-- 🥇
-- 🥈
-- 🥉
+Top Submissions
+- 👑 - william_hoggins
+- 🥇 - dav_silvs
+- 🥈 - alex_haider
+- 🥉 - linavysnia
+- 🏅 - mphilbert1
 
