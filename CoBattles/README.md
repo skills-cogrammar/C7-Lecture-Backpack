@@ -5,7 +5,7 @@
 - [CoBattles](#cobattles)
     - [Background](#background)
     - [Rules](#rules)
-    - [Navigatin the Platform](#navigating-the-platform)
+    - [Navigating the Platform](#navigating-the-platform)
 - [Contests](#contests)
     - [CoBattles 1](#cobattles-1)
 
