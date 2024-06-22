@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section>
+    <h2 >{{ page_title }}</h2>
+
+    <ul class="text-sm text-black font-bold underline">
+        {% for workout in workouts %}
+        <li>
+            <div>
+                <a href="{% url 'workout' pk=workout.pk %}">{{ workout.name }}</a>
+                <p class="text-slate-200" >{{ post.creator }}</p>
+
+                <a href="{% url 'delete_workout' pk=workout.pk %}">delete</a>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'create_workout' %}" class="text-black">Add New</a>
+    
+</section>
+{% endblock %}
