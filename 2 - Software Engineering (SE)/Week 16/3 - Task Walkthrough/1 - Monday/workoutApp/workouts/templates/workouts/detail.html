@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title h4">{{ workout.name }}</h5>
+            <p class="card-text blockquote">{{ workout.description }}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item blockquote-footer"> {{workout.creator}} </li>
+            <li class="list-group-item blockquote"> Sets - {{workout.sets}} </li>
+            </ul>
+        <div class="card-body">        
+            <a href="{% url 'delete_workout' pk=workout.pk %}" class="card-link text-danger">delete</a>
+        </div>
+    </div>        
+
+    <a href="{% url 'workouts' %}">back</a>
+</section>
+{% endblock %}
