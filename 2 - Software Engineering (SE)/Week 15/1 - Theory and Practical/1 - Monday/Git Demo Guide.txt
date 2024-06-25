@@ -1,0 +1,182 @@
+** Open Terminal in Visual Studio <View / Terminal / Ctrl + `(~-key)
+
+===========  Adding Local Repository
+-- Initialising a git repository
+★ To initialise a git repository in our desired root folder (Choose any folder, ie. gitdemo), run the git init command.
+> git init
+
+-- Git Status
+★ After initialisation, we can use git status command to check what git is watching.
+> git status
+
+==> At this point the files in the directory will be listed, but if we change the content,
+	the changes will not be reported since the changes are not being monitored yet.
+	
+-- Add files to the project, ie. add-file.txt
+
+Adding a file to the Staging Environment. We can also call this the monitoring environment.
+★ To add a file to the staging environment, we use the git add command.
+> git add <filename>			# to add all files, use > git add .
+> git status
+
+-- Make changes to the files by editing with any editor and add or delete files if you want.
+
+-- Creating a Commit
+★ To create a commit, run the git commit -m “message about commit” command.
+> git commit -m "This is my commit git status"
+
+==> Now the above can just stay a local repository or you can add it as a remote repository
+
+===========  Adding NEW Remote Repository
+# Do the commands above to create the local repository
+
+ie.
+
+> git init
+> git add
+> git commit
+
+
+To upload a new local repository to GitHub, you can follow these steps:
+
+-- Create a Repository on GitHub:
+
+★ Go to GitHub and log in to your account.
+Click on the "+" icon in the top right corner and select "New repository."
+Fill in the repository name (my-repo), description, and other options.
+Click the "Create repository" button.
+
+
+-- Link Local Repository to GitHub:
+★ In your local repository, link it to the GitHub repository you just created:
+
+> git remote add origin <repository_url>
+
+-- Push Changes to GitHub:
+★ Push your local repository to GitHub using the following commands:
+
+**# Skip git branch command if your default branch is already named "main" *** 
+> git branch -M main  # If your default branch is not named "main"
+> git push -u origin main  --> This should bring a fatal error if files and changes were added to the local rep already.
+
+*** 
+The "fatal: refusing to merge unrelated histories" error occurs when Git detects that the history of the local and remote repositories 
+have no common commit, often due to the local and remote repositories being initialized independently. 
+To address this, you can allow unrelated histories to be merged by using the --allow-unrelated-histories option.
+***
+
+> git pull origin main --allow-unrelated-histories
+> git push origin main 
+
+★ Verify on GitHub:
+Refresh the GitHub page for your repository, and you should see your code and commits reflected.
+
+If you have access issues when pushing to GitHub
+
+====== Link for login issues
+https://cli.github.com/
+
+★ Download and install the .msi on this page link
+
+login command: > gh auth login
+logout command: > gh auth logout
+
+*** There are times where logout does not work: Run > gh auth setup-git
+
+===========  To make changes to existing Remote Repository
+
+★ To make changes to a remote repository, we want the repository to look like a folder.
+★ First choose a folder on your pc (\Workspace)
+
+Clone the Repository:
+★ Navigate to the directory where you want to clone the remote repository and run the following command:
+> git clone <repository_url>     --> ie. https://github.com/riaandeventer-cogrammar/my-repo
+Replace <repository_url> with the actual URL you copied.
+
+Enter Repository Directory:
+★ Change into the newly cloned repository's directory 
+(This new folder would have been created in the folder where you were when you did the clone):
+
+> cd <repository_directory>
+Replace <repository_directory> with the name of the repository's directory.
+
+★ While in this folder, we now need to give an alias to the remote repository address
+> git remote add origin <repository_url.git>		--> origin can be your choice, ie. my-remote
+
+==> At this point the files in the directory will be listed, but if we change the content,
+	the changes will not be reported since the changes are not being monitored yet.
+	
+Adding a file to the Staging Environment. We can also call this the monitoring environment.
+★ To add a file to the staging environment, we use the git add command.
+> git status
+
+Make changes to the files by editing with any editor and add or delete files if you want.
+* Read in the status report of your changes will be applied if you commit.
+* If not staged, use below command:
+
+> git add <filename>			# to add all files, use > git add .
+
+Creating a Commit
+★ To create a commit, run the git commit -m “message about commit” command.
+> git commit -m "This is my commit git status"
+
+Pushing changes from the local repository on your pc to the remote repository
+★ To do this, we need to use the > git push
+> git push origin main
+
+===========  Create Conflict between the Local and Remote Repository
+
+* Make Changes - Add '- Contradict Local' to Local Repository File and '- Contradict Remote' to Remote Repository file.
+> git add . -> To add to staging area
+> git commit -m "Add Contradict Local to file"
+> git push origin main
+
+--> The above push should request resolution of file conflict.
+
+If VS Code Conflict Resolve does not open, then use > git pull origin main --allow-unrelated-histories
+
+--> Choose Popup 'Resolve in Merge Editor'
+Update the Result Section to which resolution you want..
+--> Choose 'Complete Merge' Button
+
+> git commit -m "Resolve Conflict"
+> git push origin main
+--> Refresh Remote GitHub to see the changes if the local was the resolution
+
+===== Cheat Sheet
+
+https://education.github.com/git-cheat-sheet-education.pdf
+ 
+
+====== Stashing changes if we want to change branches without committing changes
+
+The stash is stored locally on your machine, so if you switch off your PC, 
+the stash will still be available when you turn it back on. 
+Git stashes are saved within the repository's .git directory.
+
+== Stash Changes:
+
+> git stash save "Your stash message"
+
+== Switch Branch:
+
+> git checkout <other-branch>
+
+== Apply Stashed Changes:
+
+git stash apply stash@{0}
+Replace {0} with the appropriate stash index if you have multiple stashes.
+
+== Drop Stash (Optional):
+
+git stash drop stash@{0}
+If you have already applied the changes and no longer need the stash.
+
+== Clear All Stashes (Optional):
+
+> git stash clear
+If you want to remove all stashes.
+
+
+
+

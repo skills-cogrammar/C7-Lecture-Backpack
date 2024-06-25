@@ -1,0 +1,2 @@
+### Update Docker Hub user
+Inside the `.github/workflows/main.yml`, change the `<<username>>` to your dockerhub username. Also make sure that you set up the secrets in your repository so that your username and password can be parsed, (You can use the secret usename for the tag name it violates GitHub actions rules for working with secrets and will cause the action to fail)

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section>
+    <h2>{{ workout.name }}</h2>
+
+    <p>
+        {{ workout.description }}
+    </p>
+
+    <p>
+        {{ workout.sets }}
+    </p>
+
+    <a href="{% url 'workouts' %}">back</a>
+</section>
+{% endblock %}

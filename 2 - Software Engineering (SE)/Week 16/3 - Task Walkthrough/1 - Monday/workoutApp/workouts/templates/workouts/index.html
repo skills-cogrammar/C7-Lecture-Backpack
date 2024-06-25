@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section>
+    <h2>{{ page_title }}</h2>
+
+    <div>
+        <a href="{% url 'create_workout' %}" class="text-black">Add New</a>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Workout Name</th>
+                <th scope="col">Creator</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for workout in workouts %}
+            <tr>
+                <td>{{ workout.name }}</td>
+                <td>{{workout.creator}}</td>
+                <td>
+                    <div class="d-flex">
+                        <a href="{% url 'workout' pk=workout.pk %}" class="card-link">view</a>
+                        <a href="{% url 'delete_workout' pk=workout.pk %}" class="card-link text-danger">delete</a>
+                    </div>
+                </td>
+            </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+
+</section>
+{% endblock %}

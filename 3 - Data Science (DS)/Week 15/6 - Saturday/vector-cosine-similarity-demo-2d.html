@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vector and Cosine Similarity Demonstration</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      h1,
+      h2 {
+        color: #2c3e50;
+      }
+      #canvas {
+        border: 1px solid #ddd;
+        margin-top: 20px;
+      }
+      input {
+        width: 50px;
+      }
+      button {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      button:hover {
+        background-color: #2980b9;
+      }
+      #result {
+        font-weight: bold;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Vector and Cosine Similarity Demonstration</h1>
+
+    <h2>What are Vectors?</h2>
+    <p>
+      In machine learning, vectors are used to represent data points or features
+      in a multi-dimensional space. Each dimension corresponds to a specific
+      attribute or feature of the data.
+    </p>
+
+    <h2>What is Cosine Similarity?</h2>
+    <p>
+      Cosine similarity measures the cosine of the angle between two vectors.
+      It's used to determine how similar two vectors are, regardless of their
+      magnitude. The cosine similarity ranges from -1 (completely opposite) to 1
+      (exactly the same), with 0 indicating orthogonality or decorrelation.
+    </p>
+
+    <h2>Interactive Demonstration</h2>
+    <p>
+      Adjust the components of two 2D vectors and see how their cosine
+      similarity and angle change:
+    </p>
+
+    <div>
+      Vector 1: (<input type="number" id="v1x" value="1" step="0.1" />,
+      <input type="number" id="v1y" value="0" step="0.1" />)
+    </div>
+    <div>
+      Vector 2: (<input type="number" id="v2x" value="0" step="0.1" />,
+      <input type="number" id="v2y" value="1" step="0.1" />)
+    </div>
+
+    <button onclick="updateVectors()">Update Vectors</button>
+
+    <canvas id="canvas" width="400" height="400"></canvas>
+
+    <div id="result"></div>
+
+    <script>
+      const canvas = document.getElementById("canvas");
+      const ctx = canvas.getContext("2d");
+
+      function drawVector(x, y, color) {
+        ctx.beginPath();
+        ctx.moveTo(200, 200);
+        ctx.lineTo(200 + x * 80, 200 - y * 80);
+        ctx.strokeStyle = color;
+        ctx.stroke();
+
+        // Draw arrowhead
+        const angle = Math.atan2(-y, x);
+        ctx.save();
+        ctx.translate(200 + x * 80, 200 - y * 80);
+        ctx.rotate(angle);
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(-10, 5);
+        ctx.lineTo(-10, -5);
+        ctx.closePath();
+        ctx.fillStyle = color;
+        ctx.fill();
+        ctx.restore();
+      }
+
+      function drawAngle(v1, v2) {
+        const angle = Math.atan2(v2[1], v2[0]) - Math.atan2(v1[1], v1[0]);
+        const radius = 40;
+        ctx.beginPath();
+        ctx.arc(
+          200,
+          200,
+          radius,
+          -Math.atan2(v1[1], v1[0]),
+          -Math.atan2(v2[1], v2[0]),
+          angle > 0
+        );
+        ctx.strokeStyle = "green";
+        ctx.stroke();
+
+        // Draw angle label
+        const midAngle = -Math.atan2(v1[1], v1[0]) - angle / 2;
+        ctx.fillStyle = "green";
+        ctx.font = "14px Arial";
+        ctx.fillText(
+          `${Math.abs((angle * 180) / Math.PI).toFixed(1)}°`,
+          200 + (radius + 10) * Math.cos(midAngle),
+          200 + (radius + 10) * Math.sin(midAngle)
+        );
+      }
+
+      function updateVectors() {
+        const v1 = [
+          parseFloat(document.getElementById("v1x").value),
+          parseFloat(document.getElementById("v1y").value),
+        ];
+        const v2 = [
+          parseFloat(document.getElementById("v2x").value),
+          parseFloat(document.getElementById("v2y").value),
+        ];
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Draw axes
+        ctx.beginPath();
+        ctx.moveTo(0, 200);
+        ctx.lineTo(400, 200);
+        ctx.moveTo(200, 0);
+        ctx.lineTo(200, 400);
+        ctx.strokeStyle = "#ddd";
+        ctx.stroke();
+
+        drawVector(v1[0], v1[1], "blue");
+        drawVector(v2[0], v2[1], "red");
+        drawAngle(v1, v2);
+
+        const cosineSimilarity =
+          math.dot(v1, v2) / (math.norm(v1) * math.norm(v2));
+        const angle = (Math.acos(cosineSimilarity) * 180) / Math.PI;
+
+        document.getElementById("result").innerHTML = `
+                Cosine Similarity: ${cosineSimilarity.toFixed(4)}<br>
+                Angle between vectors: ${angle.toFixed(2)}°
+            `;
+      }
+
+      updateVectors();
+    </script>
+  </body>
+</html>

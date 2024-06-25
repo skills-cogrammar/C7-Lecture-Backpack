@@ -1,0 +1,16 @@
+{
+  "name": "task15",
+  "version": "1.0.0",
+  "description": "#### Objective: Develop a simple script using Node.js and Lodash to manage a list of employee records. The script will perform various operations on the employee data, including sorting, filtering, and updating records.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "emngt": "node manage_employees.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

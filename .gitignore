@@ -6,3 +6,4 @@ package-lock.json
 .venv
 venv
 *.pkl
+data/

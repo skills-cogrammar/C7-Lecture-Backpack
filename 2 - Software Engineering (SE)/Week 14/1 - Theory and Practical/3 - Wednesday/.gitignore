@@ -1,0 +1,4 @@
+*venv
+*sqlite3
+launch.json
+*.pyc
