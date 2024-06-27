@@ -30,7 +30,7 @@ app.get('/resource', (req, res) => {
         const decoded = jwt.verify(token, process.env.SECRET_KEY);
         res.send(`Hello ${decoded.username}! Your JSON web token has been verified!`)
     } catch (error) {
-        res.status(401).send({ error: 'INVALID JWT' })
+        res.status(401).send({ error: 'INVALID JWT' });
     }
 });
 
