@@ -1,0 +1,19 @@
+/* The .element stylings below are class selectors */
+p {
+    background-color: burlywood;
+    font-family: 'Times New Roman';
+    color: red;
+}
+.p2 {
+    background-color: cyan;
+    font-family: Georgia;
+    color: darkgoldenrod;
+}
+.heading{
+    font-family: courier;
+}
+
+/* The plain element stylings below are element selectors */
+ul li {
+    list-style: square;
+}
