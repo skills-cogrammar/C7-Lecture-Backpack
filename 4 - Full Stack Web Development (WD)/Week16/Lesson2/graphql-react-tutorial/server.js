@@ -2,6 +2,8 @@ const { ApolloServer, gql } = require('apollo-server-express');
 const express = require('express');
 const cors = require('cors');
 
+const app = express();
+
 
 // Define your schema here
 const typeDefs = gql`
@@ -21,7 +23,6 @@ const resolvers = {
 const server = new ApolloServer({ typeDefs, resolvers });
 app.use(cors());
 
-const app = express();
 server.start().then(res => {
   server.applyMiddleware({ app });
 
