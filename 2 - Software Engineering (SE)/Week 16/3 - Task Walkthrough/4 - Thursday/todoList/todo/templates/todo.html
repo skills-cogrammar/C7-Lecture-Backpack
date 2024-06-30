@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div>
+    <h2>
+        {{todo.title}}
+    </h2>
+
+    <p>
+        {{todo.description}}
+    </p>
+
+    <aside>
+        {{todo.created_by}}
+    </aside>
+</div>
+
+<a href="{% url 'create_todo' %}"></a>
+
+{% endblock %}

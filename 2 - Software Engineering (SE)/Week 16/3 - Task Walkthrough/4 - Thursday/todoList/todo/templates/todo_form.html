@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section>
+    <form action="{% if form.instance.pk %} 
+                    {% url 'update_todo' pk=form.instance.pk %}
+                  {% else %}
+                    {% url 'create_todo' %}
+                  {% endif %}" method="post">
+        {% csrf_token %}
+
+        {{form.as_p}}
+        <button type="submit">Save</button>
+
+    </form>
+</section>
+
+{% endblock %}

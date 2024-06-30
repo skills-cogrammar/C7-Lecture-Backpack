@@ -6,11 +6,11 @@ app.use(cors());
 
 
 app.get('/api/data', (req, res) => {
-    res.json({message: "Hello from the back end team!"})
+    res.json({message: "I know who I am, do you?"})
 })
 
 app.get('/api/custom', (req, res) => {
-    res.json({message: "This is a custom message from your AI!"})
+    res.json({message: "This is a custom message from your favourite programming language!"})
 })
 
 const PORT = process.env.PORT || 5000;
