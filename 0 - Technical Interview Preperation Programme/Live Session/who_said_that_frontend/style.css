@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 45px;
+    background-color: rgb(240, 240, 240);
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navbar svg {
+    height: 35px;
+    width: 35px;
+}
