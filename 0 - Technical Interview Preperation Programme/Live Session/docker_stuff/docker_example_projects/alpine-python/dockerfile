@@ -1,0 +1,3 @@
+FROM alpine
+RUN apk add vim
+RUN apk add python3
